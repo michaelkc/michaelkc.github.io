@@ -8,7 +8,7 @@ Working through possible causes, I ended up noticing that the action was seeming
 
 The really weird part - the Integrated Cache feature was unlicensed and disabled (memory limit of 0). But still, the overview in Netscaler showed about 1800 objects cached, including POST requests in other applications.
 
-![](C:\github\michaelkc\michaelkc.github.io\assets\images\test.png)
+![](/assets/images/test.png)
 
 I worked with our internal operations staff and a Netscaler consultant, but we were not able to pinpoint why Netscaler was serving the pages through the cache. Nor were we able to prevent it - most operations (e.g. flush cache) were unavailable, as Netscaler was well aware that the feature was unlicensed.
 
