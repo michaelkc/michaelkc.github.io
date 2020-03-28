@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Citrix Netscaler - caching application urls with cache disabled and unlicensed"
-date:   2020-02-28 20:28:20 +0100
+date:   2020-03-28 20:28:20 +0100
 ---
 Last week I was troubleshooting a nasty bug, where a single action in a multi-action wizard used by one of our applications failed to emit an updated cookie, causing the wizard to fail. This happened in about 95% of invocations, and only in our production environment.
 Working through possible causes, I ended up noticing that the action was seemingly served via the cache of Citrix Netscaler (as indicated by the `Via: NS-CACHE-10.0: 2` header), the ADC product we use for (public) TLS termination and load balancing.
