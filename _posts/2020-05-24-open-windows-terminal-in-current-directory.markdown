@@ -3,7 +3,7 @@ layout: post
 title:  "Open Windows Terminal in current directory"
 date:   2020-05-24 20:28:20 +0100
 ---
-As a long time [Total Comamnder](https://www.ghisler.com/) user, I rely heavily on opening cmd.exe/powershell.exe/pwsh.exe/bash in the currently selected directory. So I was a bit annoyed when i found out that the new Windows Terminal, wt.exe, by default opens in your home directory.
+As a long time [Total Commander](https://www.ghisler.com/) user, I rely heavily on opening cmd.exe/powershell.exe/pwsh.exe/bash in the currently selected directory. So I was a bit annoyed when i found out that the new Windows Terminal, wt.exe, by default opens in your home directory.
 
 It turns out to be a [regression](https://github.com/microsoft/terminal/issues/620#issuecomment-535228867). For now, the workaround is to add 
 
