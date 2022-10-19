@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Authorization and delegation"
-date:   2022-10-19 23:30:00 +0100
+date:   2022-10-19 21:30:00 +0100
 ---
 I recently did a write-up, clarifying my thoughts regarding the differences and similiarities between user to user delegation and (user) authorization. Reproduced below translated from Danish:
 
