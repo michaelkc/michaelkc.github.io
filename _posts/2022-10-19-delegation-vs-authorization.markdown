@@ -13,6 +13,7 @@ The ability to manage permissions can be a permission. There is often a hierarch
 
 ## Known examples
 ### Access Control Lists on File System
+
 | Aspect      | Description                                                                |
 |-------------|----------------------------------------------------------------------------|
 | Hierarchy   | The root of the file system over the folders/files it contains recursively |
@@ -22,6 +23,7 @@ The ability to manage permissions can be a permission. There is often a hierarch
 ![ACL](/assets/images/2022-10-19-acl.png)
 
 ### Sharepoint folders
+
 | Aspect      | Description                                                    |
 |-------------|----------------------------------------------------------------|
 | Hierarchy   | The site's root over the folders/files it contains recursively |
@@ -31,6 +33,7 @@ The ability to manage permissions can be a permission. There is often a hierarch
 ![SharePoint](/assets/images/2022-10-19-sharepoint.png)
 
 ### IAM on Azure resources
+
 | Aspect      | Description                                                                                          |
 |-------------|------------------------------------------------------------------------------------------------------|
 | Hierarchy   | Management group over subscription to the resource group and the individual resources                |
