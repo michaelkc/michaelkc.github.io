@@ -94,6 +94,8 @@ I have previously used [https://github.com/vkhorikov/CSharpFunctionalExtensions]
 
 And [https://github.com/MrDave1999/SimpleResults](https://github.com/MrDave1999/SimpleResults) is another option, with some nice translation options to ASP.NET results.
 
+Sometimes it is easier to avoid the dependency and just roll your own, like [https://github.com/DuendeSoftware/IdentityServer/blob/main/src/IdentityServer/Validation/Models/ValidationResult.cs](https://github.com/DuendeSoftware/IdentityServer/blob/main/src/IdentityServer/Validation/Models/ValidationResult.cs)
+
 ### Cloudflared - tunnels from internt to local development
 [https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/do-more-with-tunnels/trycloudflare/](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/do-more-with-tunnels/trycloudflare/)
 
@@ -112,7 +114,15 @@ Another approach - run containers during testing:
 
 I have used GitHub Actions SQL Server testcontainers for testing database changes, this could be used for slower-but-more-like-prod integration tests (where I usually reach for SQLite)
 
+### Threat modelling and attack trees
 
+This is a good and fast overview of threat modelling with data flow and STRIDE:
 
+[https://www.youtube.com/watch?v=sreJHjS73uY](https://www.youtube.com/watch?v=sreJHjS73uY)
 
-Sometimes it is easier to avoid the dependency and just roll your own, like [https://github.com/DuendeSoftware/IdentityServer/blob/main/src/IdentityServer/Validation/Models/ValidationResult.cs](https://github.com/DuendeSoftware/IdentityServer/blob/main/src/IdentityServer/Validation/Models/ValidationResult.cs)
+For more detail, attack trees built with 
+
+[https://kellyshortridge.com/blog/posts/deciduous-attack-tree-app/](https://kellyshortridge.com/blog/posts/deciduous-attack-tree-app/)
+
+looks nice. Have not worked with either for a while though, but there are some interesting design challenges popping up at work.
+
