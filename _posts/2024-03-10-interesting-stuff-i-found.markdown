@@ -96,6 +96,8 @@ And [https://github.com/MrDave1999/SimpleResults](https://github.com/MrDave1999/
 
 Sometimes it is easier to avoid the dependency and just roll your own, like [https://github.com/DuendeSoftware/IdentityServer/blob/main/src/IdentityServer/Validation/Models/ValidationResult.cs](https://github.com/DuendeSoftware/IdentityServer/blob/main/src/IdentityServer/Validation/Models/ValidationResult.cs)
 
+Even more functional extensions in C#: [https://github.com/louthy/language-ext](https://github.com/louthy/language-ext)
+
 ### Cloudflared - tunnels from internt to local development
 [https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/do-more-with-tunnels/trycloudflare/](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/do-more-with-tunnels/trycloudflare/)
 
@@ -126,3 +128,7 @@ For more detail, attack trees built with
 
 looks nice. Have not worked with either for a while though, but there are some interesting design challenges popping up at work.
 
+### Dotnet architecture
+The poor eShop gets all sorts of treatments, like Blazor, DAPR, MediatR and containers. Go-to for running code when Redmond pumps out something new:
+
+[https://github.com/dotnet-architecture](https://github.com/dotnet-architecture)
