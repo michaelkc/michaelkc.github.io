@@ -86,3 +86,12 @@ non-containerized stack of Azure App Service (and other Azure SaaS services) wit
 for that and resiliency. The FAQ indicates some thought went into App Services (vs most of the docs mentioning Container Apps, which I still consider a bit immature for general consumption), stuff to dig into:
 
 [https://learn.microsoft.com/en-us/dotnet/aspire/reference/aspire-faq#why-would-i-use--net-aspire-service-discovery-when-docker-compose-has-it-built-in-and-works-with-kubernetes-](https://learn.microsoft.com/en-us/dotnet/aspire/reference/aspire-faq#why-would-i-use--net-aspire-service-discovery-when-docker-compose-has-it-built-in-and-works-with-kubernetes-)https://learn.microsoft.com/en-us/dotnet/aspire/reference/aspire-faq#why-would-i-use--net-aspire-service-discovery-when-docker-compose-has-it-built-in-and-works-with-kubernetes-
+
+### Avoiding exceptions for flow control in C#
+I have previously used [https://github.com/vkhorikov/CSharpFunctionalExtensions](https://github.com/vkhorikov/CSharpFunctionalExtensions) to avoid flow control with exceptions, e.g. when validating.
+
+[https://github.com/mcintyre321/OneOf](https://github.com/mcintyre321/OneOf) also looks nice / more general, with source generation.
+
+And [https://github.com/MrDave1999/SimpleResults](https://github.com/MrDave1999/SimpleResults) is another option, with some nice translation options to ASP.NET results.
+
+Sometimes it is easier to avoid the dependency and just roll your own, like [https://github.com/DuendeSoftware/IdentityServer/blob/main/src/IdentityServer/Validation/Models/ValidationResult.cs](https://github.com/DuendeSoftware/IdentityServer/blob/main/src/IdentityServer/Validation/Models/ValidationResult.cs)
