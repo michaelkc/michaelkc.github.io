@@ -101,11 +101,16 @@ And [https://github.com/MrDave1999/SimpleResults](https://github.com/MrDave1999/
 
 Microsoft is also working on an offering, and I have used tools like NGrok before
 
-### WireMock
+### WireMock & TestContainers
 Might be useful for some scenarios, I usually capture dependencies in a proxy class which I can stub during testing. This would allow to dig a little bit deeper, and run a pipeline slightly closer to production.
 
 [https://cezarypiatek.github.io/post/mocking-outgoing-http-requests-p1/](https://cezarypiatek.github.io/post/mocking-outgoing-http-requests-p1/)
 
+Another approach - run containers during testing:
+
+[https://testcontainers.com/guides/getting-started-with-testcontainers-for-dotnet/](https://testcontainers.com/guides/getting-started-with-testcontainers-for-dotnet/)
+
+I have used GitHub Actions SQL Server testcontainers for testing database changes, this could be used for slower-but-more-like-prod integration tests (where I usually reach for SQLite)
 
 
 
