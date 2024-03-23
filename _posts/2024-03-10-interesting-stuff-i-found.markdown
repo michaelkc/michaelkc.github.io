@@ -94,4 +94,20 @@ I have previously used [https://github.com/vkhorikov/CSharpFunctionalExtensions]
 
 And [https://github.com/MrDave1999/SimpleResults](https://github.com/MrDave1999/SimpleResults) is another option, with some nice translation options to ASP.NET results.
 
+### Cloudflared - tunnels from internt to local development
+[https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/do-more-with-tunnels/trycloudflare/](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/do-more-with-tunnels/trycloudflare/)
+
+`winget install --id Cloudflare.cloudflared`
+
+Microsoft is also working on an offering, and I have used tools like NGrok before
+
+### WireMock
+Might be useful for some scenarios, I usually capture dependencies in a proxy class which I can stub during testing. This would allow to dig a little bit deeper, and run a pipeline slightly closer to production.
+
+[https://cezarypiatek.github.io/post/mocking-outgoing-http-requests-p1/](https://cezarypiatek.github.io/post/mocking-outgoing-http-requests-p1/)
+
+
+
+
+
 Sometimes it is easier to avoid the dependency and just roll your own, like [https://github.com/DuendeSoftware/IdentityServer/blob/main/src/IdentityServer/Validation/Models/ValidationResult.cs](https://github.com/DuendeSoftware/IdentityServer/blob/main/src/IdentityServer/Validation/Models/ValidationResult.cs)
