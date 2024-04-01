@@ -13,6 +13,10 @@ As OpenTelemetry gains traction, these are good points from Charity Majors. We a
 
 [https://www.honeycomb.io/blog/cost-crisis-observability-tooling](https://www.honeycomb.io/blog/cost-crisis-observability-tooling)
 
+The concept of canonical log lines makes sense - not much experience yet, but I suppose there is a way to enrich the OpenTelemetry traces to achieve this?
+
+[https://baselime.io/blog/canonical-log-lines](https://baselime.io/blog/canonical-log-lines)
+
 ### SchemaSpy and  SQLite Schema Diagram
 Auto-generating documentation with SchemaSpy would be nice to supplement developer docs. Might go well with an Internal Developer Platform like backstage.
 
