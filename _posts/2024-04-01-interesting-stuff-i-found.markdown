@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Interesting stuff i found - april 2024"
-date:   2024-04-01 10:18:20 +0100
+date:   2024-04-01 10:18:20 +0200
 ---
 ### .NET Smart Components
 LLMs gets embedded everywhere, interesting to see how this one plays out. Still unsupported preview though.
