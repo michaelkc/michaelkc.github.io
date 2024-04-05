@@ -27,7 +27,7 @@ For lightweight "what is in this SQLite DB" (where I usually use Linqpad), this 
 [https://gitlab.com/Screwtapello/sqlite-schema-diagram](https://gitlab.com/Screwtapello/sqlite-schema-diagram)
 
 ### Tricking ChatGPT code interpreter to write and test a SQLite extension in C
-We are getting [there](https://alphacentauri.fandom.com/wiki/Digital_Sentience)
+Are we are getting [there](https://alphacentauri.fandom.com/wiki/Digital_Sentience) or it the [stochastic parrot squawking](https://en.wikipedia.org/wiki/Stochastic_parrot)?
 
 >We are no longer particularly in the business of writing software to perform specific tasks. We now teach the software how to learn, and in the primary bonding process it molds itself around the task to be performed. The feedback loop never really ends, so a tenth year polysentience can be a priceless jewel or a psychotic wreck, but it is the primary bonding--the childhood, if you will--that has the most far-reaching repercussions.
 
