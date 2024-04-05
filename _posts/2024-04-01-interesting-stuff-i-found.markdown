@@ -37,3 +37,15 @@ We are getting [there](https://alphacentauri.fandom.com/wiki/Digital_Sentience)
 Might come in handy every now and then.
 
 [https://github.com/Y2Z/monolith](https://github.com/Y2Z/monolith)
+
+### The applicability of no-code-low-code ([loco](https://translate.google.com/?sl=es&tl=en&text=loco&op=translate)?)
+I like the concept of a succession plan, where do we go if we outgrow the limits of the current solution?
+
+Incidentially had a conversation at work today why our target architecture for CIAM involves a SaaS service _and_ a customized service running on PaaS - because the limits of the SaaS service would not work with current and expected future requirements.
+
+[https://michaelfeathers.substack.com/p/no-code-no-problem](https://michaelfeathers.substack.com/p/no-code-no-problem)
+
+### Favor real dependencies for unit testing (or "use functional core, imperative shell")
+[https://stackoverflow.blog/2022/01/03/favor-real-dependencies-for-unit-testing](https://stackoverflow.blog/2022/01/03/favor-real-dependencies-for-unit-testing)
+
+The [DDD trilemma](https://enterprisecraftsmanship.com/posts/domain-model-purity-completeness/) goes into more details about the tradeoff. Sometimes it is difficult to front/backload impure dependencies, and you need the controller to orchestrate the transition between pure/impure, or at least an [impurium sandwich](https://blog.ploeh.dk/2020/03/02/impureim-sandwich/)
