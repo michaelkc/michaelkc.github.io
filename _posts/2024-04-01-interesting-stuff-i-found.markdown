@@ -73,3 +73,15 @@ I strongly prefer text to video/audio when consuming technical content, but this
 [Google killed token binding](https://youtu.be/BkigVNNSurI?si=sJOww_--GSDvbnuL&t=1058) but now they are pushing a new approach to prevent cookie theft. Interesting to see if that gains traction (and if it will also be [killed by Google](https://killedbygoogle.com/).
 
 [https://blog.chromium.org/2024/04/fighting-cookie-theft-using-device.html](https://blog.chromium.org/2024/04/fighting-cookie-theft-using-device.html)
+
+### Bruno - a better Postman
+Did a bit of trialing after seeing it in the Tech Radar blips - it does work (with a [workaround for using OAuth at the collection level](https://github.com/usebruno/bruno/issues/1704#issuecomment-2002763091)) but it is clearly still work-in-progress. For instance, exporting the collection did not include any Auth setup.
+
+But give it a year or so, and I see this replacing Postman for me.
+
+[https://www.usebruno.com/](https://www.usebruno.com/)
+
+### Microsoft SBOM
+Another Tech Radar blip (alongside the many, many LLM/AI blips...), Microsoft SBOM is pretty easy to use out of the box. I am still not sure how SBOM relates to other supply-chain attack quelching initiatives like [signed nuget packages](https://learn.microsoft.com/en-us/nuget/create-packages/sign-a-package) and [nuget lockfiles](https://devblogs.microsoft.com/nuget/enable-repeatable-package-restores-using-a-lock-file/)
+
+[https://github.com/microsoft/sbom-tool](https://github.com/microsoft/sbom-tool)
