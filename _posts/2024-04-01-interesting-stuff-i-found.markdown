@@ -53,7 +53,7 @@ The [DDD trilemma](https://enterprisecraftsmanship.com/posts/domain-model-purity
 Also found this old gem [https://spark-framework.net/docs/introduction/](https://spark-framework.net/docs/introduction/)
 
 ### Spark
-Not sure I need another framework right now (moving forward with Blazor WASM for next project), but this looks likae an opinionated backend-driven front-end stack built on .NET (like Rails maybe?), something I have not seen in a while (remember FUBUMVC?)
+Not sure I need another framework right now (moving forward with Blazor WASM for next project), but this looks likae an opinionated backend-driven front-end stack built on .NET (like Rails maybe?), something I have not seen in a while (remember [FubuMVC](https://fubumvc.github.io/)?)
 
 [https://spark-framework.net/docs/introduction/](https://spark-framework.net/docs/introduction/)
 
@@ -68,3 +68,8 @@ Spotify Desktop finally has an equalizer after many years, but if you play back 
 I strongly prefer text to video/audio when consuming technical content, but this is very, very good:
 
 [https://www.youtube.com/watch?v=R-z2Hv-7nxk&list=PLdo4fOcmZ0oVlZCosDDwS9fkVtrLYxGt6&index=2](https://www.youtube.com/watch?v=R-z2Hv-7nxk&list=PLdo4fOcmZ0oVlZCosDDwS9fkVtrLYxGt6&index=2)
+
+### Device Bound Session Credentials - binding cookies to devices
+[Google killed token binding](https://youtu.be/BkigVNNSurI?si=sJOww_--GSDvbnuL&t=1058) but now they are pushing a new approach to prevent cookie theft. Interesting to see if that gains traction (and if it will also be [killed by Google](https://killedbygoogle.com/).
+
+[https://blog.chromium.org/2024/04/fighting-cookie-theft-using-device.html](https://blog.chromium.org/2024/04/fighting-cookie-theft-using-device.html)
