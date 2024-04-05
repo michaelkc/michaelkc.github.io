@@ -63,3 +63,8 @@ Spotify Desktop finally has an equalizer after many years, but if you play back 
 [https://sourceforge.net/projects/equalizerapo/](https://sourceforge.net/projects/equalizerapo/)
 
 [https://sourceforge.net/projects/peace-equalizer-apo-extension/](https://sourceforge.net/projects/peace-equalizer-apo-extension/)
+
+### Writing async/await from scratch in C# with Stephen Toub
+I strongly prefer text to video/audio when consuming technical content, but this is very, very good:
+
+[https://www.youtube.com/watch?v=R-z2Hv-7nxk&list=PLdo4fOcmZ0oVlZCosDDwS9fkVtrLYxGt6&index=2](https://www.youtube.com/watch?v=R-z2Hv-7nxk&list=PLdo4fOcmZ0oVlZCosDDwS9fkVtrLYxGt6&index=2)
