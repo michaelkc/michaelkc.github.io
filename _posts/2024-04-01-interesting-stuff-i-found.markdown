@@ -90,3 +90,13 @@ Another Tech Radar blip (alongside the many, many LLM/AI blips...), Microsoft SB
 There is so much security theater in IT, how to spot it
 
 [https://hachyderm.io/@shortridge/111262394587906664](https://hachyderm.io/@shortridge/111262394587906664)
+
+### Data Annotation Validation of .NET Configuration
+A lot simpler than [CUE](https://cuelang.org/) and [PKL](https://pkl-lang.org/), but I see two issues:
+
+- logging startup issues in ASP.NET properly is hard [[1]](https://nblumhardt.com/2020/10/bootstrap-logger/)  [[2]](https://github.com/dotnet/aspnetcore/issues/19807) [[3]](https://github.com/MV10/GenericHostBuilderLogger#generichostbuilderlogger)
+- it is difficult to apply at configuration rollout / "deployment" time (when my app is starting up, it is too late to find out it is missing config!)
+
+[https://www.milanjovanovic.tech/blog/adding-validation-to-the-options-pattern-in-asp-net-core](https://www.milanjovanovic.tech/blog/adding-validation-to-the-options-pattern-in-asp-net-core)
+
+
