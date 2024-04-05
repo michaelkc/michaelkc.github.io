@@ -49,3 +49,10 @@ Incidentially had a conversation at work today why our target architecture for C
 [https://stackoverflow.blog/2022/01/03/favor-real-dependencies-for-unit-testing](https://stackoverflow.blog/2022/01/03/favor-real-dependencies-for-unit-testing)
 
 The [DDD trilemma](https://enterprisecraftsmanship.com/posts/domain-model-purity-completeness/) goes into more details about the tradeoff. Sometimes it is difficult to front/backload impure dependencies, and you need the controller to orchestrate the transition between pure/impure, or at least an [impurium sandwich](https://blog.ploeh.dk/2020/03/02/impureim-sandwich/)
+
+Also found this old gem [https://spark-framework.net/docs/introduction/](https://spark-framework.net/docs/introduction/)
+
+### Spark
+Not sure I need another framework right now (moving forward with Blazor WASM for next project), but this looks likae an opinionated backend-driven front-end stack built on .NET (like Rails maybe?), something I have not seen in a while (remember FUBUMVC?)
+
+[https://spark-framework.net/docs/introduction/](https://spark-framework.net/docs/introduction/)
