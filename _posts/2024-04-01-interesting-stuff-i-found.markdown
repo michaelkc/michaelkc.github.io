@@ -56,3 +56,10 @@ Also found this old gem [https://spark-framework.net/docs/introduction/](https:/
 Not sure I need another framework right now (moving forward with Blazor WASM for next project), but this looks likae an opinionated backend-driven front-end stack built on .NET (like Rails maybe?), something I have not seen in a while (remember FUBUMVC?)
 
 [https://spark-framework.net/docs/introduction/](https://spark-framework.net/docs/introduction/)
+
+### Equalizer APO
+Spotify Desktop finally has an equalizer after many years, but if you play back music in something else, this is useful:
+
+[https://sourceforge.net/projects/equalizerapo/](https://sourceforge.net/projects/equalizerapo/)
+
+[https://sourceforge.net/projects/peace-equalizer-apo-extension/](https://sourceforge.net/projects/peace-equalizer-apo-extension/)
