@@ -85,3 +85,8 @@ But give it a year or so, and I see this replacing Postman for me.
 Another Tech Radar blip (alongside the many, many LLM/AI blips...), Microsoft SBOM is pretty easy to use out of the box. I am still not sure how SBOM relates to other supply-chain attack quelching initiatives like [signed nuget packages](https://learn.microsoft.com/en-us/nuget/create-packages/sign-a-package) and [nuget lockfiles](https://devblogs.microsoft.com/nuget/enable-repeatable-package-restores-using-a-lock-file/)
 
 [https://github.com/microsoft/sbom-tool](https://github.com/microsoft/sbom-tool)
+
+### Security Theater vs Resilience infographic
+There is so much security theater in IT, how to spot it
+
+[https://hachyderm.io/@shortridge/111262394587906664](https://hachyderm.io/@shortridge/111262394587906664)
