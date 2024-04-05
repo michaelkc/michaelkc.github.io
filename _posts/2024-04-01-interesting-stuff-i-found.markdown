@@ -32,3 +32,8 @@ We are getting [there](https://alphacentauri.fandom.com/wiki/Digital_Sentience)
 >We are no longer particularly in the business of writing software to perform specific tasks. We now teach the software how to learn, and in the primary bonding process it molds itself around the task to be performed. The feedback loop never really ends, so a tenth year polysentience can be a priceless jewel or a psychotic wreck, but it is the primary bonding--the childhood, if you will--that has the most far-reaching repercussions.
 
 [https://simonwillison.net/2024/Mar/23/building-c-extensions-for-sqlite-with-chatgpt-code-interpreter/](https://simonwillison.net/2024/Mar/23/building-c-extensions-for-sqlite-with-chatgpt-code-interpreter/)
+
+### Monolith - save web pages with assets (like mht)
+Might come in handy every now and then.
+
+[https://github.com/Y2Z/monolith](https://github.com/Y2Z/monolith)
