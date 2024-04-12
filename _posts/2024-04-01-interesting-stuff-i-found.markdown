@@ -27,7 +27,7 @@ For lightweight "what is in this SQLite DB" (where I usually use Linqpad), this 
 [https://gitlab.com/Screwtapello/sqlite-schema-diagram](https://gitlab.com/Screwtapello/sqlite-schema-diagram)
 
 ### Tricking ChatGPT code interpreter to write and test a SQLite extension in C
-Are we are getting [there](https://alphacentauri.fandom.com/wiki/Digital_Sentience) or it the [stochastic parrot squawking](https://en.wikipedia.org/wiki/Stochastic_parrot)?
+Are we are getting [there](https://alphacentauri.fandom.com/wiki/Digital_Sentience) or is it the [stochastic parrot squawking](https://en.wikipedia.org/wiki/Stochastic_parrot)?
 
 >We are no longer particularly in the business of writing software to perform specific tasks. We now teach the software how to learn, and in the primary bonding process it molds itself around the task to be performed. The feedback loop never really ends, so a tenth year polysentience can be a priceless jewel or a psychotic wreck, but it is the primary bonding--the childhood, if you will--that has the most far-reaching repercussions.
 
@@ -100,3 +100,9 @@ A lot simpler than [CUE](https://cuelang.org/) and [PKL](https://pkl-lang.org/),
 [https://www.milanjovanovic.tech/blog/adding-validation-to-the-options-pattern-in-asp-net-core](https://www.milanjovanovic.tech/blog/adding-validation-to-the-options-pattern-in-asp-net-core)
 
 
+### Generative AI beyond developer assistance - CodeScene ACE
+Generative AI is moving beyond developer assistance, examples are GitHub AutoFix and CodeScene ACE. Interesting to see where it goes from here. Stuff like ACE could be a key factor in making agents like [Devin](https://www.cognition-labs.com/introducing-devin) work, without producing a long stream of low-quality, unmaintainable code.
+
+[https://codescene.com/hubfs/whitepapers/Refactoring-vs-Refuctoring-Advancing-the-state-of-AI-automated-code-improvements.pdf](https://codescene.com/hubfs/whitepapers/Refactoring-vs-Refuctoring-Advancing-the-state-of-AI-automated-code-improvements.pdf)
+
+[https://docs.github.com/en/code-security/code-scanning/managing-code-scanning-alerts/about-autofix-for-codeql-code-scanning](https://docs.github.com/en/code-security/code-scanning/managing-code-scanning-alerts/about-autofix-for-codeql-code-scanning)
