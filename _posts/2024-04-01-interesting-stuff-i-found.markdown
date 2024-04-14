@@ -106,3 +106,8 @@ Generative AI is moving beyond developer assistance, examples are GitHub AutoFix
 [https://codescene.com/hubfs/whitepapers/Refactoring-vs-Refuctoring-Advancing-the-state-of-AI-automated-code-improvements.pdf](https://codescene.com/hubfs/whitepapers/Refactoring-vs-Refuctoring-Advancing-the-state-of-AI-automated-code-improvements.pdf)
 
 [https://docs.github.com/en/code-security/code-scanning/managing-code-scanning-alerts/about-autofix-for-codeql-code-scanning](https://docs.github.com/en/code-security/code-scanning/managing-code-scanning-alerts/about-autofix-for-codeql-code-scanning)
+
+### Shipping to production
+Been a long time since I did "YOLO Shipping" for anything important, but I sometimes dream of getting a more mature setup with staged rollout and telemetry monitoring, which could support faster iteration. We can move fast if we have to, but cadence tends to slow down when we do not, spending too much time verifying in preproduction.
+
+[https://newsletter.pragmaticengineer.com/p/shipping-to-production](https://newsletter.pragmaticengineer.com/p/shipping-to-production)
