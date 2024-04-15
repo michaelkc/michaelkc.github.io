@@ -111,3 +111,8 @@ Generative AI is moving beyond developer assistance, examples are GitHub AutoFix
 Been a long time since I did "YOLO Shipping" for anything important, but I sometimes dream of getting a more mature setup with staged rollout and telemetry monitoring, which could support faster iteration. We can move fast if we have to, but cadence tends to slow down when we do not, spending too much time verifying in preproduction.
 
 [https://newsletter.pragmaticengineer.com/p/shipping-to-production](https://newsletter.pragmaticengineer.com/p/shipping-to-production)
+
+### OAuth: "grant" vs "flow" vs "grant type" 
+Not sure if being precise here is super important, but kudos for taking the time to hunt down the defintions.
+
+[https://aaronparecki.com/2024/03/29/3/oauth-terminology](https://aaronparecki.com/2024/03/29/3/oauth-terminology)
