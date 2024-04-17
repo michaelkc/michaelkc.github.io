@@ -101,7 +101,7 @@ A lot simpler than [CUE](https://cuelang.org/) and [PKL](https://pkl-lang.org/),
 
 
 ### Generative AI beyond developer assistance - CodeScene ACE
-Generative AI is moving beyond developer assistance, examples are GitHub AutoFix and CodeScene ACE. Interesting to see where it goes from here. Stuff like ACE could be a key factor in making agents like [Devin](https://www.cognition-labs.com/introducing-devin) work, without producing a long stream of low-quality, unmaintainable code.
+Generative AI is moving beyond developer assistance, examples are GitHub AutoFix and CodeScene ACE. Interesting to see where it goes from here. Stuff like ACE could be a key factor in making agents like ~~[Devin](https://www.cognition-labs.com/introducing-devin)~~ [SWE-agent](https://github.com/princeton-nlp/SWE-agent) work, without producing a long stream of low-quality, unmaintainable code.
 
 [https://codescene.com/hubfs/whitepapers/Refactoring-vs-Refuctoring-Advancing-the-state-of-AI-automated-code-improvements.pdf](https://codescene.com/hubfs/whitepapers/Refactoring-vs-Refuctoring-Advancing-the-state-of-AI-automated-code-improvements.pdf)
 
