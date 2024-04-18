@@ -116,3 +116,8 @@ Been a long time since I did "YOLO Shipping" for anything important, but I somet
 Not sure if being precise here is super important, but kudos for taking the time to hunt down the defintions.
 
 [https://aaronparecki.com/2024/03/29/3/oauth-terminology](https://aaronparecki.com/2024/03/29/3/oauth-terminology)
+
+### Semantic conventions for observability
+The simple stuff like namespacing key names makes a lot of sense, have not yet dug deep enough to digest the rest
+
+[https://www.honeycomb.io/blog/effective-trace-instrumentation-semantic-conventions](https://www.honeycomb.io/blog/effective-trace-instrumentation-semantic-conventions)
