@@ -121,3 +121,7 @@ Not sure if being precise here is super important, but kudos for taking the time
 The simple stuff like namespacing key names makes a lot of sense, have not yet dug deep enough to digest the rest
 
 [https://www.honeycomb.io/blog/effective-trace-instrumentation-semantic-conventions](https://www.honeycomb.io/blog/effective-trace-instrumentation-semantic-conventions)
+
+### LM Studio
+While not on winget yet, [https://lmstudio.ai/](https://lmstudio.ai/) is a very easy way to get up-and-running with publicly available LLM models like Llama 3.
+
