@@ -125,3 +125,9 @@ The simple stuff like namespacing key names makes a lot of sense, have not yet d
 ### LM Studio
 While not on winget yet, [https://lmstudio.ai/](https://lmstudio.ai/) is a very easy way to get up-and-running with publicly available LLM models like Llama 3.
 
+### Tailscale
+[Late to the party](https://www.hanselman.com/blog/using-tailscale-on-windows-to-network-more-easily-with-wsl2-and-visual-studio-code), but Tailscale offers something unique: A seamless VPN across your home network and mobile devices, with options to open it up to others (parent support network for fixing that pesky printer?). And with [funnel](https://tailscale.com/kb/1223/funnel), you can expose devices behind your firewall permanently on the internet (think cloudflared, but permanent).
+
+Both impressive (it works seamlessly in my limited experience) and scary, if you consider how it could backdoor the entire network. Of course, this kind of software has no role on a corporate network, something I consider more and more important these days.
+
+[https://tailscale.com/](https://tailscale.com/)
