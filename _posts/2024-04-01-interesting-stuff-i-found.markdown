@@ -131,3 +131,8 @@ While not on winget yet, [https://lmstudio.ai/](https://lmstudio.ai/) is a very 
 Both impressive (it works seamlessly in my limited experience) and scary, if you consider how it could backdoor the entire network. Of course, this kind of software has no role on a corporate network, something I consider more and more important these days.
 
 [https://tailscale.com/](https://tailscale.com/)
+
+## Oracle Cloud Free Tier
+Oracle Cloud [free tier](https://free-for.dev/#/?id=major-cloud-providers) is very generous, but while the small x64 VMs provision without issue, the 4-core 24GB ram Ampere ARM instance can be tough to provision, as the data centers are often out of capacity (for the free tier, presumably).
+
+One guy figured out to use scripting to force provisioning as soon as capacity frees up: [https://archive.ph/OjSqw](https://archive.ph/OjSqw). No luck yet here, but I keep trying every 15 minutes...
