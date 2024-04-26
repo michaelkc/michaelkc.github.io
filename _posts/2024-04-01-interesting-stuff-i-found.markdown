@@ -136,3 +136,12 @@ Both impressive (it works seamlessly in my limited experience) and scary, if you
 Oracle Cloud [free tier](https://free-for.dev/#/?id=major-cloud-providers) is very generous, but while the small x64 VMs provision without issue, the 4-core 24GB ram Ampere ARM instance can be tough to provision, as the data centers are often out of capacity (for the free tier, presumably).
 
 One guy figured out to use scripting to force provisioning as soon as capacity frees up: [https://archive.ph/OjSqw](https://archive.ph/OjSqw). No luck yet here, but I keep trying every 15 minutes...
+
+### Entra DMS prompt is mandatory
+Started getting annoying confirmation prompt when using company-internal SSO to various services. Turns out it is a feature of Entras DMA compliance, and cannot be turned of for the EEA tenants
+
+While I applaud regulation of these areas as an individual, it sucks to have more prompts for company credentials.
+
+[https://techcommunity.microsoft.com/t5/windows-it-pro-blog/upcoming-changes-to-windows-single-sign-on/ba-p/4008151#:~:text=Can%20I%20configure%20my%20Entra,support%20suppression%20of%20this%20notice.](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/upcoming-changes-to-windows-single-sign-on/ba-p/4008151#:~:text=Can%20I%20configure%20my%20Entra,support%20suppression%20of%20this%20notice.)
+
+
