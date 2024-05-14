@@ -14,3 +14,8 @@ For production work, App Service and more PaaS-y services like Container Apps st
 Got reminded of this one today. Easy way to optimize and/or analyze impact of optimizing images, e.g. to optimized WebP with reduced palette
 
 [https://squoosh.app/](https://squoosh.app/)
+
+### Fermyon Spin - WebAssembly FaaS
+Attended a workshop on this last year, interesting to track how it evolves
+
+[https://developer.fermyon.com/](https://developer.fermyon.com/)
