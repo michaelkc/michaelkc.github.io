@@ -10,3 +10,7 @@ For production work, App Service and more PaaS-y services like Container Apps st
 
 [https://microk8s.io/compare](https://microk8s.io/compare)
 
+### Squooosh
+Got reminded of this one today. Easy way to optimize and/or analyze impact of optimizing images, e.g. to optimized WebP with reduced palette
+
+[https://squoosh.app/](https://squoosh.app/)
