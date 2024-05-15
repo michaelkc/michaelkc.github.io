@@ -19,3 +19,8 @@ Got reminded of this one today. Easy way to optimize and/or analyze impact of op
 Attended a workshop on this last year, interesting to track how it evolves
 
 [https://developer.fermyon.com/](https://developer.fermyon.com/)
+
+### .http files in Rider
+Like old-school Postman, with env/secret/oauth support. But sucks that you need Rider or IntelliJ Ultimate to run them. Visual Studio has some support, but seems to be missing the authn stuff at least. I will probably stick to Postman and/or Bruno for now.
+
+[https://www.jetbrains.com/help/rider/OAuth_2.0_authorization.html](https://www.jetbrains.com/help/rider/OAuth_2.0_authorization.html)
