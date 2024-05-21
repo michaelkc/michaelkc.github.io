@@ -24,3 +24,10 @@ Attended a workshop on this last year, interesting to track how it evolves
 Like old-school Postman, with env/secret/oauth support. But sucks that you need Rider or IntelliJ Ultimate to run them. Visual Studio has some support, but seems to be missing the authn stuff at least. I will probably stick to Postman and/or Bruno for now.
 
 [https://www.jetbrains.com/help/rider/OAuth_2.0_authorization.html](https://www.jetbrains.com/help/rider/OAuth_2.0_authorization.html)
+
+### How developers spend their time
+Via Adam Thornhill / CodeScene "The Code Quality Advantage"
+
+Developers spend only 5% of time writing code, so until LLMs can maintain huge codebases, optimizing for generation is optimizing 5% of time spent.
+
+[https://robertominelli.com/assets/downloads/publications/Mine2015b.pdf](https://robertominelli.com/assets/downloads/publications/Mine2015b.pdf)
