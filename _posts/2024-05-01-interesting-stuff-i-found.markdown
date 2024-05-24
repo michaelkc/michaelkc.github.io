@@ -31,3 +31,9 @@ Via Adam Thornhill / CodeScene "The Code Quality Advantage"
 Developers spend only 5% of time writing code, so until LLMs can maintain huge codebases, optimizing for generation is optimizing 5% of time spent.
 
 [https://robertominelli.com/assets/downloads/publications/Mine2015b.pdf](https://robertominelli.com/assets/downloads/publications/Mine2015b.pdf)
+
+### Third party cookie phaseout rolling out in Chrome
+After going back and forth a number of times, Google is finally rolling it out, initially to 1% of users.
+This is going to produce a lot of "interesting" error reports on legacy software...
+
+[https://developers.google.com/privacy-sandbox/3pcd](https://developers.google.com/privacy-sandbox/3pcd)
