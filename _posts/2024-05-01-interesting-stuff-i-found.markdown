@@ -37,3 +37,8 @@ After going back and forth a number of times, Google is finally rolling it out, 
 This is going to produce a lot of "interesting" error reports on legacy software...
 
 [https://developers.google.com/privacy-sandbox/3pcd](https://developers.google.com/privacy-sandbox/3pcd)
+
+### Maester - Pester tests to compare an Entra tenant to best practice setup
+Useful if you are responsible for the security of an Entra tenant
+
+[https://maester.dev/](https://maester.dev/)
