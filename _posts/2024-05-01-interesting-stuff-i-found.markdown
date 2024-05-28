@@ -57,3 +57,8 @@ I have been using [NetArchTest](https://github.com/BenMorris/NetArchTest) in com
 I love this line of thinking. So often I encounter the solution (e.g. shiny new tech) looking for a problem to solve, but you should absolutely reach for complex tech (like lower-level Kubernetes) when it is warranted by the requirements.
 
 [You can’t assess whether Kubernetes is a poor choice because of “high operational burden” without understanding the problem we are solving.](https://x.com/samgoodwin89/status/1784414025323049235)
+
+### Scaling history at Uber
+When people want to go microservices from day 1 for imaginary scaling concerns, it is nice to be able to remind them that Uber started life as a LAMP stack monolith
+
+[https://highscalability.com/brief-history-of-scaling-uber/](https://highscalability.com/brief-history-of-scaling-uber/)
