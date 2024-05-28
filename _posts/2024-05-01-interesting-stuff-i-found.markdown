@@ -52,3 +52,8 @@ Use Llama3 as a GitHub CoPilot-like coding assistant in VSCode with [Ollama](htt
 I have been using [NetArchTest](https://github.com/BenMorris/NetArchTest) in combination with Feature Folders with great success for a while. Recommended.
 
 [https://www.milanjovanovic.tech/blog/enforcing-software-architecture-with-architecture-tests](https://www.milanjovanovic.tech/blog/enforcing-software-architecture-with-architecture-tests)
+
+### On matching problem at hand with the right technology
+I love this line of thinking. So often I encounter the solution (e.g. shiny new tech) looking for a problem to solve, but you should absolutely reach for complex tech (like lower-level Kubernetes) when it is warranted by the requirements.
+
+[You can’t assess whether Kubernetes is a poor choice because of “high operational burden” without understanding the problem we are solving.](https://x.com/samgoodwin89/status/1784414025323049235)
