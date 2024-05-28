@@ -42,3 +42,8 @@ This is going to produce a lot of "interesting" error reports on legacy software
 Useful if you are responsible for the security of an Entra tenant
 
 [https://maester.dev/](https://maester.dev/)
+
+### Local coding assistant
+Use Llama3 as a GitHub CoPilot-like coding assistant in VSCode with [Ollama](https://ollama.com/) (available on winget) and [Continue](https://docs.continue.dev/intro)
+
+[Let's build an AI Coding assistant with Llama3](https://x.com/paulabartabajo_/status/1785006607253852281)
