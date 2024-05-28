@@ -23,6 +23,8 @@ Attended a workshop on this last year, interesting to track how it evolves
 ### .http files in Rider
 Like old-school Postman, with env/secret/oauth support. But sucks that you need Rider or IntelliJ Ultimate to run them. Visual Studio has some support, but seems to be missing the authn stuff at least. I will probably stick to Postman and/or Bruno for now.
 
+Edit 28/5 [https://www.leeholmes.com/security-risks-of-postman/](https://www.leeholmes.com/security-risks-of-postman/) - true, it is incredibly difficult to navigate Postman config values to avoid them being cloud synced.
+
 [https://www.jetbrains.com/help/rider/OAuth_2.0_authorization.html](https://www.jetbrains.com/help/rider/OAuth_2.0_authorization.html)
 
 ### How developers spend their time
