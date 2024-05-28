@@ -47,3 +47,8 @@ Useful if you are responsible for the security of an Entra tenant
 Use Llama3 as a GitHub CoPilot-like coding assistant in VSCode with [Ollama](https://ollama.com/) (available on winget) and [Continue](https://docs.continue.dev/intro)
 
 [Let's build an AI Coding assistant with Llama3](https://x.com/paulabartabajo_/status/1785006607253852281)
+
+### NetArchTest to enforce structural constraints
+I have been using [NetArchTest](https://github.com/BenMorris/NetArchTest) in combination with Feature Folders with great success for a while. Recommended.
+
+[https://www.milanjovanovic.tech/blog/enforcing-software-architecture-with-architecture-tests](https://www.milanjovanovic.tech/blog/enforcing-software-architecture-with-architecture-tests)
