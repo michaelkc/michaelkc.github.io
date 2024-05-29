@@ -64,3 +64,8 @@ I love this line of thinking. So often I encounter the solution (e.g. shiny new 
 When people want to go microservices from day 1 for imaginary scaling concerns, it is nice to be able to remind them that Uber started life as a LAMP stack monolith
 
 [https://highscalability.com/brief-history-of-scaling-uber/](https://highscalability.com/brief-history-of-scaling-uber/)
+
+### Authn & authz -> login & permissions
+Via Slashdot, makes sense
+
+[https://ntietz.com/blog/lets-say-instead-of-auth/](https://ntietz.com/blog/lets-say-instead-of-auth/)
