@@ -23,3 +23,8 @@ I spent most time with Rebus, specifically [Rebus.SqlServer](https://github.com/
 
 More recently, support for [SQL-based transactional outbox](https://github.com/rebus-org/Rebus/issues/819#issuecomment-1118565853) was added, which can work with the other transports as well (Azure Service Bus etc.). 
 I plan on taking the latter from spike to limited implementation soon.
+
+### App Service Web App for Containers vs Azure Container Apps
+We use App Service for most workloads, but are looking into Container Apps for its Aspire & DAPR support + scale to zero. Currently, the Kubernetes bits seem to bleed through when you hit custom networking, which is curbing our enthusiasm. But I am sure it will get better.
+
+[https://www.blueboxes.co.uk/app-service-web-app-for-containers-vs-azure-container-apps](https://www.blueboxes.co.uk/app-service-web-app-for-containers-vs-azure-container-apps)
