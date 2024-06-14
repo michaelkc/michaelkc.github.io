@@ -28,3 +28,8 @@ I plan on taking the latter from spike to limited implementation soon.
 We use App Service for most workloads, but are looking into Container Apps for its Aspire & DAPR support + scale to zero. Currently, the Kubernetes bits seem to bleed through when you hit custom networking, which is curbing our enthusiasm. But I am sure it will get better.
 
 [https://www.blueboxes.co.uk/app-service-web-app-for-containers-vs-azure-container-apps](https://www.blueboxes.co.uk/app-service-web-app-for-containers-vs-azure-container-apps)
+
+### user-jwts
+Similar to user-secrets (which we are phasing out on new projects in favor of KeyVault-only config) and the .NET config system, user-jwts has the ability to locally intercept the JWT Bearer middleware to whitelist the locally-generated tokens for calls to the developer machine. It works well, even if the Duende guys [think it is the wrong approach](https://x.com/BrockLAllen/status/1517854469047914496)
+
+[https://learn.microsoft.com/en-us/aspnet/core/security/authentication/jwt-authn](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/jwt-authn)
