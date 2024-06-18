@@ -33,3 +33,9 @@ We use App Service for most workloads, but are looking into Container Apps for i
 Similar to user-secrets (which we are phasing out on new projects in favor of KeyVault-only config) and the .NET config system, user-jwts has the ability to locally intercept the JWT Bearer middleware to whitelist the locally-generated tokens for calls to the developer machine. It works well, even if the Duende guys [think it is the wrong approach](https://x.com/BrockLAllen/status/1517854469047914496)
 
 [https://learn.microsoft.com/en-us/aspnet/core/security/authentication/jwt-authn](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/jwt-authn)
+
+### Building Messaging Endpoints in Azure: Container Apps
+Jimmy is a great educator, and after thinking and trialing a few options I fully agree with his statement _At this point, I'd say Container Apps would be my go-to choice for deploying message endpoints to Azure._
+I just tried out the Keda autoscaler in Container Apps with a worker and a Rebus Azure Service Bus queue, and it scaled to zero and back based on queue length with zero issues.
+
+[https://www.jimmybogard.com/building-messaging-endpoints-in-azure-container-apps/](https://www.jimmybogard.com/building-messaging-endpoints-in-azure-container-apps/)
