@@ -22,7 +22,7 @@ MassTransit has no support for _Transactional_ Outbox, but tries to approach it 
 I spent most time with Rebus, specifically [Rebus.SqlServer](https://github.com/rebus-org/Rebus.SqlServer), which has historically supported [transactional sending of events when using the SQL Server transport](https://github.com/rebus-org/RebusSamples/tree/master/SqlAllTheWay/SqlAllTheWay).
 
 More recently, support for [SQL-based transactional outbox](https://github.com/rebus-org/Rebus/issues/819#issuecomment-1118565853) was added, which can work with the other transports as well (Azure Service Bus etc.). 
-I plan on taking the latter from spike to limited implementation soon.
+I plan on taking the latter from spike to limited implementation soon. EDIT 26/06/2024 I did and still happy with the results.
 
 ### App Service Web App for Containers vs Azure Container Apps
 We use App Service for most workloads, but are looking into Container Apps for its Aspire & DAPR support + scale to zero. Currently, the Kubernetes bits seem to bleed through when you hit custom networking, which is curbing our enthusiasm. But I am sure it will get better.
@@ -39,3 +39,6 @@ Jimmy is a great educator, and after thinking and trialing a few options I fully
 I just tried out the Keda autoscaler in Container Apps with a worker and a Rebus Azure Service Bus queue, and it scaled to zero and back based on queue length with zero issues.
 
 [https://www.jimmybogard.com/building-messaging-endpoints-in-azure-container-apps/](https://www.jimmybogard.com/building-messaging-endpoints-in-azure-container-apps/)
+
+### Vertical Slice Architecture / feature folders
+Speaking of Jimmy Bogard, we  try to move stuff to [vertical slice archicture](https://www.jimmybogard.com/vertical-slice-architecture/) / [feature folders](https://scottsauber.com/2016/04/25/feature-folder-structure-in-asp-net-core/) internally. I can see why Microsoft push out layering-by-technical-function by default, but it sure sucks as soon as things get largish. 
