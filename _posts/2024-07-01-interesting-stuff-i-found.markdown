@@ -18,3 +18,8 @@ ensure their pipelines never fail, and the scale to actually do meaningful N% bl
 My current thinking is using two separate GitHub Actions workflows, one builds and creates a release tied to a SHA ref (pointing to build-produced binaries, containers etc.), another reacts on Deployment
 events and deploys the release. Tying them together is an Octopus-style dashboard application, which queries GitHub for deployment status and has 
 buttons to roll stuff out (by creating the appropriate deployments i GitHub, based on the releases)
+
+### ttl.sh - Ephemeral container registry
+One of many things challenging the switch from packages to containers for deployment is the fact that you suddenly need a service running (in a different trust boundary) instead of a place to put some files.
+
+[https://ttl.sh/](https://ttl.sh/) aims to change this, by offering an anonymous registry. Like old-time DNS names resolving to 127.0.0.1 to properly test cookie domain restrictions, this feels like something you should control yourself for optimal security though - what if something malicious happens inside ttl.sh between you pushing and you pulling?
