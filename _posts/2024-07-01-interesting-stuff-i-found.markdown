@@ -23,3 +23,8 @@ buttons to roll stuff out (by creating the appropriate deployments i GitHub, bas
 One of many things challenging the switch from packages to containers for deployment is the fact that you suddenly need a service running (in a different trust boundary) instead of a place to put some files.
 
 [https://ttl.sh/](https://ttl.sh/) aims to change this, by offering an anonymous registry. Like old-time DNS names resolving to 127.0.0.1 to properly test cookie domain restrictions, this feels like something you should control yourself for optimal security though - what if something malicious happens inside ttl.sh between you pushing and you pulling?
+
+### Auditing client_credential usage on Entra
+Auditing client_credential usage on Entra app registrations is essential to remove unused principals and prevent app registrations from being "append only"
+
+[https://f12.hu/2023/06/12/fighting-azuread-app-registration-client-secrets-step1-reviewing-client-secret-usage/](https://f12.hu/2023/06/12/fighting-azuread-app-registration-client-secrets-step1-reviewing-client-secret-usage/)
