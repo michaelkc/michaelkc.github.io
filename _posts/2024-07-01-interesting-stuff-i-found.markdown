@@ -28,3 +28,12 @@ One of many things challenging the switch from packages to containers for deploy
 Auditing client_credential usage on Entra app registrations is essential to remove unused principals and prevent app registrations from being "append only"
 
 [https://f12.hu/2023/06/12/fighting-azuread-app-registration-client-secrets-step1-reviewing-client-secret-usage/](https://f12.hu/2023/06/12/fighting-azuread-app-registration-client-secrets-step1-reviewing-client-secret-usage/)
+
+### OpenSSF Scorecard / scorecard.dev
+With supply chain attacks being an ever-present issue, attempting to standardize a best practice which can be quickly checked seems like a good idea.
+
+[https://scorecard.dev/](https://scorecard.dev/)
+
+allows quick lookup of popular public repos, and you can scan other repos (including private) using their docker image, e.g.
+
+`docker run -e GITHUB_AUTH_TOKEN=<your PAT> gcr.io/openssf/scorecard:stable --repo=github.com/MudBlazor/MudBlazor`
