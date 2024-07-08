@@ -37,3 +37,14 @@ With supply chain attacks being an ever-present issue, attempting to standardize
 allows quick lookup of popular public repos, and you can scan other repos (including private) using their docker image, e.g.
 
 `docker run -e GITHUB_AUTH_TOKEN=<your PAT> gcr.io/openssf/scorecard:stable --repo=github.com/MudBlazor/MudBlazor`
+
+### Kamal (formerly known as MRSK)
+Been looking into various deployment options, and Kamal is one of the nicer ones if you do not want to go Kubernetes.
+
+It works well, however it is not really designed for hosting multiple apps on the same server, something that is a must-have for self-hosted hobby projects.
+
+[There are hackish workarounds](https://github.com/basecamp/kamal/discussions/257), and according to DHH [support for this is coming in Kamal 2](https://twitter.com/dhh/status/1766151697817313628) (no public timeframe).
+
+Another great article pertains to using [Kamal to deploy ASP.NET Core apps](https://chekkan.com/2024/05/24/kamal-deploy-asp-net-core-website.html)
+
+Still sticking with free tier App Services and/or scale-to-zero Container Apps in Azure, but it is something to keep an eye on. If nothing else, Kamal and tools like it underlines how comparatively easy deployments are in the Azure/IIS world (where web deploy and similar has been available for many, many years).
