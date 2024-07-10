@@ -50,6 +50,8 @@ Another great article pertains to using [Kamal to deploy ASP.NET Core apps](http
 Still sticking with free tier App Services and/or scale-to-zero Container Apps in Azure, but it is something to keep an eye on. If nothing else, Kamal and tools like it underlines how comparatively easy deployments are in the Azure/IIS world 
 (where web deploy and similar has been available for many, many years).
 
+Edit 2024/07/10 Someone in Kamal issues mentioned [Dokku](https://dokku.com/docs/getting-started/installation/), which is a [Heroku](https://www.heroku.com/) clone. I did not dig deep, but it seems to function as an extra git remote, which you can push to to build and deploy.
+
 ### The Trimodal Nature of Tech Compensation Revisited
 Gergely has many interesting takes, this one in particular attempts to explain how tech compensation works, with three "tiers" coexisting. The highest-paying one goes under the radar for most people. 
 
