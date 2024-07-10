@@ -63,3 +63,6 @@ I need to dig in at some point to discover how they placed themselves on the tra
 (our Key Vaults should not allow public access).
 
 But for now, I think I will wait and see how the [Azure CDK will look like](https://x.com/davidfowl/status/1800785055620698587)
+
+### Data Api Builder
+[What is old is new again](https://learn.microsoft.com/en-us/visualstudio/data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio?view=vs-2022&tabs=csharp#what-are-wcf-data-services) but [maybe it will work out this time](https://github.com/Azure/data-api-builder)?
