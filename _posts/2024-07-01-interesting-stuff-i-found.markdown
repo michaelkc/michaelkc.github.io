@@ -48,3 +48,8 @@ It works well, however it is not really designed for hosting multiple apps on th
 Another great article pertains to using [Kamal to deploy ASP.NET Core apps](https://chekkan.com/2024/05/24/kamal-deploy-asp-net-core-website.html)
 
 Still sticking with free tier App Services and/or scale-to-zero Container Apps in Azure, but it is something to keep an eye on. If nothing else, Kamal and tools like it underlines how comparatively easy deployments are in the Azure/IIS world (where web deploy and similar has been available for many, many years).
+
+### The Trimodal Nature of Tech Compensation Revisited
+Gergely has many interesting takes, this one in particular attempts to explain how tech compensation works, with three "tiers" coexisting. The highest-paying one goes under the radar for most people. 
+
+[https://newsletter.pragmaticengineer.com/p/trimodal-nature-of-tech-compensation](https://newsletter.pragmaticengineer.com/p/trimodal-nature-of-tech-compensation)
