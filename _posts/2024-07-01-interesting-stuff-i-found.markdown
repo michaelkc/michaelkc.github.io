@@ -47,9 +47,19 @@ It works well, however it is not really designed for hosting multiple apps on th
 
 Another great article pertains to using [Kamal to deploy ASP.NET Core apps](https://chekkan.com/2024/05/24/kamal-deploy-asp-net-core-website.html)
 
-Still sticking with free tier App Services and/or scale-to-zero Container Apps in Azure, but it is something to keep an eye on. If nothing else, Kamal and tools like it underlines how comparatively easy deployments are in the Azure/IIS world (where web deploy and similar has been available for many, many years).
+Still sticking with free tier App Services and/or scale-to-zero Container Apps in Azure, but it is something to keep an eye on. If nothing else, Kamal and tools like it underlines how comparatively easy deployments are in the Azure/IIS world 
+(where web deploy and similar has been available for many, many years).
 
 ### The Trimodal Nature of Tech Compensation Revisited
 Gergely has many interesting takes, this one in particular attempts to explain how tech compensation works, with three "tiers" coexisting. The highest-paying one goes under the radar for most people. 
 
 [https://newsletter.pragmaticengineer.com/p/trimodal-nature-of-tech-compensation](https://newsletter.pragmaticengineer.com/p/trimodal-nature-of-tech-compensation)
+
+### Azure Verified Modules
+I do too much "ClickOps" these days, so the innovations around [Azure Verified Modules](https://azure.github.io/Azure-Verified-Modules/concepts/what-why-how/) looks quite interesting. New to me was the fact that you can now 
+reference shared Bicep modules outside of your file system. This sure beats the last attempt I saw, which had you pulling down the shared modules using Git submodules (which suck). 
+
+I need to dig in at some point to discover how they placed themselves on the trade-off between flexibility (i need to set this particular property for this resource, so it must be exposed as a module parameter) and prescriptiveness 
+(our Key Vaults should not allow public access).
+
+But for now, I think I will wait and see how the [Azure CDK will look like](https://x.com/davidfowl/status/1800785055620698587)
