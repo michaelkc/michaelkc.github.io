@@ -68,3 +68,8 @@ But for now, I think I will wait and see how the [Azure CDK will look like](http
 
 ### Data Api Builder
 [What is old is new again](https://learn.microsoft.com/en-us/visualstudio/data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio?view=vs-2022&tabs=csharp#what-are-wcf-data-services) but [maybe it will work out this time](https://github.com/Azure/data-api-builder)?
+
+### AI Agents
+[Microsoft Semantic Kernel](https://github.com/microsoft/semantic-kernel), [OpenAI Assistants API](https://platform.openai.com/docs/assistants/overview) and more locally [Idun](https://mjolner.dk/idunai/) are all trying to realize the old vision of the intelligent AI "agent", which can act on your behalf, intelligently calling into disparate services to perform work on your behalf.
+
+For the right use case, functionality like this could be really useful. But all of them struggle with [non-determinism and the quality of the work they perform](https://valoremreply.com/post/understanding-semantic-kernel/) and unintended actions through prompt injection. Something to watch and trial.
