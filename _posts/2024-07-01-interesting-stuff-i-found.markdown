@@ -73,3 +73,8 @@ But for now, I think I will wait and see how the [Azure CDK will look like](http
 [Microsoft Semantic Kernel](https://github.com/microsoft/semantic-kernel), [OpenAI Assistants API](https://platform.openai.com/docs/assistants/overview) and more locally [Idun](https://mjolner.dk/idunai/) are all trying to realize the old vision of the intelligent AI "agent", which can act on your behalf, intelligently calling into disparate services to perform work on your behalf.
 
 For the right use case, functionality like this could be really useful. But all of them struggle with [non-determinism and the quality of the work they perform](https://valoremreply.com/post/understanding-semantic-kernel/) and unintended actions through prompt injection. Something to watch and trial.
+
+### Terminal.Gui
+It keeps chugging along, now nearing v2 release. I do not have a use case currently, but as an old NC/MC user I want to...
+
+[https://gui-cs.github.io/Terminal.GuiV2Docs/](https://gui-cs.github.io/Terminal.GuiV2Docs/)
