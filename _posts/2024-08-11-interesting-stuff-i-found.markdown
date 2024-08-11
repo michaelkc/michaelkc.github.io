@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Interesting stuff i found - august 2024"
+date:   2024-08-11 20:13:20 +0200
+---
+### Acknowledge the rising importance of understanding code over merely writing
+A great quote, which reflects the message I heard at SDD from Adam Thornhill - LLMs need to help us understand and maintain code, not just create code, as that is not where we spend most of our time as software developers:
+
+> Even if the marketed AI productivity gains of becoming "55% faster" materialize, it won't mean we can ship new features 55% faster. This becomes evident when looking at the software life cycle. 
+> 
+> In software, maintenance accounts for over 90% of a typical product’s life cycle costs. This means that if AI-assisted coding tools help with the programming, that coding amounts to only 10% of a workweek. An improvement for sure, but neither groundbreaking nor a free lunch. 
+> 
+> Those software life cycle numbers imply that the primary task of a developer isn’t to write code, but rather to understand existing code.
+
+[via Fortune Buchholtz@LinkedIn](https://www.linkedin.com/posts/fortune-buchholtz-40266229_succeed-with-ai-assisted-coding-the-guardrails-activity-7213286816378949632--mQy)
