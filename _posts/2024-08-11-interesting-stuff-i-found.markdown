@@ -13,3 +13,5 @@ A great quote, which reflects the message I heard at SDD from Adam Thornhill - L
 > Those software life cycle numbers imply that the primary task of a developer isn’t to write code, but rather to understand existing code.
 
 [via Fortune Buchholtz@LinkedIn](https://www.linkedin.com/posts/fortune-buchholtz-40266229_succeed-with-ai-assisted-coding-the-guardrails-activity-7213286816378949632--mQy)
+
+(see also [Navigating the huge number of icons in FontAwesome with LLM chatbots](https://www.linkedin.com/posts/chrissylemaire_genai-claude-openai-activity-7217178595159404544-DTtF) )
