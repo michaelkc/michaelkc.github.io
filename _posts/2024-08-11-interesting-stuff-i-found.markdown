@@ -15,3 +15,8 @@ A great quote, which reflects the message I heard at SDD from Adam Thornhill - L
 [via Fortune Buchholtz@LinkedIn](https://www.linkedin.com/posts/fortune-buchholtz-40266229_succeed-with-ai-assisted-coding-the-guardrails-activity-7213286816378949632--mQy)
 
 (see also [Navigating the huge number of icons in FontAwesome with LLM chatbots](https://www.linkedin.com/posts/chrissylemaire_genai-claude-openai-activity-7217178595159404544-DTtF) )
+
+### Roadmaps and their relationship to bread going stale
+Kent Beck weighs in - guess this applies to the backlog as well. At least that is our experience at work, these days we try to keep stuff out of Jira (and as more loose roadmap ideas in Confluence, Mural or similar) unless we are able to execute soon-ish.
+
+[A loaf of roadmap](https://tidyfirst.substack.com/p/a-loaf-of-roadmap)
