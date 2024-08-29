@@ -45,3 +45,8 @@ I like this technology-anchored overview of GDPR. But I think the author got Dat
 
 ### Interactive learning of CS basics
 Via Hanselminutes - [Sam Rose](https://x.com/samwhoo) makes wonderful interactive explanations of basic CS concepts, like [queuing](https://encore.dev/blog/queueing) and [load balancing](https://samwho.dev/load-balancing/). Highly recommended, I learned something from each of them.
+
+### Permify hits 1.0
+At work we have been eyeballing Auth0/Okta FGA for a while. So it is nice to see traction in the Zanzibar-clone space with Permify hitting 1.0
+
+[https://docs.permify.co/permify-overview/intro](Permify)
