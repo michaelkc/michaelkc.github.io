@@ -50,3 +50,12 @@ Via Hanselminutes - [Sam Rose](https://x.com/samwhoo) makes wonderful interactiv
 At work we have been eyeballing Auth0/Okta FGA for a while. So it is nice to see traction in the Zanzibar-clone space with Permify hitting 1.0
 
 [https://docs.permify.co/permify-overview/intro](Permify)
+
+### Mind mapping like it's 2024
+At work we are trying to modernize a messy part of our code base, and for me that means a return to mind mapping.
+I have previously used [Mindomo](https://www.mindomo.com/) (commercial), and I heard good things about [Mindmup](https://www.mindmup.com/) (also commercial, but with generous free tier). But for now I am cheapskating it and running the actively developed Freemind fork [FreePlane](https://github.com/freeplane/freeplane)
+
+```pwsh
+scoop install freeplane
+winget install Microsoft.OpenJDK.21
+```
