@@ -34,3 +34,6 @@ The follow up about various means of control flow with queues is also great:
 I like this technology-anchored overview of GDPR. But I think the author got Data Controller and Data Processor mixed up?
 
 [https://event-driven.io/en/gdpr_for_busy_developers/](https://event-driven.io/en/gdpr_for_busy_developers/)
+
+### Testcontainers - Integration Testing Using Docker In .NET
+[TestContainers](https://www.milanjovanovic.tech/blog/testcontainers-integration-testing-using-docker-in-dotnet) in .NET for integration testing looks interesting. I have used GitHub Actions [Service Containers](https://docs.github.com/en/actions/use-cases-and-examples/using-containerized-services/about-service-containers) for basic integration testing before, but having the ability to control them directly within the test lifecycle opens up additional scenarios and increases coherence of the tests.
