@@ -59,3 +59,8 @@ I have previously used [Mindomo](https://www.mindomo.com/) (commercial), and I h
 scoop install freeplane
 winget install Microsoft.OpenJDK.21
 ```
+
+### Font with built-in syntax highlighting
+Interesting deep dive into what is possible with OpenType, being able to syntax highlight a textarea is nice.
+
+[https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting/](https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting/)
