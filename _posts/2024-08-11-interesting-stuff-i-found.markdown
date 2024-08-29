@@ -37,3 +37,8 @@ I like this technology-anchored overview of GDPR. But I think the author got Dat
 
 ### Testcontainers - Integration Testing Using Docker In .NET
 [TestContainers](https://www.milanjovanovic.tech/blog/testcontainers-integration-testing-using-docker-in-dotnet) in .NET for integration testing looks interesting. I have used GitHub Actions [Service Containers](https://docs.github.com/en/actions/use-cases-and-examples/using-containerized-services/about-service-containers) for basic integration testing before, but having the ability to control them directly within the test lifecycle opens up additional scenarios and increases coherence of the tests.
+
+### Claude AI Artifacts
+[Claude AI](https://claude.ai/), one of the best LLM chatbots for code, has gained the ability to generate interactive, shareable artifacts, like simple HTML apps, Mermaid diagrams and SVG images. Super useful, I anticipate using that a lot.
+
+[https://substack.com/@pragmaticengineer/p-148191807](https://substack.com/@pragmaticengineer/p-148191807)
