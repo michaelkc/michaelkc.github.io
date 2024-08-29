@@ -42,3 +42,6 @@ I like this technology-anchored overview of GDPR. But I think the author got Dat
 [Claude AI](https://claude.ai/), one of the best LLM chatbots for code, has gained the ability to generate interactive, shareable artifacts, like simple HTML apps, Mermaid diagrams and SVG images. Super useful, I anticipate using that a lot.
 
 [https://substack.com/@pragmaticengineer/p-148191807](https://substack.com/@pragmaticengineer/p-148191807)
+
+### Interactive learning of CS basics
+Via Hanselminutes - [Sam Rose](https://x.com/samwhoo) makes wonderful interactive explanations of basic CS concepts, like [queuing](https://encore.dev/blog/queueing) and [load balancing](https://samwho.dev/load-balancing/). Highly recommended, I learned something from each of them.
