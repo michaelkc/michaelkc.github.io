@@ -23,6 +23,14 @@ Kent Beck weighs in - guess this applies to the backlog as well. At least that i
 
 ### Control Flow - The Other Half of Integration Patterns
 A nice pattern language and names for common control flow constructs in messaging.
+
 [https://www.enterpriseintegrationpatterns.com/ramblings/queues_control_flow.html](https://www.enterpriseintegrationpatterns.com/ramblings/queues_control_flow.html)
 
-I did not get to reading the follow up [https://www.enterpriseintegrationpatterns.com/ramblings/queues_flow_control.html](https://www.enterpriseintegrationpatterns.com/ramblings/queues_flow_control.html) but it is on the list!
+The follow up about various means of control flow with queues is also great:
+
+[https://www.enterpriseintegrationpatterns.com/ramblings/queues_flow_control.html](https://www.enterpriseintegrationpatterns.com/ramblings/queues_flow_control.html) but it is on the list!
+
+### GDPR for busy developers
+I like this technology-anchored overview of GDPR. But I think the author got Data Controller and Data Processor mixed up?
+
+[https://event-driven.io/en/gdpr_for_busy_developers/](https://event-driven.io/en/gdpr_for_busy_developers/)
