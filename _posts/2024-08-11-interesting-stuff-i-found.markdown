@@ -64,3 +64,10 @@ winget install Microsoft.OpenJDK.21
 Interesting deep dive into what is possible with OpenType, being able to syntax highlight a textarea is nice.
 
 [https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting/](https://blog.glyphdrawing.club/font-with-built-in-syntax-highlighting/)
+
+### nuclei - open source, command-line DAST scanner
+[Nuclei](https://github.com/projectdiscovery/nuclei) looks like a promising alternative to tools like OWASP Zap, Nessus and Burp suite, with a strong automation story given its command-line nature.
+
+Currently, I am not actively looking into DAST (hands full with SAST tooling), but I am saving it for later. 
+
+[https://www.helpnetsecurity.com/2024/08/26/nuclei-open-source-vulnerability-scanner/](https://www.helpnetsecurity.com/2024/08/26/nuclei-open-source-vulnerability-scanner/)
