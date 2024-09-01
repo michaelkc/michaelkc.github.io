@@ -10,3 +10,10 @@ Impressive stuff, interesting to imagine possibilities in the future.
 
 ### The Nature of Code
 Like the Sam Rose visualization of CS basics, [The Nature of Code](https://natureofcode.com/) explains and visualizes various natural phenomena. This could be useful for a bit of home teaching when the kids are older. Via Scott Hanselman.
+
+### How Uber tests payment (in production)
+TL;DR staging environments cannot catch all bugs. I really like the "staged deploy to subset of production users" approach but when your market is not global but consist of ~50.000 potential users, getting useful feedback is tricky. Also the engineering challenge of running multiple copies of an application/service side-by-side (while presumably sharing persistent state in a forward/backward compatible way) is not trivial.
+
+Would be nice to have this setup, but for now I am sticking to staging environments with fast rollback options (and sometimes feature flags), which is working ok for us.
+
+[https://news.alvaroduran.com/p/cringey-but-true-how-uber-tests-payments](https://news.alvaroduran.com/p/cringey-but-true-how-uber-tests-payments)
