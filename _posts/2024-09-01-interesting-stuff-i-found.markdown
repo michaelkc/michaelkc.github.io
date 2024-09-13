@@ -27,3 +27,8 @@ Would be nice to have this setup, but for now I am sticking to staging environme
 I just finished listening to the audio book of [The Staff Engineer's Path](https://www.oreilly.com/library/view/the-staff-engineers/9781098118723/) by Tanya Reilly. Lots of good stuff, the author gathered up the resources referenced in the book here:
 
 [https://www.noidea.dog/staff-resources](https://www.noidea.dog/staff-resources)
+
+### Listening to epub books via Google Books
+Nice tip from Paulo Lai - you can import epub books to Google Books, and have them read as audio books by speech synthesis. Since the latter has gotten so much better in recent years, this is a nice option for books which are not yet available as audio books.
+
+[LinkedIn comment](https://www.linkedin.com/feed/update/urn:li:activity:7237553734879182848?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7237553734879182848%2C7239624545593139201%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287239624545593139201%2Curn%3Ali%3Aactivity%3A7237553734879182848%29)
