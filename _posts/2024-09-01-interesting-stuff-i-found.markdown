@@ -11,6 +11,11 @@ Impressive stuff, interesting to imagine possibilities in the future.
 ### The Nature of Code
 Like the Sam Rose visualization of CS basics, [The Nature of Code](https://natureofcode.com/) explains and visualizes various natural phenomena. This could be useful for a bit of home teaching when the kids are older. Via Scott Hanselman.
 
+### B-trees and database indexes
+Same vibe, but here on a technical topic of which I am blissfully ignorant. I do remember falling asleep when reading [Fundamentals of Database Systems](https://www.amazon.com/Fundamentals-Database-Systems-Ramez-Elmasri/dp/0133970779) back in the day; it has served well as a monitor stand from time to time:
+
+[https://planetscale.com/blog/btrees-and-database-indexes](https://planetscale.com/blog/btrees-and-database-indexes)
+
 ### How Uber tests payment (in production)
 TL;DR staging environments cannot catch all bugs. I really like the "staged deploy to subset of production users" approach but when your market is not global but consist of ~50.000 potential users, getting useful feedback is tricky. Also the engineering challenge of running multiple copies of an application/service side-by-side (while presumably sharing persistent state in a forward/backward compatible way) is not trivial.
 
