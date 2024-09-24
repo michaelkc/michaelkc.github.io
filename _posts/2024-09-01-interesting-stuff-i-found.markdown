@@ -42,3 +42,8 @@ Cannot vouch for the accuracy, but it looks plausible. Interesting visualization
 The struggle is real - this tip (CTRL-double-click tool window header) will come in real handy, when I once more accidentally pull out a Visual Studio tool window to float....
 
 [https://devblogs.microsoft.com/visualstudio/easily-dock-and-float-tool-windows/](https://devblogs.microsoft.com/visualstudio/easily-dock-and-float-tool-windows/)
+
+### Enhancing .NET Aspire Observability with Seq
+Currently i use a combination of log files and AppInsights when running stuff locally. Moving to Aspire, OTEL and a local Seq instance would greatly enhance that experience, so this is definitely on the TODO:
+
+[https://blog.datalust.co/enhancing-net-aspire-with-seq/](https://blog.datalust.co/enhancing-net-aspire-with-seq/)
