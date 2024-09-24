@@ -47,3 +47,9 @@ The struggle is real - this tip (CTRL-double-click tool window header) will come
 Currently i use a combination of log files and AppInsights when running stuff locally. Moving to Aspire, OTEL and a local Seq instance would greatly enhance that experience, so this is definitely on the TODO:
 
 [https://blog.datalust.co/enhancing-net-aspire-with-seq/](https://blog.datalust.co/enhancing-net-aspire-with-seq/)
+
+### Semantic diff
+I have been reviewing A LOT of changes lately. This led me to look for semantic diff tools (which understand the language semantics, instead of doing text compare).
+
+[difftastic](https://difftastic.wilfred.me.uk/git.html#one-off-usage) is the only free option i found, and seems to work well from the command line. 
+Unfortunately, no VS/vscode or GitHub pull request integration, for that you need to turn to commercial offerings like [SemanticDiff](https://semanticdiff.com/) or [GitClear](https://www.gitclear.com/best_github_alternative_pull_request_review_tool)
