@@ -32,3 +32,8 @@ I just finished listening to the audio book of [The Staff Engineer's Path](https
 Nice tip from Paulo Lai - you can import epub books to Google Books, and have them read as audio books by speech synthesis. Since the latter has gotten so much better in recent years, this is a nice option for books which are not yet available as audio books.
 
 [LinkedIn comment](https://www.linkedin.com/feed/update/urn:li:activity:7237553734879182848?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7237553734879182848%2C7239624545593139201%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287239624545593139201%2Curn%3Ali%3Aactivity%3A7237553734879182848%29)
+
+### How Tech Giants make their money
+Cannot vouch for the accuracy, but it looks plausible. Interesting visualization too
+
+[How Tech Giants make their money](https://www.threads.net/@dataworld_feed/post/C_fPdaNK-Qv/)
