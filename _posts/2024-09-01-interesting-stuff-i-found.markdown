@@ -37,3 +37,8 @@ Nice tip from Paulo Lai - you can import epub books to Google Books, and have th
 Cannot vouch for the accuracy, but it looks plausible. Interesting visualization too
 
 [How Tech Giants make their money](https://www.threads.net/@dataworld_feed/post/C_fPdaNK-Qv/)
+
+### Dock and float Visual Studio tool windows
+The struggle is real - this tip (CTRL-double-click tool window header) will come in real handy, when I once more accidentally pull out a Visual Studio tool window to float....
+
+[https://devblogs.microsoft.com/visualstudio/easily-dock-and-float-tool-windows/](https://devblogs.microsoft.com/visualstudio/easily-dock-and-float-tool-windows/)
