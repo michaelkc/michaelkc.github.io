@@ -55,6 +55,8 @@ I have been reviewing A LOT of changes lately. This led me to look for semantic 
 Unfortunately, no VS/vscode or GitHub pull request integration, for that you need to turn to commercial offerings like [SemanticDiff](https://semanticdiff.com/) or [GitClear](https://www.gitclear.com/best_github_alternative_pull_request_review_tool)
 
 ### ASP.NET Core Engineering Guidelines
-Not updated since 2022, maybe they were just perfect, or they moved on? Anyway, it is interesting to see which things they chose to call out for a big, complex project like ASP.NET Core
+Not updated since 2022, maybe they were just perfect, or they moved on? Anyway, it is interesting to see which things they chose to call out for a big, complex project like ASP.NET Core.
+
+There are also some newer [docs](https://github.com/dotnet/aspnetcore/tree/main/docs) in source control.
 
 [https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines](https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines)
