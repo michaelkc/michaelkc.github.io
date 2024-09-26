@@ -53,3 +53,8 @@ I have been reviewing A LOT of changes lately. This led me to look for semantic 
 
 [difftastic](https://difftastic.wilfred.me.uk/git.html#one-off-usage) is the only free option i found, and seems to work well from the command line. 
 Unfortunately, no VS/vscode or GitHub pull request integration, for that you need to turn to commercial offerings like [SemanticDiff](https://semanticdiff.com/) or [GitClear](https://www.gitclear.com/best_github_alternative_pull_request_review_tool)
+
+### ASP.NET Core Engineering Guidelines
+Not updated since 2022, maybe they were just perfect, or they moved on? Anyway, it is interesting to see which things they chose to call out for a big, complex project like ASP.NET Core
+
+[https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines](https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines)
