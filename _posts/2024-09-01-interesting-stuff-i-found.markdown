@@ -62,8 +62,8 @@ There are also some newer [docs](https://github.com/dotnet/aspnetcore/tree/main/
 [https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines](https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines)
 
 ### Fan-out work
-A name for something I encounter a lot working in a platform team, "Fan-out work". When you make a change (e.g. deprecate platform feature) and there is a lot of work outside the team (e.g. platform consumers have to rework) which needs to be taken into account.
+When you make a change in something others depend on (e.g. deprecate a platform feature) this oftens generates a lot of work outside the team (e.g. platform consumers have to rework) which needs to be taken into account.
 
-We often have features which we could resolve in days internally, but would generate months of work in the rest of the organization. Communicating this to stakeholders can be tricky.
+We often have features which we could resolve in days internally, but would generate months of work in the rest of the organization. Coordinating this with stakeholders can be tricky.
 
 [https://www.rubick.com/fan-out-work/](https://www.rubick.com/fan-out-work/)
