@@ -29,3 +29,8 @@ They are very honest about
 Great stuff - hiding secrets in Azure and elsewhere while streaming.
 
 [https://github.com/microsoft/cloudcloak](https://github.com/microsoft/cloudcloak)
+
+### Philosophy
+This made me laugh, I am a sucker for any trolley-problem setup
+
+[Philosophy](https://www.threads.net/@smbccomics/post/DAteBbuRYlg/)
