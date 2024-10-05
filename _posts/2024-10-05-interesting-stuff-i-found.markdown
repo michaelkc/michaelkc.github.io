@@ -24,3 +24,8 @@ They are very honest about
 - they run it, because they gets loads of profiling data sent in they can use themselves
 
 [https://clarity.microsoft.com/](https://clarity.microsoft.com/)
+
+### Cloud Cloak
+Great stuff - hiding secrets in Azure and elsewhere while streaming.
+
+[https://github.com/microsoft/cloudcloak](https://github.com/microsoft/cloudcloak)
