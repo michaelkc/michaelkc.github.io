@@ -34,3 +34,8 @@ Great stuff - hiding secrets in Azure and elsewhere while streaming.
 This made me laugh, I am a sucker for any trolley-problem setup
 
 [Philosophy](https://www.threads.net/@smbccomics/post/DAteBbuRYlg/)
+
+### Making ASP.NET Core Controllers internal
+Was doing some refactoring in a project and once more needed this to control "viral" public visibility in the project. 
+
+[ASP.NET (Core)'s zombie virus of 'public': can controllers be internal?](https://stackoverflow.com/q/64165215)
