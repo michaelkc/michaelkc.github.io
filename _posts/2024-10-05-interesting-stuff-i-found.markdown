@@ -39,3 +39,8 @@ This made me laugh, I am a sucker for any trolley-problem setup
 Was doing some refactoring in a project and once more needed this to control "viral" public visibility in the project. 
 
 [ASP.NET (Core)'s zombie virus of 'public': can controllers be internal?](https://stackoverflow.com/q/64165215)
+
+### How hard should your employer work to retain you?
+Great article by Charity Majors from Honeycomb.
+
+[How hard should your employer work to retain you?](https://charity.wtf/2024/10/11/how-hard-should-your-employer-work-to-retain-you/)
