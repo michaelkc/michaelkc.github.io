@@ -44,3 +44,8 @@ Was doing some refactoring in a project and once more needed this to control "vi
 Great article by Charity Majors from Honeycomb.
 
 [How hard should your employer work to retain you?](https://charity.wtf/2024/10/11/how-hard-should-your-employer-work-to-retain-you/)
+
+### Things I Wished More Developers Knew About Databases
+Lots of interesting stuff here. 
+
+[Things I Wished More Developers Knew About Databases](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
