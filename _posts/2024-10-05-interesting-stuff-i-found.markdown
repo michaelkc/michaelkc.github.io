@@ -54,3 +54,8 @@ Lots of interesting stuff here.
 [This LinkedIn post](https://www.linkedin.com/posts/jrdodson_security-secops-infosec-activity-7251026681803497473-0WHc/) led me to the very useful [Least privileged roles by task in Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/delegate-by-task)
 
 As the author states, a similar list for all of the Azure roles would be extremely useful; sadly none seem to exist. 
+
+### Azure CDK
+I browsed around some Aspire pull requests, and it seems the "Azure CDK" (at least in their context) is this nuget package.
+
+[Azure.Provisioning](https://www.nuget.org/packages/Azure.Provisioning/)
