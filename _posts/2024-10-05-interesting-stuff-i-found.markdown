@@ -77,3 +77,19 @@ We encountered a weird bug with Chrome/Edge 130, where F12 tools would crash the
 
 ### oauth.dev
 [oauth2.dev](https://oauth2.dev) [sounds useful](https://www.linkedin.com/posts/andy-barlow_openidconnect-oauth2-iam-ugcPost-7256735933448777728-1cUy/), but there is currently an issue with the site cert which prevents it from working. I hope Andy gets it fixed, as a hobby project I guess other things tend to take priority :-)
+
+### Various authentication mechanisms vs Evilginx
+Not normally much into videos, but here it works well. The main point is that only FIDO keys and Passkeys prevent token theft if you are phished using something like [Evilginx](https://github.com/kgretzky/evilginx2)
+
+[Microsoft Passkeys vs Evilginx Token Theft](https://www.youtube.com/watch?v=V4ud5IeFRSA)
+
+(this and the following security links via [Anton W](https://www.linkedin.com/posts/anton-willoughby_entraid-cybersecurity-mfa-activity-7255934046134755328-C8HB/))
+
+### Conditional Access Evaluation Protocol (CAEP) and Microsoft Cloud
+While the [CAEP](https://openid.net/specs/openid-caep-1_0-03.html) spec brews, Microsoft has been implementing the revocation mechanisms for a while in Entra and associated services.
+The author of [this article](https://cloudbrothers.info/continuous-access-evaluation/) took the time to dig into the details, including testing the documented signals causing revocation and how long it took for them to work. 
+
+### Understanding tokens in Entra ID
+Great overview of the basics and Microsofts implementation of multiple layers of refresh tokens
+
+[https://www.xintra.org/blog/tokens-in-entra-id-guide](https://www.xintra.org/blog/tokens-in-entra-id-guide)
