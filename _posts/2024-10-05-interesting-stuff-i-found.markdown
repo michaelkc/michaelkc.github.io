@@ -69,3 +69,8 @@ Interesting to see where this goes. They adress common concerns, including most 
 
 [https://devclass.com/2023/08/17/system-initiative-automated-cloud-deployment-tool-now-open-source-devs-hope-it-improves-on-terraform/](https://devclass.com/2023/08/17/system-initiative-automated-cloud-deployment-tool-now-open-source-devs-hope-it-improves-on-terraform/)
 [System Initiative FAQ](https://www.systeminit.com/)
+
+### Tab with invalid CSS crashes with STATUS_BREAKPOINT when F12 tools are opened
+We encountered a weird bug with Chrome/Edge 130, where F12 tools would crash the tab of one of our Blazor apps. I managed to boil it down to a very small repro, hope the Chromium guys and girls can get it fixed
+
+[https://issues.chromium.org/issues/376084069](https://issues.chromium.org/issues/376084069)
