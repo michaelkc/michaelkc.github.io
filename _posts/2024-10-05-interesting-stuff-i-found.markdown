@@ -74,3 +74,6 @@ Interesting to see where this goes. They adress common concerns, including most 
 We encountered a weird bug with Chrome/Edge 130, where F12 tools would crash the tab of one of our Blazor apps. I managed to boil it down to a very small repro, hope the Chromium guys and girls can get it fixed
 
 [https://issues.chromium.org/issues/376084069](https://issues.chromium.org/issues/376084069)
+
+### oauth.dev
+[oauth2.dev](https://oauth2.dev) [sounds useful](https://www.linkedin.com/posts/andy-barlow_openidconnect-oauth2-iam-ugcPost-7256735933448777728-1cUy/), but there is currently an issue with the site cert which prevents it from working. I hope Andy gets it fixed, as a hobby project I guess other things tend to take priority :-)
