@@ -59,3 +59,13 @@ As the author states, a similar list for all of the Azure roles would be extreme
 I browsed around some Aspire pull requests, and it seems the "Azure CDK" (at least in their context) is this nuget package.
 
 [Azure.Provisioning](https://www.nuget.org/packages/Azure.Provisioning/)
+
+### System Initiative
+Initial reaction was "this is Terraform, with a GUI". Basically they
+- pulled the "code" part of the infrastructure model out of Git and into their database as data
+- made a GUI the primary way to interact with the infrastructure model
+
+Interesting to see where this goes. They adress common concerns, including most drag'n'drop GUI tools for DevOps being toys, but if their take will stand the test of time remains to be seen
+
+[https://devclass.com/2023/08/17/system-initiative-automated-cloud-deployment-tool-now-open-source-devs-hope-it-improves-on-terraform/](https://devclass.com/2023/08/17/system-initiative-automated-cloud-deployment-tool-now-open-source-devs-hope-it-improves-on-terraform/)
+[System Initiative FAQ](https://www.systeminit.com/)
