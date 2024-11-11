@@ -23,3 +23,10 @@ and then run it on a set of repos in a flat text file (or optionally all repos i
 git-xargs.exe --branch-name xargs-updates --loglevel DEBUG --commit-message "Update dependabot.yml" --repos data\testrepos.txt --skip-archived-repos --seconds-between-prs 5  c:\absolute-path-to-script\copy_dependabot.bat
 ```
 For more advanced manipulation of source code in the scripts, someone mentioned [ast-grep](https://github.com/ast-grep/ast-grep?tab=readme-ov-file). It looks very powerful, but I have not had time to try it out yet.
+
+### Handling intra-network service-to-service security
+Unauthenticated calls between internal services, relying on the [network being secure](https://particular.net/blog/the-network-is-secure) from outside interference always make me cringe.
+
+Typical solutions have been client_credential authentication for trusted subsystem style calls and more complex token exchange setups for delegation scenarios, where the end user must be independently verifiable by the called service. 
+
+The latter has not seen standardized support (at least I am aware of) since WS-Trust ActAs, so it is great to see new spec initiatives like [transaction tokens](https://www.ietf.org/archive/id/draft-ietf-oauth-transaction-tokens-03.html) and implementations like [Tratteria](https://sgnl.ai/2024/09/secure-identity-and-context-in-microservices-with-tratteria/). Unfortunately, being heavily tied to Kubernetes makes adoption hard in my context for now...
