@@ -30,3 +30,12 @@ Unauthenticated calls between internal services, relying on the [network being s
 Typical solutions have been client_credential authentication for trusted subsystem style calls and more complex token exchange setups for delegation scenarios, where the end user must be independently verifiable by the called service. 
 
 The latter has not seen standardized support (at least I am aware of) since WS-Trust ActAs, so it is great to see new spec initiatives like [transaction tokens](https://www.ietf.org/archive/id/draft-ietf-oauth-transaction-tokens-03.html) and implementations like [Tratteria](https://sgnl.ai/2024/09/secure-identity-and-context-in-microservices-with-tratteria/). Unfortunately, being heavily tied to Kubernetes makes adoption hard in my context for now...
+
+### Kamal 2
+Kubernetes is a beast, as DHH puts it. [Kamal](https://kamal-deploy.org/) offers imperative, fully automated deployment of anything you can put in a container (including worker services) to VMs via SSH. 
+New in Kamal 2 is the ability to host multiple services on a single machine (great for dev/test and penny pinching).
+
+While i still prefer Azure cloud solutions like App Service and Container Apps for professional .NET app hosting (the former of which has a non-container deployment story, while the latter has a great control plane for things like scale-to-zero), 
+Kamal 2 is working wonders for my hobby projects, being deployed via [GitHub Actions](https://gist.github.com/acidtib/df6fcdacfcf6063d2ec3d399e5ae8f5c) and [Tailscale](https://github.com/tailscale/github-action) to my home lab setup. 
+
+The only rough spot with Kamal 2 currently is the docs - but with the help of searching the project Discord (which seems lively if you encounter issues not) I was quickly able to iron out the kinks.
