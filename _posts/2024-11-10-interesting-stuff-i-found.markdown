@@ -70,3 +70,8 @@ Amongst other things, Nextcloud support WebDav, which allows you to [rclone](htt
 https://<nextcloud-public-hostname>/remote.php/dav/files/<nextcloud-user>/<folder-in-nextcloud-files>
 ```
 was what was needed in the end.
+
+### Find people on BlueSky based on who the people you follow follow
+As more and more people leave or at least disengage from the trash heap that is X, BlueSky is picking up steam.
+
+[BlueSky Follow Finder](https://bsky-follow-finder.theo.io/) is pretty nifty for rediscovering people you used to follow on the bird site.
