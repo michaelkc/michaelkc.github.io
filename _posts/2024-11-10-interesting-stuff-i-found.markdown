@@ -39,3 +39,34 @@ While i still prefer Azure cloud solutions like App Service and Container Apps f
 Kamal 2 is working wonders for my hobby projects, being deployed via [GitHub Actions](https://gist.github.com/acidtib/df6fcdacfcf6063d2ec3d399e5ae8f5c) and [Tailscale](https://github.com/tailscale/github-action) to my home lab setup. 
 
 The only rough spot with Kamal 2 currently is the docs - but with the help of searching the project Discord (which seems lively if you encounter issues not) I was quickly able to iron out the kinks.
+
+### Nextcloud
+I finally got around to trying out [Nextcloud](https://github.com/nextcloud/all-in-one), a host-it-yourself OneDrive/Office Online/Teams alternative, on an ~~old~~ ancient [HP EX490 HomeServer](https://en.wikipedia.org/wiki/HP_MediaSmart_Server) I have repurposed as a Linux box (side note: [headless Linux install is fun](https://microsolutions.info/2016/06/hp-ex490-6tb-gpt-boot.html); the machine has no graphics card and no expansion slots to add one).
+
+It turns out you to be a bit more work than I had anticipated, as Nextcloud will not operate without being able to get a valid HTTPS cert. And my ISP does not allow any incoming traffic (no easy Let's Encrypt). 
+
+I ended up combining the Docker-based install of Nextcloud
+```
+sudo docker run \
+--init \
+--sig-proxy=false \
+--name nextcloud-aio-mastercontainer \
+--restart always \
+--publish 80:80 \
+--publish 8080:8080 \
+--publish 8443:8443 \
+--env SKIP_DOMAIN_VALIDATION=true \
+--env NEXTCLOUD_DATADIR="/some/data/store" \
+--env APACHE_PORT=11000 \
+--env APACHE_IP_BINDING=0.0.0.0 \
+--volume nextcloud_aio_mastercontainer:/mnt/docker-aio-config \
+--volume /var/run/docker.sock:/var/run/docker.sock:ro \
+nextcloud/all-in-one:latest
+```
+with [Cloudflare tunnels](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/) to reverse-proxy the traffic in (and use Cloudflare for the HTTPS cert). It seems to be working fine.
+
+Amongst other things, Nextcloud support WebDav, which allows you to [rclone](https://rclone.org/) folders to the user data store in Nextcloud. I had a bit of trouble with the paths
+```
+https://<nextcloud-public-hostname>/remote.php/dav/files/<nextcloud-user>/<folder-in-nextcloud-files>
+```
+was what was needed in the end.
