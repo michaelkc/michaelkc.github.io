@@ -75,3 +75,18 @@ was what was needed in the end.
 As more and more people leave or at least disengage from the trash heap that is X, BlueSky is picking up steam.
 
 [BlueSky Follow Finder](https://bsky-follow-finder.theo.io/) is pretty nifty for rediscovering people you used to follow on the bird site.
+
+### Async (await) guidance for .NET
+[https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md](https://github.com/davidfowl/AspNetCoreDiagnosticScenarios/blob/master/AsyncGuidance.md#asynchrony-is-viral)
+
+Lots of gotchas, worth a read. Maybe one day there will be more than "TBD" for the horrible `.ConfigureAwait()`? 
+
+### Mastering Programming
+[https://tidyfirst.substack.com/p/mastering-programming](https://tidyfirst.substack.com/p/mastering-programming)
+
+Succint, food for thought. Being able to slice  problems until you can deliver them in hours & days instead of weeks & months (years?) is certainly a universally useful skill.
+
+### Debugging architects
+[https://architectelevator.com/transformation/debugging-architect/](https://architectelevator.com/transformation/debugging-architect/)
+
+Gregor argues that debugging is a good activity for architects to keep in touch with the engine room. 
