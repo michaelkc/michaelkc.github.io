@@ -1,0 +1,115 @@
+---
+layout: post
+title:  "OCI .NET SDK - interacting with OCI Vault"
+date:   2024-11-26 00:14:20 +0100
+---
+Oracle Cloud, also known as Oci, provides a [generous free tier](https://www.oracle.com/cloud/free/).
+
+One of the free services is [Oci Vault](https://docs.oracle.com/en-us/iaas/Content/KeyManagement/home.htm), roughly equivalent to Azure Key Vault, which I use every day at work. 
+But for home projects, I wanted to gain familiarity with Oci Vault. 
+This turned out to be a bit hard, especially as I had to learn a lot of Oci idiosyncrasies along the way.
+
+As I had trouble finding good examples, I am posting the resulting [Linqpad](https://www.linqpad.net/) code here, in the hope that it will be useful for others.
+
+The code expects the [OCI.DotNetSDK.Secrets](https://www.nuget.org/packages/OCI.DotNetSDK.Secrets) (version 99 at the time of writing) and 
+[OCI.DotNetSDK.Vault](https://www.nuget.org/packages/OCI.DotNetSDK.Vault) (version 100 at the time of writing) packages to be installed.
+
+The code runs in Linqpad 8, and probably previous versions as well. Converting it to a console app should not be hard.
+
+
+```csharp
+async Task Main()
+{
+	// Vault must be provisioned with an encryption key to be operational
+	// Private key must be associated with user with access to the vault, 
+	// and stored as "oci_private_key" in Linqpad.
+	// As Linqpad seems to mangle the key when input (single line),
+	// paste the PEM file contents via Paste -> As escaped string, then call
+	// Util.SetPassword("oci_private_key", keyString)
+	var authConfig = new OciAuthConfig
+	{
+		UserId = "<snip>",
+		Fingerprint = "<snip>",
+		PrivateKeyPem = Util.GetPassword("oci_private_key"),
+		CompartmentId = "<snip>",
+		Region = "eu-frankfurt-1"
+	};
+	var vaultConfig = new OciVaultsConfig
+	{
+		VaultId = "<snip>"
+	};
+	using var vaultsClient = OciClientFactory.CreateVaultsClientFromConfig(authConfig);
+	var secrets = await vaultsClient.ListSecrets(new ListSecretsRequest
+	{
+		CompartmentId = authConfig.CompartmentId,
+		VaultId = vaultConfig.VaultId
+	});
+	secrets.Items.Dump();
+	secrets.OpcNextPage.Dump();
+
+
+	var secret = await vaultsClient.GetSecret(new GetSecretRequest{
+		SecretId = secrets.Items.First().Id,
+	});
+	secret.Secret.Dump();
+	var currentVersion = secret.Secret.CurrentVersionNumber;
+
+	var secretContents = await vaultsClient.GetSecretVersion(new GetSecretVersionRequest{
+		SecretId = secrets.Items.First().Id,
+		SecretVersionNumber = currentVersion,
+	});
+	
+	using var secretsClient = OciClientFactory.CreateSecretsClientFromConfig(authConfig);
+	var secretBundle = await secretsClient.GetSecretBundleByName(new GetSecretBundleByNameRequest{
+		SecretName = "mysecret1",
+		VaultId = vaultConfig.VaultId
+	});
+	Base64SecretBundleContentDetails bundleContent = (Base64SecretBundleContentDetails)secretBundle.SecretBundle.SecretBundleContent;
+	bundleContent.Content.Dump();
+	var secretValue = Encoding.UTF8.GetString(Convert.FromBase64String(bundleContent.Content));
+	secretValue.Dump();
+}
+
+public static class OciClientFactory
+{
+	public static VaultsClient CreateVaultsClientFromConfig(OciAuthConfig config, ClientConfiguration clientConfiguration = null, string endpoint = null)
+	{
+		var provider = new SimpleAuthenticationDetailsProvider
+		{
+			UserId = config.UserId,
+			Fingerprint = config.Fingerprint,
+			PrivateKeySupplier = new PrivateKeySupplier(config.PrivateKeyPem),
+			TenantId = config.CompartmentId,
+			Region = Oci.Common.Region.FromRegionCodeOrId(config.Region)
+		};
+		return new VaultsClient(provider, clientConfiguration, endpoint);
+	}
+
+	public static SecretsClient CreateSecretsClientFromConfig(OciAuthConfig config, ClientConfiguration clientConfiguration = null, string endpoint = null)
+	{
+		var provider = new SimpleAuthenticationDetailsProvider
+		{
+			UserId = config.UserId,
+			Fingerprint = config.Fingerprint,
+			PrivateKeySupplier = new PrivateKeySupplier(config.PrivateKeyPem),
+			TenantId = config.CompartmentId,
+			Region = Oci.Common.Region.FromRegionCodeOrId(config.Region)
+		};
+		return new SecretsClient(provider, clientConfiguration, endpoint);
+	}
+}
+
+public class OciAuthConfig
+{
+	public required string UserId { get; set; }             // E.g. ocid1.user.oc1..aaaa<more chars>
+	public required string Fingerprint { get; set; }        // E.g. de:ad:be:ef:00:00:00:00:00:00:00:00:00:00:00:00
+	public required string PrivateKeyPem { get; set; }      // E.g. -----BEGIN PRIVATE KEY-----<more chars>. Must be associated with user in OCI, cannot handle single-line PEM without headers AFAICT
+	public required string CompartmentId { get; set; }      // E.g. ocid1.tenancy.oc1..aaaa<more chars>
+	public required string Region { get; set; }             // E.g. EU_FRANKFURT_1
+}
+
+public class OciVaultsConfig
+{
+	public required string VaultId { get; set; }            // E.g. ocid1.vault.oc1.eu-frankfurt-1.entt<more chars>
+}
+```
