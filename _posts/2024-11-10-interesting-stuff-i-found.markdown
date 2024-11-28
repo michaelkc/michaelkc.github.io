@@ -90,3 +90,8 @@ Succint, food for thought. Being able to slice  problems until you can deliver t
 [https://architectelevator.com/transformation/debugging-architect/](https://architectelevator.com/transformation/debugging-architect/)
 
 Gregor argues that debugging is a good activity for architects to keep in touch with the engine room. 
+
+### IaC & modern workloads
+[https://architectelevator.com/cloud/iac-architecture-as-code/](https://architectelevator.com/cloud/iac-architecture-as-code/)
+
+Gregor argues that modern serverless architecture, which is heavy on "lines" (e.g. message passing with queues) between small "boxes" (e.g. Azure functions) lends itself poorly to the hierarchical paradigm utilized by traditional IaC tooling like Bicep and Terraform. In the process, he touches upon some of the same stuff rolling out via Aspire, representing the application architecture as code, with optional infra generation behind that model.
