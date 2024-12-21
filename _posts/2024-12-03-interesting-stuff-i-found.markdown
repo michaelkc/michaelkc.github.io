@@ -19,3 +19,8 @@ Saw this used in a presentation
 I have been eyeing [SOPS](https://getsops.io/) for a while, and I got around to actually using it, as I needed to encrypt the contents of some YAML configuration files for [ZAP](https://www.zaproxy.org/) Automation Framework.
 
 It turns out to be really easy to use when you have a Key Management service available, we are using Azure Key Vault and it works flawlessly. Recommended.
+
+### SWEBOOK - An Evolving Body of Knowledge
+A massive tome (400+ pages) attempting to cover software engineering. I did not read much of it, but judging from the ToC it seems comprehensive.
+
+[https://www.computer.org/education/bodies-of-knowledge/software-engineering](https://www.computer.org/education/bodies-of-knowledge/software-engineering)
