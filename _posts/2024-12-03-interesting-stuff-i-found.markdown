@@ -24,3 +24,8 @@ It turns out to be really easy to use when you have a Key Management service ava
 A massive tome (400+ pages) attempting to cover software engineering. I did not read much of it, but judging from the ToC it seems comprehensive.
 
 [https://www.computer.org/education/bodies-of-knowledge/software-engineering](https://www.computer.org/education/bodies-of-knowledge/software-engineering)
+
+### Cloudypad - gaming on spot instances
+Someone whipped together a script to provision and configure a AWS/Amazon spot VM with NVIDIA T4000 and steam games via Moonlight. That is an interesting concept, but with the cost estimates they provide something like Xbox Ultimate seems like a better deal.
+
+[https://cloudypad.gg/](https://cloudypad.gg/)
