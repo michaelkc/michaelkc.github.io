@@ -19,3 +19,12 @@ I really like this concise breakdown of how containers work, including interacti
 Cool stuff, very approachable. But still a huge problem that the models cannot be trusted to not go haywire. Lots of innovation going on in this space, maybe someone will come up with a good enough solution...
 
 [https://blog.darrenjrobinson.com/an-entra-id-ai-agent-using-powershell/](https://blog.darrenjrobinson.com/an-entra-id-ai-agent-using-powershell/)
+
+### Nullables for testing
+[Nullables](https://www.jamesshore.com/v2/projects/nullables) presents an alternative approach to slow end to end tests, or brittle Mock-based tests which constrains refactoring and often end up testing too little to be representative of actual behaviour.
+
+I second his analysis of the issues with end to end and mock-heavy tests, and i like the use of a consistent pattern language.
+
+For me the issue is not so much including stub code in production as it is going from DI to instantiating dependencies inline (with Nullable propagation). 
+
+Would love to try out this approach and/or go through the [free course](https://www.jamesshore.com/v2/courses/testing-without-mocks), if time permits.
