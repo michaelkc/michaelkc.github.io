@@ -28,3 +28,8 @@ I second his analysis of the issues with end to end and mock-heavy tests, and i 
 For me the issue is not so much including stub code in production as it is going from DI to instantiating dependencies inline (with Nullable propagation). 
 
 Would love to try out this approach and/or go through the [free course](https://www.jamesshore.com/v2/courses/testing-without-mocks), if time permits.
+
+### Cognitive load is what matters
+Short but still lots of good stuff. The discussion of Shallow vs Deep modules and their impact on cognitive load puts words on something I often pondered when reading "5 lines of code" style guidance.
+
+[https://minds.md/zakirullin/cognitive](https://minds.md/zakirullin/cognitive)
