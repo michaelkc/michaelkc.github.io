@@ -14,3 +14,8 @@ I really like this concise breakdown of how containers work, including interacti
 [Building a Container Runtime by Hand](https://medium.com/@donovan.hubbard/demystifying-containers-part-1-4555311061fc)
 
 [How to Manually Download Container Images](https://medium.com/@donovan.hubbard/how-to-manually-download-container-images-8189bb60baa5)
+
+### Entra ID AI-powered free text query "agent" 
+Cool stuff, very approachable. But still a huge problem that the models cannot be trusted to not go haywire. Lots of innovation going on in this space, maybe someone will come up with a good enough solution...
+
+[https://blog.darrenjrobinson.com/an-entra-id-ai-agent-using-powershell/](https://blog.darrenjrobinson.com/an-entra-id-ai-agent-using-powershell/)
