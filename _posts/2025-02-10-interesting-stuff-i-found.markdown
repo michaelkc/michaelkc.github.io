@@ -65,3 +65,8 @@ It works flawlessly, and supplements the support in Confluence nicely. I can see
 ![100](/assets/images/100.drawio.svg)
 
 [draw.io VSCode extension](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
+
+### Fluentd
+A coworker had positive experience with using Fluentd to unify log streams from different sources. However in a world of .NET, seeing an [8 year old NLog target](https://github.com/fluent/NLog.Targets.Fluentd) as the only .NET option does not inspire confidence (but indicates a lot of work ahead). Similarly, the presence of a [Twitter plugin](https://www.fluentd.org/datasources/twitter) indicates that keeping up with sources is not a priority...
+
+[https://www.fluentd.org/architecture](https://www.fluentd.org/architecture)
