@@ -29,3 +29,9 @@ While not at their scale or tech stack, we do operate a platform with ~0 downtim
 the explicit framing of the process presented.
 
 [https://stripe.com/blog/online-migrations](https://stripe.com/blog/online-migrations)
+
+### Replacing Exceptions as flow control
+A great, quick-to-read series balancing pros and cons, with current best-practice (using LINQ SelectMany) applied.
+I dabbled in Result<T> before, but fell into many of the traps listed. 
+
+[https://andrewlock.net/working-with-the-result-pattern-part-1-replacing-exceptions-as-control-flow/](https://andrewlock.net/working-with-the-result-pattern-part-1-replacing-exceptions-as-control-flow/)
