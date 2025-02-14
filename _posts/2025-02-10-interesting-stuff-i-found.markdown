@@ -23,3 +23,9 @@ Whisper, Ollama and Bark, then stitch it together for a voice assitant with LLM 
 
 ### An actual useful Blockchain case
 Beyond Bitcoin (which I consider mostly evil, being an enabler/driver of corruption, terrorism, cyber crime and green house emissions), I had yet to see a use case for Blockchain, and the hype has mostly died down with the new LLM craze (some time before actually). But the other day at an event, I ran into an employee from [Partisia](https://www.partisia.com/about/), who described their actual useful software, which relies on Blockchain to reach consensus between multiple parties with no peer-to-peer trust. Interesting.
+
+### Stripe on the common 4-step data migration process
+While not at their scale or tech stack, we do operate a platform with ~0 downtime requirement at work. I have performed many migrations like this, I like
+the explicit framing of the process presented.
+
+[https://stripe.com/blog/online-migrations](https://stripe.com/blog/online-migrations)
