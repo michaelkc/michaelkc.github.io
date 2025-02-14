@@ -49,3 +49,12 @@ I hate having to split my Frontend feature organization across 2-3 projects, and
 Not sure I have the capacity to investigate alternatives, but I would like to find time for the [JetBrains HTMX series for ASP.NET Core Developers](https://www.jetbrains.com/guide/dotnet/tutorials/htmx-aspnetcore/) and perhaps spike a bit on [Hydro](https://usehydro.dev/) (which tickles my [Turbo/Hotwire](https://hotwired.dev/) envy)
 
 Or I could just bite the bullet and invest in TypeScript/Angular, which is widely used at work...
+
+### Can You Measure a Technology Team's Efficiency?
+The article is partially paywalled, but the summary resonated with me: 
+
+_If tech workers are doing measurable work, they're doing easy work. They're doing repetitious work. This work isn't the most valuable work, and you should minimize it when possible._
+
+_If tech workers are adding huge value, such as inventing new things their company (or the world) hasn't seen, then their work is hard/impossible to measure. They can swag (guess), but not accurately predict their work._
+
+[https://www.scarletink.com/p/can-you-measure-technology-teams-efficiency](https://www.scarletink.com/p/can-you-measure-technology-teams-efficiency)
