@@ -58,3 +58,8 @@ _If tech workers are doing measurable work, they're doing easy work. They're doi
 _If tech workers are adding huge value, such as inventing new things their company (or the world) hasn't seen, then their work is hard/impossible to measure. They can swag (guess), but not accurately predict their work._
 
 [https://www.scarletink.com/p/can-you-measure-technology-teams-efficiency](https://www.scarletink.com/p/can-you-measure-technology-teams-efficiency)
+
+### draw.io integration in VSCode (and GitHub)
+It works flawlessly, and supplements the support in Confluence nicely. I can see myself using this for things Mermaidjs cannot visualize
+
+[draw.io VSCode extension](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
