@@ -35,3 +35,9 @@ A great, quick-to-read series balancing pros and cons, with current best-practic
 I dabbled in Result<T> before, but fell into many of the traps listed. 
 
 [https://andrewlock.net/working-with-the-result-pattern-part-1-replacing-exceptions-as-control-flow/](https://andrewlock.net/working-with-the-result-pattern-part-1-replacing-exceptions-as-control-flow/)
+
+### Developer "Bad Days"
+Interesting paper i skimmed - not a lot of hard conclusions, but I can relate to the pain of days where you feel you have a hard time making progress matching your expectations.
+
+[Identifying Factors Contributing to "Bad Days" for
+Software Developers: A Mixed-Methods Study](https://arxiv.org/pdf/2410.18379)
