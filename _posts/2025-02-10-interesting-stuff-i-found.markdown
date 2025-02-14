@@ -60,6 +60,8 @@ _If tech workers are adding huge value, such as inventing new things their compa
 [https://www.scarletink.com/p/can-you-measure-technology-teams-efficiency](https://www.scarletink.com/p/can-you-measure-technology-teams-efficiency)
 
 ### draw.io integration in VSCode (and GitHub)
-It works flawlessly, and supplements the support in Confluence nicely. I can see myself using this for things Mermaidjs cannot visualize
+It works flawlessly, and supplements the support in Confluence nicely. I can see myself using this for things Mermaidjs cannot visualize.
+
+![100](/assets/images/100.drawio.svg)
 
 [draw.io VSCode extension](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
