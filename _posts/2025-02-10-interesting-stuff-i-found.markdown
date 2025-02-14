@@ -70,3 +70,11 @@ It works flawlessly, and supplements the support in Confluence nicely. I can see
 A coworker had positive experience with using Fluentd to unify log streams from different sources. However in a world of .NET, seeing an [8 year old NLog target](https://github.com/fluent/NLog.Targets.Fluentd) as the only .NET option does not inspire confidence (but indicates a lot of work ahead). Similarly, the presence of a [Twitter plugin](https://www.fluentd.org/datasources/twitter) indicates that keeping up with sources is not a priority...
 
 [https://www.fluentd.org/architecture](https://www.fluentd.org/architecture)
+
+### Why dynamically-typed languages exist or "No one wants to program in a dynamically typed language"
+I am sure [many would disagree](https://x.com/dhh/status/1329115220778823688), but I like the take that they exist mostly because they are easy to create,
+while providing good ergonomics for small solutions (vs old-school staticly typed languages which offers poor ergonomics but scales to large solutions). 
+
+That at least is the story of JavaScript, and each time I take a look at the [Python ecosystem](https://xkcd.com/1987/) I project the [signal of poor code quality](https://muhammad-rahmatullah.medium.com/wtf-per-minute-an-actual-measurement-for-code-quality-780914bf9d4b)
+
+[No one wants to program in a dynamically typed language](https://x.com/relizarov/status/1869037223695581567)
