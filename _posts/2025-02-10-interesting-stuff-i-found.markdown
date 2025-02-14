@@ -41,3 +41,11 @@ Interesting paper i skimmed - not a lot of hard conclusions, but I can relate to
 
 [Identifying Factors Contributing to "Bad Days" for
 Software Developers: A Mixed-Methods Study](https://arxiv.org/pdf/2410.18379)
+
+### Non-JS frontend alternatives for .NET Developers
+I agree with the [critisism of Blazor going backwards in approachability](https://github.com/dotnet/aspnetcore/issues/60236) while chasing frontend trends (server-side prerendering etc.).
+I hate having to split my Frontend feature organization across 2-3 projects, and having to debug weird issues when stuff runs on the server in prerendering steps quickly leads to me disabling all the "fun" stuff anyway.
+
+Not sure I have the capacity to investigate alternatives, but I would like to find time for the [JetBrains HTMX series for ASP.NET Core Developers](https://www.jetbrains.com/guide/dotnet/tutorials/htmx-aspnetcore/) and perhaps spike a bit on [Hydro](https://usehydro.dev/) (which tickles my [Turbo/Hotwire](https://hotwired.dev/) envy)
+
+Or I could just bite the bullet and invest in TypeScript/Angular, which is widely used at work...
