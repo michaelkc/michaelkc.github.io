@@ -48,6 +48,9 @@ I hate having to split my Frontend feature organization across 2-3 projects, and
 
 Not sure I have the capacity to investigate alternatives, but I would like to find time for the [JetBrains HTMX series for ASP.NET Core Developers](https://www.jetbrains.com/guide/dotnet/tutorials/htmx-aspnetcore/) and perhaps spike a bit on [Hydro](https://usehydro.dev/) (which tickles my [Turbo/Hotwire](https://hotwired.dev/) envy)
 
+EDIT 2025-02-24 Did a little [Hydro spike](https://github.com/michaelkc/hydro-passwords), ended up battling more than i liked with TailwindCSS (which is new to me, been using MudBlazor material and Bootstrap mostly) but Hydro itself performed well.
+I also like the technique used by Hydro sample I based my work on, where they do dev-only work (here: do Tailwind CSS transform in the background) via an IHostedService.
+
 Or I could just bite the bullet and invest in TypeScript/Angular, which is widely used at work...
 
 ### Can You Measure a Technology Team's Efficiency?
@@ -78,3 +81,8 @@ while providing good ergonomics for small solutions (vs old-school staticly type
 That at least is the story of JavaScript, and each time I take a look at the [Python ecosystem](https://xkcd.com/1987/) I project the [signal of poor code quality](https://muhammad-rahmatullah.medium.com/wtf-per-minute-an-actual-measurement-for-code-quality-780914bf9d4b)
 
 [No one wants to program in a dynamically typed language](https://x.com/relizarov/status/1869037223695581567)
+
+### Hard code feature flags
+There is certainly a place for hardcoded feature flags for not-done features when doing trunk-based development, but i think the author is missing the primary appeal of feature flags to many: [Decoupling deployment from release](https://www.thoughtworks.com/radar/techniques/decoupling-deployment-from-release). That wont work with hardcoded feature flags, but it can work with less capable systems than what the big feature flag vendors push. 
+
+[https://code.mendhak.com/hardcode-feature-flags/](https://code.mendhak.com/hardcode-feature-flags/)
