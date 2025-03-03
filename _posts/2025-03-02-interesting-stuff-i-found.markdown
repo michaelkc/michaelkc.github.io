@@ -14,3 +14,8 @@ but I was looking for something to teach my son the basics.
 - support Danish words and keyboard
 - some gamification
 - free
+
+### Lettuce out-of-order
+Repro of the bug causing headlines for Nordnet, when it caused mixup of users sessions. I have participated in troubleshooting similar bugs before with similar impact (on a smaller scale though; not financial data).
+
+[https://github.com/nordnet/lettuce-out-of-order](https://github.com/nordnet/lettuce-out-of-order)
