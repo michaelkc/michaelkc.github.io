@@ -19,3 +19,33 @@ but I was looking for something to teach my son the basics.
 Repro of the bug causing headlines for Nordnet, when it caused mixup of users sessions. I have participated in troubleshooting similar bugs before with similar impact (on a smaller scale though; not financial data).
 
 [https://github.com/nordnet/lettuce-out-of-order](https://github.com/nordnet/lettuce-out-of-order)
+
+### uv, an extremely fast Python package and project manager, written in Rust.
+Maybe this will emerge at the top to replace all the half-baked Python dependency/tool solutions?
+
+Install with
+```
+winget install astral-sh.uv
+uv python install
+cd demo-project
+uv init .
+uv run main.py
+uv add art
+```
+and run `main.py` as 
+```
+from art import *
+
+def main():
+    print("Hello from demo-project!")
+    art_1=art("coffee")
+    print(art_1)
+
+if __name__ == "__main__":
+    main()
+```
+[https://docs.astral.sh/uv/](https://docs.astral.sh/uv/)
+
+### Micro-bit and Coding Pirates
+I had a lot of fun helping one of my sons build a small car with [micro-bit](https://www.dr.dk/skole/ultrabit) and [Makecode](https://makecode.microbit.org/) (hardware and intro courtesy of [Coding Pirates](https://codingpirates.dk/)). 
+Hats off to the volunteers that makes it possible.
