@@ -49,3 +49,7 @@ if __name__ == "__main__":
 ### Micro-bit and Coding Pirates
 I had a lot of fun helping one of my sons build a small car with [micro-bit](https://www.dr.dk/skole/ultrabit) and [Makecode](https://makecode.microbit.org/) (hardware and intro courtesy of [Coding Pirates](https://codingpirates.dk/)). 
 Hats off to the volunteers that makes it possible.
+
+### fDeploy, the "dogma" Octopus Deploy alternative
+[fDeploy](https://www.fdeploy.com/) finally reached a public release. It will be interesting to see the price point and how well it works in practice. 
+There is definitely a "small Windows shop" hole in the market that Octopus Deploy proper is leaving behind with their new pricing...
