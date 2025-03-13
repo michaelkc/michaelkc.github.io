@@ -53,3 +53,8 @@ Hats off to the volunteers that makes it possible.
 ### fDeploy, the "dogma" Octopus Deploy alternative
 [fDeploy](https://www.fdeploy.com/) finally reached a public release. It will be interesting to see the price point and how well it works in practice. 
 There is definitely a "small Windows shop" hole in the market that Octopus Deploy proper is leaving behind with their new pricing...
+
+### CRUD apps are good business
+You have got to respect the staying power of Ruby on Rails, and he is certainly right that many apps are needlessly complicated by the factors listed
+
+[https://justin.searls.co/links/2025-02-22-crud-apps-are-good-business/](https://justin.searls.co/links/2025-02-22-crud-apps-are-good-business/)
