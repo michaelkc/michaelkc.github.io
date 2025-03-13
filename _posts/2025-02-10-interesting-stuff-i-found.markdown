@@ -76,7 +76,7 @@ A coworker had positive experience with using Fluentd to unify log streams from 
 
 ### Why dynamically-typed languages exist or "No one wants to program in a dynamically typed language"
 I am sure [many would disagree](https://x.com/dhh/status/1329115220778823688), but I like the take that they exist mostly because they are easy to create,
-while providing good ergonomics for small solutions (vs old-school staticly typed languages which offers poor ergonomics but scales to large solutions). 
+while providing good ergonomics for small solutions (vs old-school staticly typed languages which offer poor ergonomics but scales to large solutions). 
 
 That at least is the story of JavaScript, and each time I take a look at the [Python ecosystem](https://xkcd.com/1987/) I project the [signal of poor code quality](https://muhammad-rahmatullah.medium.com/wtf-per-minute-an-actual-measurement-for-code-quality-780914bf9d4b)
 
