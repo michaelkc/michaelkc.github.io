@@ -63,3 +63,11 @@ You have got to respect the staying power of Ruby on Rails, and he is certainly 
 LLM security is hard, and with [agents with access to affect their surroundings](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/unlock-the-power-of-ai-with-azure-ai-assistant-tool/4258696) it becomes even harder. This list demonstrates some of the issues you need to take into account today.
 
 [https://devanshbatham.hashnode.dev/prompt-injection-attacks-for-dummies](https://devanshbatham.hashnode.dev/prompt-injection-attacks-for-dummies)
+
+### Threat model examples
+I like to look at real-world examples to get a feel for the process and the tradeoffs as other people see it. And the simple approach listed in the other link looks interesting (Danish).
+
+[https://da.dbd.au.dk/c/tools/trusselsmodellering](https://da.dbd.au.dk/c/tools/trusselsmodellering)
+
+[https://github.com/TalEliyahu/Threat_Model_Examples?tab=readme-ov-file](https://github.com/TalEliyahu/Threat_Model_Examples?tab=readme-ov-file)
+
