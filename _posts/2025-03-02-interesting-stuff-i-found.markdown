@@ -59,6 +59,8 @@ You have got to respect the staying power of Ruby on Rails, and he is certainly 
 
 [https://justin.searls.co/links/2025-02-22-crud-apps-are-good-business/](https://justin.searls.co/links/2025-02-22-crud-apps-are-good-business/)
 
+(also happened upon [Real World Rails](https://github.com/eliotsykes/real-world-rails/tree/main/apps)
+
 ### Prompt Injection Attacks for Dummies
 LLM security is hard, and with [agents with access to affect their surroundings](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/unlock-the-power-of-ai-with-azure-ai-assistant-tool/4258696) it becomes even harder. This list demonstrates some of the issues you need to take into account today.
 
