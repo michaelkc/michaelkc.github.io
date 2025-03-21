@@ -73,3 +73,5 @@ I like to look at real-world examples to get a feel for the process and the trad
 
 [https://github.com/TalEliyahu/Threat_Model_Examples?tab=readme-ov-file](https://github.com/TalEliyahu/Threat_Model_Examples?tab=readme-ov-file)
 
+### Infomaniak, a non-US mail/drive/docs SaaS
+[Interesting](https://mas.to/@tastapod/114067107682220462). For now I am not considering switching, but it is nice to know there is a non-US provider alternative here, at a reasonable price, with [Infomaniak kSuite](https://www.infomaniak.com/en/ksuite/myksuite)
