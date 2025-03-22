@@ -75,3 +75,6 @@ I like to look at real-world examples to get a feel for the process and the trad
 
 ### Infomaniak, a non-US mail/drive/docs SaaS
 [Interesting](https://mas.to/@tastapod/114067107682220462). For now I am not considering switching, but it is nice to know there is a non-US provider alternative here, at a reasonable price, with [Infomaniak kSuite](https://www.infomaniak.com/en/ksuite/myksuite)
+
+### Giveaway words for LLMs
+[Idiosyncrasies in Large Language Models](https://x.com/emollick/status/1892047167713427687?) via [Ethan Mollick](https://x.com/emollick/status/1892047167713427687?)
