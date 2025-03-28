@@ -78,3 +78,8 @@ I like to look at real-world examples to get a feel for the process and the trad
 
 ### Giveaway words for LLMs
 [Idiosyncrasies in Large Language Models](https://x.com/emollick/status/1892047167713427687?) via [Ethan Mollick](https://x.com/emollick/status/1892047167713427687?)
+
+### Guix
+It seems NIX has some GNU competition
+
+[https://guix.gnu.org/](https://guix.gnu.org/)
