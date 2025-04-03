@@ -19,4 +19,7 @@ That being said, I [do not think we are on the verge of AGI](https://www.heise.d
 
 [Mapping the Mind of a Large Language Model](https://www.anthropic.com/research/mapping-mind-language-model) (via [Techspot](https://www.techspot.com/news/107347-finally-beginning-understand-how-llms-work-no-they.html))
 
+### Le Chat
+European LLM chatbot alternative, haven't used it much yet but nice to see european tech companies in the mix
 
+[Le Chat](https://chat.mistral.ai/chat)
