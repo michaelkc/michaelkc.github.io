@@ -8,3 +8,7 @@ I have been looking into ways to organize ASP.NET Minimal APIs, FastEndpoints of
 
 [FastEndpoints](https://fast-endpoints.com/)
 
+### Design Token-Based UI Architecture 
+I mostly work in the backend, but I find this article on how to manage design abstractions and changes across technologies fascinating. 
+
+[Design Token-Based UI Architecture ](https://martinfowler.com/articles/design-token-based-ui-architecture.html)
