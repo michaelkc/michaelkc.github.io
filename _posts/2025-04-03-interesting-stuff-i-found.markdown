@@ -47,3 +47,15 @@ There are valid caveats in the comments, e.g. how do you prevent compromised cli
 Additionally, getting NUKE to run inside a container is not trivial, especially when you need legacy build tools or [sibling containers](https://dotnet.testcontainers.org/dind/).
 
 [Developer Machines are getting so powerful they can run your CI pipeline](https://www.linkedin.com/posts/david-heinemeier-hansson-374b18221_developer-machines-are-getting-so-powerful-activity-7316734186025885696-rylA/)
+
+### Deploys Are the ✨WRONG✨ Way to Change User Experience
+The big issue making this approach impractical on most systems I work on is that producing a comprehensive test suite, which can catch
+
+- security issues from partially developed features (beyond what SAST tooling can dig up)
+- performance regressions
+- specific integration issues (we have lots of fan-in dependencies on our services)
+
+is very, very hard. But I can certainly agree with the listed drawbacks. Even with automated and fast deployment pipelines with rollback support, and the ability to deploy feature branches to staging for verification pre-merge, we are rarely hitting more than a few deploys a week for any individual service.
+And that hurts the small stuff, which tends to get bunched up in big upgrades, which no one wants, as they add risk of breakage with no new features.
+
+[https://www.honeycomb.io/blog/deploys-wrong-way-change-user-experience](https://www.honeycomb.io/blog/deploys-wrong-way-change-user-experience)
