@@ -30,6 +30,20 @@ Not sure that I buy that "AI engineer" is fundamentally different from tradtiona
 [What is an AI engineer](https://www.aihero.dev/what-is-an-ai-engineer)
 
 ### How FIDO2 works, a technical deep dive
-Good overview, also includes a short video demonstrating [evilgnix](https://evilginx.com/)
+Good overview, also includes a short video demonstrating [evilgnix](https://evilginx.com/). In related news, a collegaue tipped me off today that 
 
 [https://michaelwaterman.nl/2025/04/02/how-fido2-works-a-technical-deep-dive/](https://michaelwaterman.nl/2025/04/02/how-fido2-works-a-technical-deep-dive/)
+
+### Developer Machines are getting so powerful they can run your CI pipeline
+DHH shares that they have started running their CI pipelines locally, instead of on cloud runner like GitHub Actions. I find this very interesting given
+
+- you can ensure environment is reproducable by running the entire build inside a container
+- GH runners are painfully slow compared to local desktop
+- I already internalize all build steps using NUKE build, and I am a big believer in the "build.sh should build locally" approach that eschews using CI-provided tooling like GitHub Actions.
+- I typically separate [deployment from build](https://octopus.com/blog/build-your-binaries-once)
+
+There are valid caveats in the comments, e.g. how do you prevent compromised clients from injecting bad builds (this is harder, but of course not impossible, on the GitHub infra, see also Solarwinds hack...).
+
+Additionally, getting NUKE to run inside a container is not trivial, especially when you need legacy build tools or [sibling containers](https://dotnet.testcontainers.org/dind/).
+
+[Developer Machines are getting so powerful they can run your CI pipeline](https://www.linkedin.com/posts/david-heinemeier-hansson-374b18221_developer-machines-are-getting-so-powerful-activity-7316734186025885696-rylA/)
