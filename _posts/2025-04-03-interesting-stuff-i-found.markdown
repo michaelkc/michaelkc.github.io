@@ -28,3 +28,8 @@ European LLM chatbot alternative, haven't used it much yet but nice to see Europ
 Not sure that I buy that "AI engineer" is fundamentally different from tradtional software engineering (not mentioning "Vibe coding"), but there are some interesting ideas on how to handle the inherent non-deterministic nature of LLMs, when embedding them as part of a software solution. Also I like the razor focus on being a LLM _user_, which is what most developers are going to be.
 
 [What is an AI engineer](https://www.aihero.dev/what-is-an-ai-engineer)
+
+### How FIDO2 works, a technical deep dive
+Good overview, also includes a short video demonstrating [evilgnix](https://evilginx.com/)
+
+[https://michaelwaterman.nl/2025/04/02/how-fido2-works-a-technical-deep-dive/](https://michaelwaterman.nl/2025/04/02/how-fido2-works-a-technical-deep-dive/)
