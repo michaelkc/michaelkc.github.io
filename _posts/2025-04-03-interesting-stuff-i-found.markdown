@@ -59,3 +59,10 @@ is very, very hard. But I can certainly agree with the listed drawbacks. Even wi
 And that hurts the small stuff, which tends to get bunched up in big upgrades, which no one wants, as they add risk of breakage with no new features.
 
 [https://www.honeycomb.io/blog/deploys-wrong-way-change-user-experience](https://www.honeycomb.io/blog/deploys-wrong-way-change-user-experience)
+
+### Foldable color E-ink reader
+I remember buying one of the first E-ink readers with Android. It never saw much use (unlike my Kindle), as it had horrible text rendering for some reason I was never able to pinpoint.
+This device is probably going to be too expensive and brittle (judging by the price of folding phones), but nice to see innovation happening around E-ink, which is still very superior 
+when it comes to reading on a screen.
+
+[MooInk V](https://gizmodo.com/the-first-folding-e-ink-tablet-turns-an-e-reader-into-a-high-end-paperback-2000591230)
