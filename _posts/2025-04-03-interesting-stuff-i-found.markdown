@@ -94,3 +94,9 @@ and
 Nice and detailed guide on how to do this, without using shady tools and/or having hashes transmitted to third parties
 
 [https://michaelwaterman.nl/2025/04/10/detecting-weak-passwords-in-active-directory/](https://michaelwaterman.nl/2025/04/10/detecting-weak-passwords-in-active-directory/)
+
+### Stacked diffs
+The visual explanation makes the concept easy to grasp, and I have certainly had the issue stacked diffs set out to solve even in a small team. The tooling looks a bit spooky though, 
+and I am not feeling enough pain to pay for [Graphite](https://graphite.dev/pricing) (yet?)
+
+[Stacked diffs](https://newsletter.pragmaticengineer.com/p/stacked-diffs)
