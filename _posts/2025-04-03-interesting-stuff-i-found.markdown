@@ -66,3 +66,15 @@ This device is probably going to be too expensive and brittle (judging by the pr
 when it comes to reading on a screen.
 
 [MooInk V](https://gizmodo.com/the-first-folding-e-ink-tablet-turns-an-e-reader-into-a-high-end-paperback-2000591230)
+
+### Koppla - manage Active Directory via an LLM chat interface
+With MCP being all the rage we are seeing lots of "manage XYZ with LLM" implementations pop up. Here, as usual, the write scenarios must be wrapped in extra care and per-operation confirmation, 
+given the fundamental unpredictability of the technology. I would like to try it out on a preprod environment with a local model, if time permits.
+
+[https://lazyadmin.nl/koppla/](https://lazyadmin.nl/koppla/)
+
+### Auth0 for GenAI
+In the same vein, Auth0 for GenAI previews continue the work on solving some of the issues MCP-integrated agents presents. I hope this will eventually lead to standardization around 
+async authorization and fine-grained authz, issues I have struggled with for many years in per-user secured content via messaging and permission-filtered search....
+
+[https://auth0.com/ai](https://auth0.com/ai)
