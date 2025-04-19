@@ -78,3 +78,14 @@ In the same vein, Auth0 for GenAI previews continue the work on solving some of 
 async authorization and fine-grained authz, issues I have struggled with for many years in per-user secured content via messaging and permission-filtered search....
 
 [https://auth0.com/ai](https://auth0.com/ai)
+
+### Disable Bing search in the start menu
+Hope this will fix the semi-regular hangs and subsequent restarts of explorer.exe I end up with at work. TL;DR is 
+
+`Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Search" -Name "BingSearchEnabled" -Value 0`
+
+and
+
+`Get-Process explorer | Stop-Process`
+
+[https://awakecoding.com/posts/disable-bing-search-in-start-menu-for-faster-results/](https://awakecoding.com/posts/disable-bing-search-in-start-menu-for-faster-results/)
