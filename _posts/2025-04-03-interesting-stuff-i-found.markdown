@@ -89,3 +89,8 @@ and
 `Get-Process explorer | Stop-Process`
 
 [https://awakecoding.com/posts/disable-bing-search-in-start-menu-for-faster-results/](https://awakecoding.com/posts/disable-bing-search-in-start-menu-for-faster-results/)
+
+### Detecting weak passwords in Active Directory
+Nice and detailed guide on how to do this, without using shady tools and/or having hashes transmitted to third parties
+
+[https://michaelwaterman.nl/2025/04/10/detecting-weak-passwords-in-active-directory/](https://michaelwaterman.nl/2025/04/10/detecting-weak-passwords-in-active-directory/)
