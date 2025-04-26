@@ -105,3 +105,8 @@ and I am not feeling enough pain to pay for [Graphite](https://graphite.dev/pric
 Beyond demonstrating how powerful data visulization can be, it also presents a strong argument for enacting a global ["you won capitalism" taxation scheme](https://www.reddit.com/r/SandersForPresident/comments/fnm2ff/after_you_reach_999_million_you_get_a_trophy_that/). And while we are at it, how about a global [Tobin tax](https://en.wikipedia.org/wiki/Tobin_tax).
 
 [How rich is Elon Musk](https://engaging-data.com/how-rich-is-elon-musk/)
+
+### European alternatives to US soft- and hardware
+And cars. Nice list (in Danish)
+
+[Bedste europæiske alternativer til amerikansk teknologi og elbiler](https://mobilsiden.dk/nyheder/it-tele-tech/bedste-europaeiske-alternativer-til-amerikansk-teknologi/)
