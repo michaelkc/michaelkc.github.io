@@ -67,6 +67,8 @@ when it comes to reading on a screen.
 
 [MooInk V](https://gizmodo.com/the-first-folding-e-ink-tablet-turns-an-e-reader-into-a-high-end-paperback-2000591230)
 
+Edit: See also a new [E-ink Dumbphone](https://mobile.slashdot.org/story/25/04/26/078214/can-a-new-dumbphone-with-an-e-ink-display-help-rewire-your-brain). Sadly, I need a great camera and it does not have one
+
 ### Koppla - manage Active Directory via an LLM chat interface
 With MCP being all the rage we are seeing lots of "manage XYZ with LLM" implementations pop up. Here, as usual, the write scenarios must be wrapped in extra care and per-operation confirmation, 
 given the fundamental unpredictability of the technology. I would like to try it out on a preprod environment with a local model, if time permits.
