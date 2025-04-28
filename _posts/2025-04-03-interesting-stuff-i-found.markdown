@@ -112,3 +112,10 @@ Beyond demonstrating how powerful data visulization can be, it also presents a s
 And cars. Nice list (in Danish)
 
 [Bedste europæiske alternativer til amerikansk teknologi og elbiler](https://mobilsiden.dk/nyheder/it-tele-tech/bedste-europaeiske-alternativer-til-amerikansk-teknologi/)
+
+### Selling Chrome
+While Google is certainly no longer in "don't be evil" land, I feel a bit like a person I once saw interviewed on why he did not support overthrowing Putin, after revelations of widespread corruption and self-enrichment: "We cannot afford to fatten up another one". 
+
+If Yahoo ends up paying "tens of billions" for a product with a huge operating expense, given away for free, how many awful "the-user-is-the-product" features are going to be implemented to recoup that cost? Maybe they should rebrand Chrome "HellScape"...?
+
+[Yahoo wants to buy Chrome](https://www.theverge.com/policy/655975/yahoo-search-web-browser-prototype-google-trial-antitrust-chrome)
