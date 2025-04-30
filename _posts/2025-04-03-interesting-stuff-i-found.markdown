@@ -119,3 +119,18 @@ While Google is certainly no longer in "don't be evil" land, I feel a bit like a
 If Yahoo ends up paying "tens of billions" for a product with a huge operating expense, given away for free, how many awful "the-user-is-the-product" features are going to be implemented to recoup that cost? Maybe they should rebrand Chrome "HellScape"...?
 
 [Yahoo wants to buy Chrome](https://www.theverge.com/policy/655975/yahoo-search-web-browser-prototype-google-trial-antitrust-chrome)
+
+### More Nix, DevContainers
+Inspired by presentations and discussions at [DevOpsDays Aarhus](https://devopsdays.org/events/2025-aarhus/welcome/), I spent a bit of time looking at DevContainers and Nix (the latter which Mitchell Hashimoto calls [the number one most impactful technology he has adopted](https://x.com/mitchellh/status/1909445613126926625), while [Kelsey Hightower is on the side of containers](https://thenewstack.io/kelsey-hightower-on-nix-vs-docker-is-there-a-different-way/)).
+
+Users of DevContainers gave it a lot of praise at the conference, and I am encouraged by the fact that
+
+- Aspire support [is there](https://laurentkempe.com/2025/03/06/dotnet-aspire-and-dev-container/)
+- it seems relatively easy to set up
+- support is now in Rider (I cannot get myself to downgrade from full Visual Studio to VS code, but Rider is as good an IDE as Visual Studio)
+
+Yesterday I got a basic dotnet DevContainer working in Rider (locally) and then as a GitHub CodeSpace with VS code (non-public repo). All in all this took a couple of hours, not bad as I was starting from scratch.
+ 
+Today I cobbled together a small Nix demo, where I figured out (barely!) how to run Nix flakes locally and in GitHub Actions. There is much more to learn, but it is always encouraging when the simple stuff is easy to setup.
+
+[Samples.NixFlakes](https://github.com/michaelkc/Samples.NixFlakes)
