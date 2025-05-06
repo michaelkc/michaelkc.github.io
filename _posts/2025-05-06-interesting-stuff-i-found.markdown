@@ -8,3 +8,12 @@ Someone forked [OpenAI codex](https://github.com/openai/codex) and made it able 
 
 [OpenCodex](https://github.com/ymichael/open-codex)
 
+### Conference - SecAppDev
+There is little security training out there which specifically targets application security. I previously enjoyed [Hack yourself first](https://www.pluralsight.com/courses/hack-yourself-first) and judging from the [presentations from previous years](https://secappdev.org/previous/), this looks like a great way to refresh and get in on the latest developments. The scheduling sucks though, do they not know that [Europe is closed for vacation during the summer](https://knowyourmeme.com/photos/2092429-twitter-x)? 😋
+
+[SecAppDev](https://secappdev.org/)
+
+### Conference - Troopers
+I have looked at Troopers for a few years, but I think much of the content is too pentester+ focused for my taste. Not going this year, but will keep looking.
+
+[Troopers](https://troopers.de/)
