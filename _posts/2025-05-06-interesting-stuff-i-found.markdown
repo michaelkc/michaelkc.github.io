@@ -17,3 +17,8 @@ There is little security training out there which specifically targets applicati
 I have looked at Troopers for a few years, but I think much of the content is too pentester+ focused for my taste. Not going this year, but will keep looking.
 
 [Troopers](https://troopers.de/)
+
+### lazygit
+Like Dive for containers, a wonderful TUI for Git. Makes it easy to clean up those pesky left-behind branches post-merge.
+
+[lazygit](https://github.com/jesseduffield/lazygit)
