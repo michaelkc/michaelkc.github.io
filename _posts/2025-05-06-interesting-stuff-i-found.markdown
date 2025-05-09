@@ -22,3 +22,8 @@ I have looked at Troopers for a few years, but I think much of the content is to
 Like Dive for containers, a wonderful TUI for Git. Makes it easy to clean up those pesky left-behind branches post-merge.
 
 [lazygit](https://github.com/jesseduffield/lazygit)
+
+### Vibe coding 12.000 lines of code per day
+[Vibe coding 12.000 lines of code each day sound absolutely insane](https://www.linkedin.com/posts/realgenekim_vibe-coding-workshop-for-leaders-september-activity-7325638022572429314-HP7m) ([archive](http://web.archive.org/web/20250509070022/https://itrevolution.com/articles/vibe-coding-workshop-for-leaders/)) and I have a hard time believing that is actually useful, maintainable code. But I guess Gene Kim has some credibility from his DORA work?
+
+Maybe they are taking a page out of Erik Meijers ["embrace the chaos"](https://x.com/headinthebox/status/1918030539958972507), and just letting the AI brute force things with no abstractions, given that no human is ever going to look at it? I have not seen that work well yet though, but maybe they have?
