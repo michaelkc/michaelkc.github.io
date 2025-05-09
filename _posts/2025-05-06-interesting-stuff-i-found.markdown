@@ -39,7 +39,7 @@ I have been gnawing my way through my "Observability" backlog:
 and come away with a few insights:
 
 - forget metrics (we run PaaS+ services for everything)
-- we need to do something about "dumbing down" logs for our mandated o11y "1.0" platform, which drops log at too high cardinality
+- we need to do something about "dumbing down" logs for our mandated o11y "0.9" platform, which drops log lines at too high cardinality (!)
 - we need to move our o11y "2.0" platform instrumentation to "canonical logs", wide events with high cardinality. We already do request logging, so filling in the context there could work
 - "a practitioners guide" has a great list of candidate dimensions for those wide events. 
    - emitting completely static or easily deriveable information (like slack channel) irks me when we pay for ingress though, but we already use several of these.
