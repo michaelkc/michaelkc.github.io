@@ -36,11 +36,11 @@ I have been gnawing my way through my "Observability" backlog:
 - [The Amazon docs mentioned in the above paper](https://aws.amazon.com/builders-library/instrumenting-distributed-systems-for-operational-visibility/#Request_log_best_practices)
 - [How much instrumentation is enough / when am I done?](https://blog.toshokelectric.com/blog/how-much-is-enough/)
 
-and come away with a few insights:
+and came away with a few insights:
 
 - forget metrics (we run PaaS+ services for everything)
 - we need to do something about "dumbing down" logs for our mandated o11y "0.9" platform, which drops log lines at too high cardinality (!)
-- we need to move our o11y "2.0" platform instrumentation to "canonical logs", wide events with high cardinality. We already do request logging, so filling in the context there could work
+- we need to move our o11y "1.5" platform instrumentation closer to "canonical logs", wide events with high cardinality. We already do request logging, so filling in the context there could work
 - "a practitioners guide" has a great list of candidate dimensions for those wide events. 
    - emitting completely static or easily deriveable information (like slack channel) irks me when we pay for ingress though, but we already use several of these.
    - I like the idea of emitting cpu_count and memory_mb, and their dynamic utilization. An example of rolling metrics into wide events.
