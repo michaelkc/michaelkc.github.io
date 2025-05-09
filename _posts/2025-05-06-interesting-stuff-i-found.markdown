@@ -47,3 +47,29 @@ and came away with a few insights:
 
 - as we make that move, we need to check up on log context and async-await / exceptions in 2025 [A New Pattern for Exception Logging](https://blog.stephencleary.com/2020/06/a-new-pattern-for-exception-logging.html)
 - something like [OpenTelemetry / ADX](https://learn.microsoft.com/en-us/azure/data-explorer/open-telemetry-connector?tabs=command-line) / [Raw ADX with long retention](https://mortenknudsen.net/?p=575) could be interesting from a cost perspective, but not sure if we have the manpower to operate it
+
+### AuthZEN
+AuthZen looks interesting in that it defines a technology-agnostic way to communicate subject/resource/action/context between PEP (e.g. API middleware) and PDP (e.g. FGA, a custom RBAC solution or similar)
+
+```
+{
+  "subject": {
+    "type": "user",
+    "id": "alice@acmecorp.com"
+  },
+  "resource": {
+    "type": "account",
+    "id": "123"
+  },
+  "action": {
+    "name": "can_read",
+    "properties": {
+      "method": "GET"
+    }
+  },
+  "context": {
+    "time": "1985-10-26T01:22-07:00"
+  }
+}
+```
+Something to watch, especially in terms of vendor support as the spec matures.
