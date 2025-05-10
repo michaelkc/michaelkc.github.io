@@ -81,7 +81,7 @@ As others have put it "Duplication is cheaper than the wrong abstraction".
 [(Naive) Reuse considered harmful](https://architectelevator.com/architecture/reuse-harmful/)
 
 ### Amazon 2>0, 1>2, Rule of three
-In the same vein, I came across this discussion of how Amazon prefers duplication (of services with the same or multi-modal operation characteristics, presumably) initially to prevent stifling innovation, but seeks consolidation down the line. Similarly, the rule of three warns against premature abstraction of the small stuff, with too few concrete cases the risk of getting it wrong is high.
+In the same vein, I came across this discussion of how Amazon prefers duplication (of services with the same or multi-modal operational characteristics, presumably) initially to prevent stifling innovation, but seeks consolidation down the line. Similarly, the rule of three warns against premature abstraction of the small stuff, with too few concrete cases the risk of getting it wrong is high.
 
 [A Lesson In Effective Innovation From Amazon](https://www.linkedin.com/pulse/lesson-effective-innovation-from-amazon-bill-franks/)
 
