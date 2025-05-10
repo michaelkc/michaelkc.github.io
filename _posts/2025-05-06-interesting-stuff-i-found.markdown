@@ -35,6 +35,7 @@ I have been gnawing my way through my "Observability" backlog:
 - [The bridge from observability 1.0 to observability 2.0 is made up of logs, not metrics](https://www.honeycomb.io/resources/bridge-from-observability1dot0-2dot0-logs-not-metrics)
 - [The Amazon docs mentioned in the above paper](https://aws.amazon.com/builders-library/instrumenting-distributed-systems-for-operational-visibility/#Request_log_best_practices)
 - [How much instrumentation is enough / when am I done?](https://blog.toshokelectric.com/blog/how-much-is-enough/)
+- [Replacing testing with observability in the age of non-deterministic AI generated code](https://www.linkedin.com/posts/gergelyorosz_one-interesting-outcome-of-building-ai-applications-activity-7325520762339999762-FOer)
 
 and came away with a few insights:
 
@@ -47,6 +48,7 @@ and came away with a few insights:
 
 - as we make that move, we need to check up on log context and async-await / exceptions in 2025 [A New Pattern for Exception Logging](https://blog.stephencleary.com/2020/06/a-new-pattern-for-exception-logging.html)
 - something like [OpenTelemetry / ADX](https://learn.microsoft.com/en-us/azure/data-explorer/open-telemetry-connector?tabs=command-line) / [Raw ADX with long retention](https://mortenknudsen.net/?p=575) could be interesting from a cost perspective, but not sure if we have the manpower to operate it
+- we should switch primary focus from comprehensive test coverage to comprehensive monitoring pre/post deployment/release
 
 ### AuthZEN
 AuthZen looks interesting in that it defines a technology-agnostic way to communicate subject/resource/action/context between PEP (e.g. API middleware) and PDP (e.g. FGA, a custom RBAC solution or similar)
