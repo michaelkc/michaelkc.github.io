@@ -88,3 +88,8 @@ In the same vein, I came across this discussion of how Amazon prefers duplicatio
 [A Lesson In Effective Innovation From Amazon](https://www.linkedin.com/pulse/lesson-effective-innovation-from-amazon-bill-franks/)
 
 [Rule of three](https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming))
+
+### Duplicati Backup
+After reading I set it up in about 30 minutes and am now backing up my home OneDrive. The experience was very smooth.
+
+[https://www.xda-developers.com/finally-started-using-duplicati-should-have-sooner/](https://www.xda-developers.com/finally-started-using-duplicati-should-have-sooner/)
