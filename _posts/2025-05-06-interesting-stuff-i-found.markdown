@@ -93,3 +93,17 @@ In the same vein, I came across this discussion of how Amazon prefers duplicatio
 After reading I set it up in about 30 minutes and am now backing up my home OneDrive. The experience was very smooth.
 
 [https://www.xda-developers.com/finally-started-using-duplicati-should-have-sooner/](https://www.xda-developers.com/finally-started-using-duplicati-should-have-sooner/)
+
+### AnythingLLM
+Found AnythingLLM, a nice all-in-one, offline capable solution for AI agents (haven't tested) and RAG.
+
+Everything is abstracted; it runs out of a Docker container, and maintains its own vector database for embeddings. The LLM part is handled by a provider, e.g. OpenAI API or local `ollama` 
+(which I am using, as I do not want my RAG'd personal documents leaving my desktop). Install is [easy](https://github.com/Mintplex-Labs/anything-llm/blob/master/docker/HOW_TO_USE_DOCKER.md).
+
+My RAG use "for fun" use cases is feeding it the contents of this blog (easy) and emails I sent over the years (harder). 
+
+The former works fine, the latter has [some](https://github.com/Mintplex-Labs/anything-llm/blob/4b09a065908d572c4527a1962c25b74749f4cc55/collector/utils/constants.js#L32) [support](https://github.com/Mintplex-Labs/anything-llm/issues/102), but seems to choke on my particular mbox format.
+
+The whole experience has been very smooth, it just worked OOTB. This is more than I can say for other, similar products I have tried in the past.
+
+[AnythingLLM](https://anythingllm.com/)
