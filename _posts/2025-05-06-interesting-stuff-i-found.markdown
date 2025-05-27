@@ -112,3 +112,12 @@ The whole experience has been very smooth, it just worked OOTB. This is more tha
 Interesting to see what they are seeding Claude with. I wonder why they need to call out explicitly that Donald Trump is president, but it might be related to a training cutoff very close to the election?
 
 [Anthropic system prompts](https://docs.anthropic.com/en/release-notes/system-prompts)
+
+### Pico CSS
+I needed a nice looking CSS framework for some test applications at work. Having done very little frontend work in recent times (I get by with MudBlazor/Blazor and focus on the APIs), I considered looking into
+Tailwind CSS, which seems to be very popular. But I wanted something less ambitious, with fewer classes needed, no JavaScript and loadable from a CDN without a client side build pipeline.
+
+That brought me to Pico CSS, which looks nice out of the box and has the most essential components styled. It is not big on grid systems and layouting in general, but I did not need this, so it was perfect for
+my use case. Recommended for simple stuff.
+
+[Pico CSS](https://picocss.com/)
