@@ -107,3 +107,8 @@ The former works fine, the latter has [some](https://github.com/Mintplex-Labs/an
 The whole experience has been very smooth, it just worked OOTB. This is more than I can say for other, similar products I have tried in the past.
 
 [AnythingLLM](https://anythingllm.com/)
+
+### Claude system prompts
+Interesting to see what they are seeding Claude with. I wonder why they need to call out explicitly that Donald Trump is president, but it might be related to a training cutoff very close to the election?
+
+[Anthropic system prompts](https://docs.anthropic.com/en/release-notes/system-prompts)
