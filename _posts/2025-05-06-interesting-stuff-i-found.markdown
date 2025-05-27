@@ -121,3 +121,11 @@ That brought me to Pico CSS, which looks nice out of the box and has the most es
 my use case. Recommended for simple stuff.
 
 [Pico CSS](https://picocss.com/)
+
+### Windows Administrator Protection
+Evolving UAC and [sudo for Windows](https://learn.microsoft.com/en-us/windows/advanced-settings/sudo/?wt.mc_id=windows_inproduct_sudo), Administrator Protection offers an alternative to Admin by Request, Intune PEM 
+and running a separate admin account with runas. Not available yet outside of preview, but will be interesting to see how it works when it is mainstream released. 
+
+My guess is that it will work well - running as non-admin is not too difficult these days (unless you need to debug code running in IIS, that is).
+
+[Administrator Protection](https://blogs.windows.com/windowsdeveloper/2025/05/19/enhance-your-application-security-with-administrator-protection/)
