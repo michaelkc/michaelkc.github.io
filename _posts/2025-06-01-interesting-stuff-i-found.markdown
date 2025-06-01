@@ -23,3 +23,13 @@ Using an Azure AI foundry deployment of GPT-4 worked flawlessly though. I can se
 apply it.
 
 [Understanding the Kernel](https://learn.microsoft.com/en-us/semantic-kernel/concepts/kernel?pivots=programming-language-csharp#the-kernel-is-at-the-center)
+
+### (A) LLM CodeGen Workflow
+I have tried various approaches to throwing problems at multi-edit LLM tools like Cursor and GitHub CoPilot Edits, but have had limited success. Some of the issues
+seem to be related to my tech stack (Blazor, .NET, bleeding edge), but I suspect part of the problem has also been "chunking" the problem space into something the 
+LLM can handle.
+
+Some people recommend going in very small steps, like manual TDD. But I found this description of a process with distinct ideation, planning and 
+todo->execution phases interesting, and will try that out soon.
+
+[My LLM CodeGen Workflow](https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/)
