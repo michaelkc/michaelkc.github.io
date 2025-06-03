@@ -59,3 +59,8 @@ Vibes well with [Fooled by Randomness](https://en.wikipedia.org/wiki/Fooled_by_R
 
 
 [https://news.ycombinator.com/item?id=15659076](https://news.ycombinator.com/item?id=15659076) via [https://mas.to/@carnage4life/114594622023167481](https://mas.to/@carnage4life/114594622023167481)
+
+### CoPilot chat cookbook
+Learning how to prompt the various LLM tools correctly for desired outcomes is evolving fast, I am going to browse the cookbook to see if I have missed anything
+
+[CoPilot Chat Cookbook](https://docs.github.com/en/copilot/copilot-chat-cookbook)
