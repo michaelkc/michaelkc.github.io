@@ -34,6 +34,8 @@ todo->execution phases interesting, and will try that out soon.
 
 [My LLM CodeGen Workflow](https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/)
 
+Edit 03/06: Same idea: [Chain-of-Vibes](https://blog.thepete.net/blog/2025/04/14/chain-of-vibes/)
+
 ### CSharpier
 I am less opinionated about style than many developers I have worked with, so I never bothered to set up tools like Visual Studio or Rider with specific styles. I can work with most styles.
 
