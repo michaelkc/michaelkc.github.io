@@ -33,3 +33,12 @@ Some people recommend going in very small steps, like manual TDD. But I found th
 todo->execution phases interesting, and will try that out soon.
 
 [My LLM CodeGen Workflow](https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/)
+
+### CSharpier
+I am less opinionated about style than many developers I have worked with, so I never bothered to set up tools like Visual Studio or Rider with specific styles. I can work with most styles.
+
+But the idea of a tool which is basically not configureable, resulting in near-zero effort to get a consistent style has some appeal. 
+
+[CSharpier](https://csharpier.com/)
+
+[CSharpier VS 2022 Extension](https://marketplace.visualstudio.com/items?itemName=csharpier.CSharpier)
