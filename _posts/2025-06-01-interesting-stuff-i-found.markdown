@@ -64,3 +64,8 @@ Vibes well with [Fooled by Randomness](https://en.wikipedia.org/wiki/Fooled_by_R
 Learning how to prompt the various LLM tools correctly for desired outcomes is evolving fast, I am going to browse the cookbook to see if I have missed anything
 
 [CoPilot Chat Cookbook](https://docs.github.com/en/copilot/copilot-chat-cookbook)
+
+### The AI model collapse
+Unless some breakthroughs occur in the ability to synthesize high-quality input for training upcoming LLMs, the logic seem sound. 
+
+[Prediction: General-purpose AI could start getting worse](https://www.theregister.com/2025/05/27/opinion_column_ai_model_collapse/)
