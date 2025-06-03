@@ -42,3 +42,18 @@ But the idea of a tool which is basically not configureable, resulting in near-z
 [CSharpier](https://csharpier.com/)
 
 [CSharpier VS 2022 Extension](https://marketplace.visualstudio.com/items?itemName=csharpier.CSharpier)
+
+### On Entrepreneurship
+I like this framing. So many people attribute the fact that they have been successful to their skills and hard work (which certainly helps), while in practice your environment and even luck plays a big role.
+Vibes well with [Fooled by Randomness](https://en.wikipedia.org/wiki/Fooled_by_Randomness) which i recently "read" (as an audiobook)
+
+>Entrepreneurship is like one of those carnival games where you throw darts or something.
+>
+>Middle class kids can afford one throw. Most miss. A few hit the target and get a small prize. A very few hit the center bullseye and get a bigger prize. Rags to riches! The American Dream lives on.
+>
+>Rich kids can afford many throws. If they want to, they can try over and over and over again until they hit something and feel good about themselves. Some keep going until they hit the center bullseye, then they give speeches or write blog posts about "meritocracy" and the salutary effects of hard work.
+>
+>Poor kids aren't visiting the carnival. They're the ones working it.
+
+
+[https://news.ycombinator.com/item?id=15659076](https://news.ycombinator.com/item?id=15659076) via [https://mas.to/@carnage4life/114594622023167481](https://mas.to/@carnage4life/114594622023167481)
