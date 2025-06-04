@@ -85,3 +85,12 @@ That also works pretty great, and is well supported by tooling like ASP.NET Test
 During build it was mentioned that support for hosting Kestrel from TestServer was coming, which will enable non-API projects to run Playwright on top of such a stubbed hosting pipeline as well. My old team actually built that themselves some time ago and really like it, so I have great expectations for the official bits.
 
 [The Testing Pyramid is upside-down](https://www.antithesis.com/blog/testing_pyramid/)
+
+### MCP and Authn/Authz
+There is a price to starting out with a vendor spec and slapping various missing parts on top in a hurry. 
+I hope future revisions of MCP can go through a better process and resolve these issues. There are going to be a lot of work cleaning up
+security issues caused by the LLM gold rush in the coming years (maybe the LLM agents can do it? ;-))
+
+[What MCP Gets Wrong](https://www.featureform.com/post/what-mcp-gets-wrong)
+
+[Treat the MCP server as an OAuth resource server rather than an authorization server](https://github.com/modelcontextprotocol/modelcontextprotocol/issues/205)
