@@ -88,7 +88,7 @@ During build it was mentioned that support for hosting Kestrel from TestServer w
 
 ### MCP and Authn/Authz
 There is a price to starting out with a vendor spec and slapping various missing parts on top in a hurry. 
-I hope future revisions of MCP can go through a better process and resolve these issues. There are going to be a lot of work cleaning up
+I hope future revisions of MCP can go through a better process to avoid similar issues. There are going to be a lot of work cleaning up
 security issues caused by the LLM gold rush in the coming years (maybe the LLM agents can do it? ;-))
 
 [What MCP Gets Wrong](https://www.featureform.com/post/what-mcp-gets-wrong)
