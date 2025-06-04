@@ -108,3 +108,8 @@ A strong argument for setting baseline expectations as a leader, and engaging wi
 "modernization" initiatives, based solely on vibes and not business needs. Hopefully, I have not been guilty of those things myself, but if I had, would i know? 🤔
 
 [On Being Liked](https://jamesjboyer.substack.com/p/on-being-liked-or-mistaking-harmony)
+
+### dotnet run app.cs
+I guess this is nice to have built-in, but I feel the community have already stepped up with NUKE, Linqpad or even pwsh for these kinds of scenarios. 
+
+[Announcing dotnet run app.cs – A simpler way to start with C# and .NET 10](https://devblogs.microsoft.com/dotnet/announcing-dotnet-run-app/)
