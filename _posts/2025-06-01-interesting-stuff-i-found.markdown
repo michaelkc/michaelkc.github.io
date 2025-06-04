@@ -102,3 +102,9 @@ SingleBrowserMode sounds super useful, I will set that up immediately. Also I di
 I have previously captured HAR traces via browser tools and loaded those into Fiddler. Sounds like both are lossy though, so I think I will stick with Fiddler capture where possible.
 
 [Fiddler in 2025](https://textslashplain.com/2025/05/16/fiddler-in-2025/)
+
+### On Being Liked or "Mistaking Harmony for Health"
+A strong argument for setting baseline expectations as a leader, and engaging with your teams. I have rarely seen teams as unproductively autonomous as described in the article, but I have certainly seen technology gold plating and 
+"modernization" initiatives, based solely on vibes and not business needs. Hopefully, I have not been guilty of those things myself, but if I had, would i know? 🤔
+
+[On Being Liked](https://jamesjboyer.substack.com/p/on-being-liked-or-mistaking-harmony)
