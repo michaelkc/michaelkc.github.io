@@ -69,3 +69,19 @@ Learning how to prompt the various LLM tools correctly for desired outcomes is e
 Unless some breakthroughs occur in the ability to synthesize high-quality input for training upcoming LLMs, the logic seem sound. 
 
 [Prediction: General-purpose AI could start getting worse](https://www.theregister.com/2025/05/27/opinion_column_ai_model_collapse/)
+
+### The Testing Pyramid is upside-down
+This resonates well with my experience; I worked for years in a team where 95% of our testing was E2E, and that worked pretty great. 
+The only real downsides were that the E2E tests were 
+
+- slow (mitigated somewhat by running a farm of machines to run the tests on)
+- required preprod environments to be available
+- externalized from the main project (different tool, different people)
+
+But we did release lots of high-quality software with very few incidents.
+These days I mostly develop APIs, and when writing tests I put most effort into E2E tests where the real hosting pipeline is running, with any out-of-process dependencies stubbed out.
+That also works pretty great, and is well supported by tooling like ASP.NET TestServer and [Alba](https://github.com/JasperFx/alba)
+
+During build it was mentioned that support for hosting Kestrel from TestServer was coming, which will enable non-API projects to run Playwright on top of such a stubbed hosting pipeline as well. My old team actually built that themselves some time ago and really like it, so I have great expectations for the official bits.
+
+[The Testing Pyramid is upside-down](https://www.antithesis.com/blog/testing_pyramid/)
