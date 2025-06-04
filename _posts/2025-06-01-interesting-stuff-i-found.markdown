@@ -113,3 +113,10 @@ A strong argument for setting baseline expectations as a leader, and engaging wi
 I guess this is nice to have built-in, but I feel the community have already stepped up with NUKE, Linqpad or even pwsh for these kinds of scenarios. 
 
 [Announcing dotnet run app.cs – A simpler way to start with C# and .NET 10](https://devblogs.microsoft.com/dotnet/announcing-dotnet-run-app/)
+
+### LLM agents moving out of the dev box and into GitHub
+Interesting approach of using Claude in the same way GitHub Copilot was demonstrated at Microsoft Build. Third party integrations is great for innovation, but I must admit I am feeling
+quite skittish setting an agent "free" to burn tokens, build minutes and invoke various MCP tools at this point. Especially having seen so poor results from local unattended agent coding, 
+but others have [a different experience](https://fly.io/blog/youre-all-nuts/) (see also above).
+
+[Faster Claude Code agents in GitHub Actions](https://dev.to/depot/faster-claude-code-agents-in-github-actions-1p2h)
