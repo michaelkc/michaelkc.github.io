@@ -94,3 +94,11 @@ security issues caused by the LLM gold rush in the coming years (maybe the LLM a
 [What MCP Gets Wrong](https://www.featureform.com/post/what-mcp-gets-wrong)
 
 [Treat the MCP server as an OAuth resource server rather than an authorization server](https://github.com/modelcontextprotocol/modelcontextprotocol/issues/205)
+
+### Fiddler in 2025
+Like its author, I never switched from the original Fiddler, and here Eric Lawrence gives out a lot of great tips on how to use it in 2025.
+
+SingleBrowserMode sounds super useful, I will set that up immediately. Also I did not know about the ability to do [NetLog logging in Chromium](https://textslashplain.com/2020/01/17/capture-network-logs-from-edge-and-chrome/) - 
+I have previously captured HAR traces via browser tools and loaded those into Fiddler. Sounds like both are lossy though, so I think I will stick with Fiddler capture where possible.
+
+[Fiddler in 2025](https://textslashplain.com/2025/05/16/fiddler-in-2025/)
