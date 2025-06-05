@@ -123,7 +123,10 @@ but others have [a different experience](https://fly.io/blog/youre-all-nuts/) (s
 
 ### Google Jules
 I am cleaning out my PhoneShare backlog of AI stuff, guess this shows. Jules is another "async LLM agent", which I have high hopes for as people have written nice things about the Gemini models. 
-Just kicking the tires atm, but very clean integration with GitHub, and everything runs in a Google-provided sandbox VM.
+It has a very clean integration with GitHub, and everything runs in a Google-provided sandbox VM. 
+
+Unfortunately, it did not like my Blazor WASM solution - the ordeal ended with 
+`Jules encountered an unexpected error. Please start a new task to try again.` after Jules create a high-level plan and tried to implement. 
 
 [Google Jules](https://jules.google.com/)
 
