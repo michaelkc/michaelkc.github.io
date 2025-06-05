@@ -42,8 +42,15 @@ module Jekyll
 
     # Helper method to remove HTML tags from content
     def strip_html(content)
-      # A naive implementation. Depending on your content, you might want to use a proper HTML sanitizer.
-      content.gsub(/<script.*?\/script>/m, '').gsub(/<style.*?\/style>/m, '').gsub(/<[^>]+>/, '')
+      # Apply the regular expression replacements repeatedly until no further changes occur.
+      previous = nil
+      while content != previous
+        previous = content
+        content = content.gsub(/<script.*?\/script>/m, '')
+                         .gsub(/<style.*?\/style>/m, '')
+                         .gsub(/<[^>]+>/, '')
+      end
+      content
     end
   end
 
