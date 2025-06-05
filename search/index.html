@@ -1,0 +1,73 @@
+---
+layout: default
+title: Search
+permalink: /search/
+---
+
+<h1>Search</h1>
+<input type="text" id="search-input" placeholder="Type to search..." style="width: 100%; padding: 0.5em; margin-bottom: 1em;">
+<div id="search-results"></div>
+
+<!-- Load Lunr.js from CDN with integrity hash -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-C2JHrEvjyXpzLR+T3zHGPx2mqrnCH3A6W9BWlSwHSg8vmN2oiDUiWoJufKlLAmJpfBn5GA91hR9OVYYmFyw5Nw==" crossorigin="anonymous"></script>
+
+<script>
+// Define global variables for search
+let idx = null;
+let searchData = [];
+
+// Fetch the pre-built search index
+fetch('{{ "/search.json" | relative_url }}')
+  .then(response => response.json())
+  .then(data => {
+    searchData = data;
+    buildIndex();
+  })
+  .catch(error => console.error('Error loading search index:', error));
+
+function buildIndex() {
+  idx = lunr(function () {
+    this.field('title', { boost: 10 });
+    this.field('content');
+    this.ref('url');
+
+    searchData.forEach(function (doc) {
+      this.add(doc);
+    }, this);
+  });
+}
+
+// Function to display results
+function displayResults(results) {
+  const resultsDiv = document.getElementById('search-results');
+  if (results.length) {
+    const list = document.createElement('ul');
+    results.forEach(result => {
+      const item = searchData.find(doc => doc.url === result.ref);
+      const listItem = document.createElement('li');
+      const link = document.createElement('a');
+      link.href = item.url;
+      link.textContent = item.title;
+      listItem.appendChild(link);
+      list.appendChild(listItem);
+    });
+    resultsDiv.innerHTML = '';
+    resultsDiv.appendChild(list);
+  } else {
+    resultsDiv.innerHTML = '<p>No results found</p>';
+  }
+}
+
+// Attach event listener to the search input
+const searchInput = document.getElementById('search-input');
+searchInput.addEventListener('input', function () {
+  const query = this.value;
+  if (idx && query) {
+    const results = idx.search(query);
+    displayResults(results);
+  } else {
+    document.getElementById('search-results').innerHTML = '';
+  }
+});
+</script>
+
