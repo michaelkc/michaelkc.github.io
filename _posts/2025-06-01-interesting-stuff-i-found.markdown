@@ -120,3 +120,41 @@ quite skittish setting an agent "free" to burn tokens, build minutes and invoke 
 but others have [a different experience](https://fly.io/blog/youre-all-nuts/) (see also above).
 
 [Faster Claude Code agents in GitHub Actions](https://dev.to/depot/faster-claude-code-agents-in-github-actions-1p2h)
+
+### Google Jules
+I am cleaning out my PhoneShare backlog of AI stuff, guess this shows. Jules is another "async LLM agent", which I have high hopes for as people have written nice things about the Gemini models. 
+Just kicking the tires atm, but very clean integration with GitHub, and everything runs in a Google-provided sandbox VM.
+
+[Google Jules](https://jules.google.com/)
+
+### OpenAI Codex
+Seeing that the open-codex support for non-OpenAI providers have been rolled into codex proper, I spent quite a few hours working with it yesterday and today.
+`ollama` supports seem broken. But with tonnes of elbow grease, I got it working with Azure AI Foundry hosted models. Key points
+
+- it only runs in WSL on Windows. You need node 22+ (documented, but gives strange errors if you do not notice)
+- API key variables, it seems you need both the OPENAI and AZURE keys set (assuming bash)
+  - export AZURE_API_KEY=<actual key>
+  - export OPENAI_API_KEY=$AZURE_OPENAI_API_KEY
+- Azure AI Foundry model must be deployed as "Global Standard". That, for me, meant no o4-mini, so I used o3-mini instead. YMMV
+- AzureOpenAI support might be broken in current version, so use `npm install -g @openai/codex@0.1.2505160811`, which is known to work
+- if things break (401, 400), unset other OPENAI or AZURE-containing env variables, they might conflict with the settings for codex
+
+Working `~/.codex/config.json`:
+```
+{
+  "providers": {
+    "azure": {
+      "name": "AzureOpenAI",
+      "baseURL": "https://<your prefix>.openai.azure.com/openai/",
+      "envKey": "AZURE_API_KEY"
+    }
+  },
+  "provider": "azure",
+  "model": "o3-mini"
+}
+```
+Note that "AZURE_API_KEY" is literal, it is the name of the env variable it expects to contain the actual key. 
+
+Results with openai were encouraging; it created a nice refactoring plan, which I saved to markdown. Then I switched (I personally pay for OpenAI usage, while I have MSDN credits for Azure AI).
+
+Results with AzureOpenAI were mixed. It did a few minor refactorings well, but ended up grinding for ten minutes / many, many tokens trying to eliminate build warnings.
