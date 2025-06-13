@@ -168,7 +168,7 @@
   
   function handleKeyboardNavigation(e) {
     const dropdown = document.querySelector('.search-dropdown');
-    const results = dropdown.querySelectorAll('.search-result');
+    const results = Array.from(dropdown.querySelectorAll('.search-result'));
     if (results.length === 0) return;
     if (e.key === 'ArrowDown') {
       e.preventDefault();
@@ -180,10 +180,7 @@
       highlightResult(currentHighlightedIndex, results);
     } else if (e.key === 'Enter') {
       e.preventDefault();
-      if (currentHighlightedIndex >= 0 && currentHighlightedIndex < results.length) {
-        window.location.href = results[currentHighlightedIndex].href;
-        hideDropdown();
-      }
+      selectHighlightedResult(results);
     }
   }
   
@@ -196,6 +193,13 @@
         result.classList.remove('keyboard-focused');
       }
     });
+  }
+
+  function selectHighlightedResult(results) {
+    if (currentHighlightedIndex >= 0 && currentHighlightedIndex < results.length) {
+      window.location.href = results[currentHighlightedIndex].href;
+      hideDropdown();
+    }
   }
   
   let currentHighlightedIndex = -1;
