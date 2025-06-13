@@ -73,11 +73,29 @@
     };
   }
   
-  function truncateContent(content, maxLength) {
-    if (content.length > maxLength) {
-      return content.substring(0, maxLength) + '...';
+  function truncateContent(content, maxLength, query) {
+    const lowerContent = content.toLowerCase();
+    const terms = parseSearchTerms(query).map(term => term.toLowerCase());
+    let firstIndex = -1;
+    for (let term of terms) {
+      const index = lowerContent.indexOf(term);
+      if (index !== -1 && (firstIndex === -1 || index < firstIndex)) {
+        firstIndex = index;
+      }
     }
-    return content;
+    if (firstIndex === -1) {
+      return content.length > maxLength ? content.substring(0, maxLength) + '...' : content;
+    }
+    const snippetStart = Math.max(firstIndex - 30, 0);
+    const snippetEnd = snippetStart + maxLength;
+    let snippet = content.substring(snippetStart, snippetEnd);
+    if (snippetStart > 0) {
+      snippet = '...' + snippet;
+    }
+    if (snippetEnd < content.length) {
+      snippet = snippet + '...';
+    }
+    return snippet;
   }
   
   function parseSearchTerms(query) {
@@ -113,7 +131,7 @@
       titleEl.innerHTML = highlightSearchTerms(result.title, currentQuery);
       const snippetEl = document.createElement('div');
       snippetEl.className = 'search-result-snippet';
-      snippetEl.innerHTML = highlightSearchTerms(truncateContent(result.content, 150), currentQuery);
+      snippetEl.innerHTML = highlightSearchTerms(truncateContent(result.content, 150, currentQuery), currentQuery);
       link.appendChild(titleEl);
       link.appendChild(snippetEl);
       dropdown.appendChild(link);
