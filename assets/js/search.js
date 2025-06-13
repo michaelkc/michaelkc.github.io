@@ -110,6 +110,47 @@
     dropdown.innerHTML = '';
   }
 
+  // Dropdown show/hide functions
+  function showDropdown() {
+    const dropdown = document.querySelector('.search-dropdown');
+    dropdown.style.display = 'block';
+  }
+
+  function hideDropdown() {
+    const dropdown = document.querySelector('.search-dropdown');
+    dropdown.style.display = 'none';
+  }
+
+  // Close dropdown when clicking outside
+  function setupClickOutside() {
+    document.addEventListener('click', function(e) {
+      const searchContainer = document.querySelector('.search-container');
+      if (!searchContainer.contains(e.target)) {
+        hideDropdown();
+      }
+    });
+  }
+
+  // Close dropdown on Escape key press
+  function setupEscapeKey() {
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        hideDropdown();
+      }
+    });
+  }
+
+  // When a search result is clicked, navigate and close dropdown
+  function setupResultClick() {
+    const dropdown = document.querySelector('.search-dropdown');
+    dropdown.addEventListener('click', function(e) {
+      const link = e.target.closest('.search-result');
+      if (link) {
+        hideDropdown();
+      }
+    });
+  }
+
   function setupEventListeners() {
     const searchInput = document.querySelector('.search-input');
     if (!searchInput) {
