@@ -1,0 +1,38 @@
+<header class="site-header" role="banner">
+  <div class="site-header-inner">
+    {% if site.header %}
+      {{ site.header }}
+    {% else %}
+      <div class="site-branding">
+        <h1 class="site-title">
+          <a href="{{ site.baseurl | prepend: site.url }}">{{ site.title }}</a>
+        </h1>
+        {% if site.description %}
+        <p class="site-description">{{ site.description }}</p>
+        {% endif %}
+      </div>
+    {% endif %}
+    <nav class="site-nav" role="navigation">
+      <button class="menu-toggle" aria-controls="nav" aria-expanded="false">
+        <span class="menu-icon"></span>
+      </button>
+      {% if site.nav_links %}
+      <ul id="nav" class="nav">
+        {% for link in site.nav_links %}
+        <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      <!-- Search container added to navigation -->
+      <div class="search-container">
+        <input type="text" class="search-input" placeholder="Search posts..." 
+               aria-label="Search blog posts" role="searchbox">
+        <div class="search-dropdown" role="listbox" aria-label="Search results">
+          <!-- Results will be populated by JavaScript -->
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+<link rel="stylesheet" href="{{ '/assets/css/search.css' | relative_url }}">
+<script src="{{ '/assets/js/search.js' | relative_url }}"></script>
