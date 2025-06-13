@@ -20,12 +20,13 @@
 .search-dropdown {
   position: absolute;
   top: 100%;
-  left: 0;
   right: 0;
+  left: auto;
+  width: 50vw;
+  height: 50vh;
   background: #fff;
   border: 1px solid #ccc;
   border-top: none;
-  max-height: 300px;
   overflow-y: auto;
   z-index: 1000;
   display: none; /* Shown via JavaScript when needed */
@@ -74,6 +75,9 @@
 .search-result strong {
   background-color: yellow;
   font-weight: bold;
+}
+.search-dropdown .search-result {
+  font-size: 0.8rem;
 }
 
 /* Mobile responsiveness adjustments */
