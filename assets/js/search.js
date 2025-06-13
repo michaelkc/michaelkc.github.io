@@ -101,22 +101,19 @@
   function parseSearchTerms(query) {
     return query.match(/(\b\w+\*?\b)/g) || [];
   }
-  
+
   function highlightSearchTerms(text, searchQuery) {
-    const terms = parseSearchTerms(searchQuery);
-    let highlighted = text;
-    terms.forEach(term => {
-      let pattern;
-      if (term.endsWith("*")) {
-        const baseTerm = term.slice(0, -1);
-        pattern = '\\b(' + baseTerm.replace(/[-\\/\\^$+?.()|[\\]{}]/g, '\\$&') + '\\w*)\\b';
-      } else {
-        pattern = '\\b(' + term.replace(/[-\\/\\^$*+?.()|[\\]{}]/g, '\\$&') + ')\\b';
-      }
-      const regex = new RegExp(pattern, 'gi');
-      highlighted = highlighted.replace(regex, '<strong>$1</strong>');
-    });
-    return highlighted;
+    const terms = parseSearchTerms(searchQuery);
+    let highlighted = text;
+
+    terms.forEach(term => {
+     const pattern = `\\b(${term.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&')})\\b`;
+
+      const regex = new RegExp(pattern, 'gi');
+      highlighted = highlighted.replace(regex, '<strong>$1</strong>');
+    });
+
+    return highlighted;
   }
   
   function displayResults(results) {
