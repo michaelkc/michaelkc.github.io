@@ -20,6 +20,7 @@
   
   let lunrIndex;
   let searchData = [];
+  let currentQuery = "";
   
   async function initializeSearch() {
     try {
@@ -78,7 +79,21 @@
     }
     return content;
   }
-
+  
+  function parseSearchTerms(query) {
+    return query.match(/\b\w+\b/g) || [];
+  }
+  
+  function highlightSearchTerms(text, searchQuery) {
+    const terms = parseSearchTerms(searchQuery);
+    let highlighted = text;
+    terms.forEach(term => {
+      const regex = new RegExp('\\b(' + term.replace(/[-\\/\\^$*+?.()|[\\]{}]/g, '\\$&') + ')\\b', 'gi');
+      highlighted = highlighted.replace(regex, '<strong>$1</strong>');
+    });
+    return highlighted;
+  }
+  
   function displayResults(results) {
     const dropdown = document.querySelector('.search-dropdown');
     dropdown.innerHTML = '';
@@ -95,10 +110,10 @@
       link.className = 'search-result';
       const titleEl = document.createElement('div');
       titleEl.className = 'search-result-title';
-      titleEl.textContent = result.title;
+      titleEl.innerHTML = highlightSearchTerms(result.title, currentQuery);
       const snippetEl = document.createElement('div');
       snippetEl.className = 'search-result-snippet';
-      snippetEl.textContent = truncateContent(result.content, 150);
+      snippetEl.innerHTML = highlightSearchTerms(truncateContent(result.content, 150), currentQuery);
       link.appendChild(titleEl);
       link.appendChild(snippetEl);
       dropdown.appendChild(link);
@@ -159,6 +174,7 @@
     }
     searchInput.addEventListener('input', debounce(function(e) {
       const query = e.target.value;
+      currentQuery = query;
       if (query.trim().length < 3) {
         clearResults();
         hideDropdown();
