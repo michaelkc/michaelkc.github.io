@@ -99,7 +99,7 @@
   }
   
   function parseSearchTerms(query) {
-    return query.match(/\b\w+\b/g) || [];
+    return query.match(/(\b\w+\*?\b)/g) || [];
   }
   
   function highlightSearchTerms(text, searchQuery) {
