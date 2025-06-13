@@ -36,6 +36,11 @@ todo->execution phases interesting, and will try that out soon.
 
 Edit 03/06: Same idea: [Chain-of-Vibes](https://blog.thepete.net/blog/2025/04/14/chain-of-vibes/)
 
+Edit 14/06: I built the new search feature on the blog following the above workflow tonight. I had to fix various stuff, primarily around styling, and for this particular feature I 
+think I could have implemented it just as fast myself. But it was fun to try it out. I used `o3-mini` and consumed 55 cents in tokens.
+
+`aider --model azure/o3-mini --yes-always --weak-model azure/o3-mini  --chat-language English --auto-test --test-cmd "bundle exec jekyll build"`
+
 ### CSharpier
 I am less opinionated about style than many developers I have worked with, so I never bothered to set up tools like Visual Studio or Rider with specific styles. I can work with most styles.
 
