@@ -25,6 +25,7 @@
   width: 50vw;
   height: 50vh;
   background: #fff;
+  line-height: 1rem;
   border: 1px solid #ccc;
   border-top: none;
   overflow-y: auto;
