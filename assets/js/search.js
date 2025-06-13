@@ -72,6 +72,66 @@
     };
   }
   
+  function truncateContent(content, maxLength) {
+    if (content.length > maxLength) {
+      return content.substring(0, maxLength) + '...';
+    }
+    return content;
+  }
+
+  function displayResults(results) {
+    const dropdown = document.querySelector('.search-dropdown');
+    dropdown.innerHTML = '';
+    if (results.length === 0) {
+      const noResult = document.createElement('div');
+      noResult.className = 'search-no-results';
+      noResult.textContent = 'No results found';
+      dropdown.appendChild(noResult);
+      return;
+    }
+    results.forEach(result => {
+      const link = document.createElement('a');
+      link.href = result.url;
+      link.className = 'search-result';
+      const titleEl = document.createElement('div');
+      titleEl.className = 'search-result-title';
+      titleEl.textContent = result.title;
+      const snippetEl = document.createElement('div');
+      snippetEl.className = 'search-result-snippet';
+      snippetEl.textContent = truncateContent(result.content, 150);
+      link.appendChild(titleEl);
+      link.appendChild(snippetEl);
+      dropdown.appendChild(link);
+    });
+  }
+
+  function clearResults() {
+    const dropdown = document.querySelector('.search-dropdown');
+    dropdown.innerHTML = '';
+  }
+
+  function setupEventListeners() {
+    const searchInput = document.querySelector('.search-input');
+    if (!searchInput) {
+      console.error('Search input not found');
+      return;
+    }
+    searchInput.addEventListener('input', debounce(function(e) {
+      const query = e.target.value;
+      if (query.trim().length < 3) {
+        clearResults();
+        return;
+      }
+      const results = performSearch(query);
+      displayResults(results);
+    }, 200));
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    initializeSearch();
+    setupEventListeners();
+  });
+
   // Export functions to global scope
   window.initializeSearch = initializeSearch;
   window.performSearch = performSearch;
