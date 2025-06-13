@@ -106,7 +106,14 @@
     const terms = parseSearchTerms(searchQuery);
     let highlighted = text;
     terms.forEach(term => {
-      const regex = new RegExp('\\b(' + term.replace(/[-\\/\\^$*+?.()|[\\]{}]/g, '\\$&') + ')\\b', 'gi');
+      let pattern;
+      if (term.endsWith("*")) {
+        const baseTerm = term.slice(0, -1);
+        pattern = '\\b(' + baseTerm.replace(/[-\\/\\^$+?.()|[\\]{}]/g, '\\$&') + '\\w*)\\b';
+      } else {
+        pattern = '\\b(' + term.replace(/[-\\/\\^$*+?.()|[\\]{}]/g, '\\$&') + ')\\b';
+      }
+      const regex = new RegExp(pattern, 'gi');
       highlighted = highlighted.replace(regex, '<strong>$1</strong>');
     });
     return highlighted;
