@@ -161,16 +161,21 @@
       const query = e.target.value;
       if (query.trim().length < 3) {
         clearResults();
+        hideDropdown();
         return;
       }
       const results = performSearch(query);
       displayResults(results);
+      showDropdown();
     }, 200));
   }
 
   document.addEventListener('DOMContentLoaded', function() {
     initializeSearch();
     setupEventListeners();
+    setupClickOutside();
+    setupEscapeKey();
+    setupResultClick();
   });
 
   // Export functions to global scope
