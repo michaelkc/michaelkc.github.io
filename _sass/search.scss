@@ -1,3 +1,10 @@
+@include media-query($on-palm) {
+  .search-container {
+    display: none !important;
+  }
+}
+
+
 /* Search Container */
 .search-container {
   position: relative;
@@ -27,7 +34,6 @@
   background: #fff;
   line-height: 1rem;
   border: 1px solid #ccc;
-  border-top: none;
   overflow-y: auto;
   z-index: 1000;
   display: none; /* Shown via JavaScript when needed */
