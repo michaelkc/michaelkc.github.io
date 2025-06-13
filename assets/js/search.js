@@ -1,6 +1,6 @@
 (function() {
   const lunrCDN = "https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js";
-  const lunrIntegrity = "sha512-0Z3PT3iJYM+knKT+7omwQx2/agEpahQvZiFMvrmGVChYkorcJe2yIwrRcRfJNJD9yYf7P87GyenUT2aBmd7N/g==";
+  const lunrIntegrity = "sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==";
   
   function loadScript(src, integrity) {
     return new Promise((resolve, reject) => {
