@@ -165,7 +165,46 @@
       }
     });
   }
-
+  
+  function handleKeyboardNavigation(e) {
+    const dropdown = document.querySelector('.search-dropdown');
+    const results = dropdown.querySelectorAll('.search-result');
+    if (results.length === 0) return;
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      currentHighlightedIndex = (currentHighlightedIndex + 1) % results.length;
+      highlightResult(currentHighlightedIndex, results);
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      currentHighlightedIndex = (currentHighlightedIndex - 1 + results.length) % results.length;
+      highlightResult(currentHighlightedIndex, results);
+    } else if (e.key === 'Enter') {
+      e.preventDefault();
+      if (currentHighlightedIndex >= 0 && currentHighlightedIndex < results.length) {
+        window.location.href = results[currentHighlightedIndex].href;
+        hideDropdown();
+      }
+    }
+  }
+  
+  function highlightResult(index, results) {
+    results.forEach((result, i) => {
+      if (i === index) {
+        result.classList.add('keyboard-focused');
+        result.focus();
+      } else {
+        result.classList.remove('keyboard-focused');
+      }
+    });
+  }
+  
+  let currentHighlightedIndex = -1;
+  
+  function setupKeyboardNavigation() {
+    const searchInput = document.querySelector('.search-input');
+    searchInput.addEventListener('keydown', handleKeyboardNavigation);
+  }
+  
   function setupEventListeners() {
     const searchInput = document.querySelector('.search-input');
     if (!searchInput) {
@@ -189,6 +228,7 @@
   document.addEventListener('DOMContentLoaded', function() {
     initializeSearch();
     setupEventListeners();
+    setupKeyboardNavigation();
     setupClickOutside();
     setupEscapeKey();
     setupResultClick();
