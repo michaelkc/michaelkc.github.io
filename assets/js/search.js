@@ -1,0 +1,79 @@
+(function() {
+  const lunrCDN = "https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js";
+  const lunrIntegrity = "sha512-0Z3PT3iJYM+knKT+7omwQx2/agEpahQvZiFMvrmGVChYkorcJe2yIwrRcRfJNJD9yYf7P87GyenUT2aBmd7N/g==";
+  
+  function loadScript(src, integrity) {
+    return new Promise((resolve, reject) => {
+      if (document.querySelector(`script[src="${src}"]`)) {
+        resolve();
+        return;
+      }
+      const script = document.createElement("script");
+      script.src = src;
+      script.integrity = integrity;
+      script.crossOrigin = "anonymous";
+      script.onload = resolve;
+      script.onerror = () => reject(new Error("Failed to load script: " + src));
+      document.head.appendChild(script);
+    });
+  }
+  
+  let lunrIndex;
+  let searchData = [];
+  
+  async function initializeSearch() {
+    try {
+      await loadScript(lunrCDN, lunrIntegrity);
+      const response = await fetch("/search.json");
+      if (!response.ok) {
+        console.error("Error fetching search index:", response.statusText);
+        return;
+      }
+      searchData = await response.json();
+      lunrIndex = lunr(function() {
+        this.ref("url");
+        this.field("title");
+        this.field("content");
+        searchData.forEach(function(doc) {
+          this.add(doc);
+        }, this);
+      });
+      console.log("Search index initialized", lunrIndex);
+    } catch (error) {
+      console.error("Search temporarily unavailable:", error);
+    }
+  }
+  
+  function performSearch(query) {
+    if (!query || query.trim().length < 3) {
+      console.log("Query too short. Minimum 3 characters required.");
+      return [];
+    }
+    let results = [];
+    try {
+      results = lunrIndex.search(query)
+                     .slice(0, 10)
+                     .map(function(result) {
+                       return searchData.find(doc => doc.url === result.ref);
+                     });
+      console.log("Search results for", query, results);
+    } catch (error) {
+      console.error("Search error:", error);
+    }
+    return results;
+  }
+  
+  // Debounce function for delaying search execution
+  function debounce(func, delay) {
+    let timeout;
+    return function(...args) {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => func.apply(this, args), delay);
+    };
+  }
+  
+  // Export functions to global scope
+  window.initializeSearch = initializeSearch;
+  window.performSearch = performSearch;
+  window.debounceSearch = debounce;
+})();
