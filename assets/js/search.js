@@ -205,8 +205,14 @@
   let currentHighlightedIndex = -1;
   
   function setupKeyboardNavigation() {
-    const searchInput = document.querySelector('.search-input');
-    searchInput.addEventListener('keydown', handleKeyboardNavigation);
+    document.addEventListener('keydown', function(e) {
+      const dropdown = document.querySelector('.search-dropdown');
+      if (dropdown.style.display === 'block') {
+        if (e.key === 'ArrowDown' || e.key === 'ArrowUp' || e.key === 'Enter') {
+          handleKeyboardNavigation(e);
+        }
+      }
+    });
   }
   
   function setupEventListeners() {
