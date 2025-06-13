@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Interesting stuff i found - november 2024"
+title:  "Interesting stuff i found - November 2024"
 date:   2024-11-10 21:57:00 +0200
 ---
 ### Scripting change pull requests (or direct commits) in multiple Git repos

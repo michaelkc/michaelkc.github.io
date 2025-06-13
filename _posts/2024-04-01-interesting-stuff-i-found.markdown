@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Interesting stuff i found - april 2024"
+title:  "Interesting stuff i found - April 2024"
 date:   2024-04-01 10:18:20 +0200
 ---
 ### .NET Smart Components

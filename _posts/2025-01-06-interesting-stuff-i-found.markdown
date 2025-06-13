@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Interesting stuff i found - january 2025"
+title:  "Interesting stuff i found - January 2025"
 date:   2024-01-06 09:14:00 +0200
 ---
 ### Real Time Sources for Azure Event Hubs / Kafka

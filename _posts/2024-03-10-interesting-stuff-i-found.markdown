@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Interesting stuff i found - march 2024"
+title:  "Interesting stuff i found - March 2024"
 date:   2024-03-10 21:50:20 +0100
 ---
 ### Making nix click

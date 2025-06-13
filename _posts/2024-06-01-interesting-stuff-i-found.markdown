@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Interesting stuff i found - june 2024"
+title:  "Interesting stuff i found - June 2024"
 date:   2024-06-04 14:19:20 +0200
 ---
 ### Messaging with Transactional Outbox
