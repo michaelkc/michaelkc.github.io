@@ -166,3 +166,17 @@ Note that "AZURE_API_KEY" is literal, it is the name of the env variable it expe
 Results with openai were encouraging; it created a nice refactoring plan, which I saved to markdown. Then I switched (I personally pay for OpenAI usage, while I have MSDN credits for Azure AI).
 
 Results with AzureOpenAI were mixed. It did a few minor refactorings well, but ended up grinding for ten minutes / many, many tokens trying to eliminate build warnings.
+
+### EchoLeak - leaking confidential information via LLMs and the "lethal trifecta" 
+Simon Willison warns that combining LLM
+- access to private data
+- exfiltration vectors
+- exposure to malicious instructions
+ 
+is a surefire way to get in trouble.
+
+In this particular case, the issue was Microsoft Copilot mitigations not anticipating an uncommon link format in markdown, combined with an open redirect in a CSP allowlisted domain.
+As Simon points out, prompt injection is going to continue to be a problem, as LLMs have no ability to distinguish incoming token source. His analogy to SQL injection seems spot on, protecting against that would be super
+hard if you did not have higher level constructs like parameters, and had  to sanitize the raw string input.
+
+[EchoLeak](https://simonwillison.net/2025/Jun/11/echoleak/)
