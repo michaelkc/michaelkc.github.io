@@ -186,3 +186,10 @@ v0 (spotted on the Thoughtworks Tech Radar) can turn screenshots (of mockups or 
 I tried it out, and while I have not dug deep into the resulting markup and how well structured that is yet, it did a very good job with capturing the details of the screenshot.
 
 [https://v0.dev](https://v0.dev)
+
+### D2 diagram-as-text
+Spotted on Tech Radar as well, it is an alternative to mermaidjs. It supports some more stuff, has an optional, proprietary layout engine and perhaps a slightly cleaner syntax.
+With mermaidjs supported directly in GitHub and no compelling reason to change, I am unsure if this is worth spending more time on atm. But nice to see some competition in this
+space.
+
+[https://play.d2lang.com](https://play.d2lang.com)
