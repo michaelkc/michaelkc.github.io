@@ -180,3 +180,9 @@ As Simon points out, prompt injection is going to continue to be a problem, as L
 hard if you did not have higher level constructs like parameters, and had  to sanitize the raw string input.
 
 [EchoLeak](https://simonwillison.net/2025/Jun/11/echoleak/)
+
+### Vercel v0
+v0 (spotted on the Thoughtworks Tech Radar) can turn screenshots (of mockups or "inspirational" UIs) into frontend markup, e.g. using TailwindCSS.
+I tried it out, and while I have not dug deep into the resulting markup and how well structured that is yet, it did a very good job with capturing the details of the screenshot.
+
+[https://v0.dev](https://v0.dev)
