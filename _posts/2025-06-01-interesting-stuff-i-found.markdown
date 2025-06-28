@@ -203,3 +203,11 @@ With this update, you can now define patterns across repo name and branch name. 
 To be actually useful, you will have to have strong governance on repo naming though. That is certainly not a strong side of GitHub currently, but I guess you could spin something off of webhooks?
 
 [Entra App Registration Flexible Federated Identity Credentials (beta)](https://docs.azure.cn/en-us/entra/workload-id/workload-identities-flexible-federated-identity-credentials?tabs=github)
+
+### What Is ChatGPT Doing … and Why Does It Work?
+Another take predating "Mapping the Mind of a Large Language Model". I liked the first part for presenting quite a bit of detail, while not going all-in on the math. 
+But my attention span tapered off around the pivot to discussing embeddings - it is a very long article.
+
+I like demystifying stuff like this, not to be able to build it (leave that to the specialists), but to have a basic idea of what is going on at the conceptual level, rather than considering it "[magic](https://en.wikipedia.org/wiki/Clarke%27s_three_laws)".
+
+[What Is ChatGPT Doing … and Why Does It Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
