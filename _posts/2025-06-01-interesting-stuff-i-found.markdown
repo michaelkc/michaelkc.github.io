@@ -193,3 +193,13 @@ With mermaidjs supported directly in GitHub and no compelling reason to change, 
 space.
 
 [https://play.d2lang.com](https://play.d2lang.com)
+
+### Entra App Registration Flexible Federated Identity Credentials (beta)
+EARFFIC? And why is the example for Azure China? Anyway, scaling up GitHub OIDC for Azure service principals (~managed identity for your GitHub workflow, passwordless all the things!) can be cumbersome, as the only option is
+to allowlist every repo explictly on the principal, and each principal only supports 20 federated credentials.
+
+With this update, you can now define patterns across repo name and branch name. E.g. "myorg/foo-*" to allow every repo in your org prefixed with "foo-" to authenticate.
+
+To be actually useful, you will have to have strong governance on repo naming though. That is certainly not a strong side of GitHub currently, but I guess you could spin something off of webhooks?
+
+[Entra App Registration Flexible Federated Identity Credentials (beta)](https://docs.azure.cn/en-us/entra/workload-id/workload-identities-flexible-federated-identity-credentials?tabs=github)
