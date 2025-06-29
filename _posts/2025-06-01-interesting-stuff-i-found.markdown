@@ -211,3 +211,14 @@ But my attention span tapered off around the pivot to discussing embeddings - it
 I like demystifying stuff like this, not to be able to build it (leave that to the specialists), but to have a basic idea of what is going on at the conceptual level, rather than considering it "[magic](https://en.wikipedia.org/wiki/Clarke%27s_three_laws)".
 
 [What Is ChatGPT Doing … and Why Does It Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
+
+### IBM architectural design (in buildings) for developer productivity - 1978
+A fascinating look at how IBM designed building and workspace architecture for programmers in 1978. In many ways, what they came up with is better than many contemporary team arrangements, especially the horrible "open floor plan", also 
+known as the [interruption factory](https://world.hey.com/dhh/just-let-me-do-my-job-b7b9819c)
+
+That being said, I like my current mix of in-office co-located with my Team (and _only_ my team) next to other teams (in separate rooms), with working-at-home 2-3 days for deep work.
+
+It seems the buildings [still exists](https://maps.app.goo.gl/NuChwi8qG57jFc9c6)
+
+[IBM’s Santa Teresa Laboratory- Architectural design for program development](http://web.archive.org/web/20060506121755/http:/www.research.ibm.com/journal/sj/171/ibmsj1701C.pdf)
+
