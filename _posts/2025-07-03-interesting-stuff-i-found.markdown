@@ -20,3 +20,8 @@ Maybe it could be a way forward with some industry support, but for now, I try t
 The current politics of the US seem extreme - and it is nice to hear significant voices in tech [call it out](https://www.linkedin.com/posts/shanselman_its-so-frustrating-that-there-is-this-illusion-activity-7346720944465334272-a0cR)
 
 Instead of gutting health care to ~balance the budget~ deliver tax cuts to the rich, maybe they should make the [ultra rich contribute proportionally instead](https://mainlymacro.blogspot.com/2025/06/a-minimum-tax-on-billionaires.html)?
+
+### Entra Sign-in URL Builder
+Useful for testing entra apps, and for browsing Graph scopes
+
+[Entra Sign-in URL Builder](https://signin.merill.net/)
