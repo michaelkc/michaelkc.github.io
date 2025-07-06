@@ -25,3 +25,13 @@ Instead of gutting health care to ~balance the budget~ deliver tax cuts to the r
 Useful for testing entra apps, and for browsing Graph scopes
 
 [Entra Sign-in URL Builder](https://signin.merill.net/)
+
+### Google NotebookLM & OneNote Copilot Notebooks
+In the note-taking part of my info pipeline, [NotebookLM keeps popping up](https://www.xda-developers.com/notebooklm-changed-view-of-ai/). It has the ability to take a number of documents (markdown, PDF - up to 50 for free) then allow you to chat about it and generate an audio overview.
+I plan to try it out for my upcoming Azure certification.
+
+Currently, I use OneNote for note taking, so I am also looking forward to trying out what looks like a copycat feature, Copilot Notebooks
+
+[NotebookLM](https://notebooklm.google.com/)
+
+[OneNote Copilot Notebooks](https://techcommunity.microsoft.com/blog/microsoft_365blog/introducing-copilot-notebooks-a-whole-new-way-to-work-with-ai-in-onenote/4428626)
