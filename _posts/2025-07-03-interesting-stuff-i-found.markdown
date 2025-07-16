@@ -81,3 +81,9 @@ Great stuff, but the resources required to reach the high maturity levels are di
 while transitioning to OpenTelemetry.
 
 [Data Strategy for SREs and Observability Teams](https://www.honeycomb.io/blog/data-strategy-sre-observability-teams)
+
+### Public speaking tips
+Hadi Hariri made ChatGPT gather up an old series of public speaking tips to an ePub book. It is currently available for free.
+I have little experience with public speaking, but semi-frequently do internal presentations, and I guess the same tips apply for smaller audiences too.
+
+[Public speaking tips](https://www.linkedin.com/posts/hadi-hariri_public-speaking-tips-activity-7319430541206798336-wbMH/)
