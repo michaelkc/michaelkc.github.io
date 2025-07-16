@@ -53,3 +53,8 @@ Time will tell if any of this moves towards standardization, I at least agree th
 [Session JWT tokens](https://www.linkedin.com/pulse/session-jwt-token-weve-been-missing-mike-schwartz-xtljc/)
 
 [Logout isn't a signal](https://www.linkedin.com/pulse/logout-isnt-signalits-decision-mike-schwartz-poonc/)
+
+### ServicesDebugger
+Nice little tool to help figure out why something isn't resolving in ASP.NET
+
+[ServicesDebugger](https://gist.github.com/khalidabuhakmeh/066fa8b2ced6f85424c16146ecb7b55b)
