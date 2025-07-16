@@ -59,7 +59,7 @@ Nice little tool to help figure out why something isn't resolving in ASP.NET
 
 [ServicesDebugger](https://gist.github.com/khalidabuhakmeh/066fa8b2ced6f85424c16146ecb7b55b)
 
-### 
+### The valley playbook for business software
 This quote
 
 > This is the valley playbook for business software:
@@ -75,3 +75,9 @@ hits the nail on the head. At work I have been at the "small team" end of this a
 to consider when choosing new third party dependencies.
 
 [On Basecamps "no nonsense" approach](https://www.linkedin.com/posts/david-heinemeier-hansson-374b18221_after-selling-basecamp-for-two-decades-its-activity-7320709707101327360-usYK/)
+
+### Data Strategy for SREs and Observability Teams
+Great stuff, but the resources required to reach the high maturity levels are difficult for SMVs. Right now the focus at work is on deriving value from our current, vendor-specific setup, 
+while transitioning to OpenTelemetry.
+
+[Data Strategy for SREs and Observability Teams](https://www.honeycomb.io/blog/data-strategy-sre-observability-teams)
