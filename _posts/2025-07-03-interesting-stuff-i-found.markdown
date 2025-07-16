@@ -58,3 +58,20 @@ Time will tell if any of this moves towards standardization, I at least agree th
 Nice little tool to help figure out why something isn't resolving in ASP.NET
 
 [ServicesDebugger](https://gist.github.com/khalidabuhakmeh/066fa8b2ced6f85424c16146ecb7b55b)
+
+### 
+This quote
+
+> This is the valley playbook for business software:
+> 
+> Create a great product by selling it to small teams in the early days,
+> then pivot to the enterprise sales model and "call us" pricing after a while.
+> 
+> The reputation from the early days can then slowly be drawn down,
+> and by the time it's gone, you've locked in a bunch of top-dollar
+> enterprise customers who are never going to switch.
+
+hits the nail on the head. At work I have been at the "small team" end of this a couple of times, and been burned enough to list it as an explicit risk point
+to consider when choosing new third party dependencies.
+
+[On Basecamps "no nonsense" approach](https://www.linkedin.com/posts/david-heinemeier-hansson-374b18221_after-selling-basecamp-for-two-decades-its-activity-7320709707101327360-usYK/)
