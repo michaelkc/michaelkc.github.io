@@ -35,3 +35,21 @@ Currently, I use OneNote for note taking, so I am also looking forward to trying
 [NotebookLM](https://notebooklm.google.com/)
 
 [OneNote Copilot Notebooks](https://techcommunity.microsoft.com/blog/microsoft_365blog/introducing-copilot-notebooks-a-whole-new-way-to-work-with-ai-in-onenote/4428626)
+
+### The problem with "Vibe" coding
+Dylan Beattie makes the important distinction between "program" (what I sometimes call "me-ware"), something that is whipped up quickly, and works for one specific, hardcoded scenario. 
+And "product", the program battle-hardened and extended to the point where it can be actually useful for other people, tested, maintainable and have other important quailities.
+
+His experience match my own - LLMs are absolutely fantastic at cranking out me-ware, but struggles as soon as we are talking products.
+
+[The problem with Vibe coding](https://dylanbeattie.net/2025/04/11/the-problem-with-vibe-coding.html)
+
+### Logout isn't a signal - it's a decision
+If I understand the message correctly, the author wants to reverse the traditional logout flow of say OIDC. Here the RP asks the IdP to initiate federated logout and in turn expect it to request each client it knows to be participating in the session to perform local logout. In the proposed flow, as I understand it, instead each RP should expicitly ask for a session to be started, gets a session token, and can then ask for the session status by requesting a revocation list published by the IdP.
+This sounds a bit weird to me, as it does nothing to solve the "how long should the IdP SSO session live in face of individual client logout" (in Enterprise typically you want everything signed out, consumer login based on Facebook not so much), and I have a hard time imagining risk signals being better at the IdP than at the actual client, unless we also invent a "communicate risk back to the IdP" protocol...
+
+Time will tell if any of this moves towards standardization, I at least agree there is a lot of room to improve the current situation.
+
+[Session JWT tokens](https://www.linkedin.com/pulse/session-jwt-token-weve-been-missing-mike-schwartz-xtljc/)
+
+[Logout isn't a signal](https://www.linkedin.com/pulse/logout-isnt-signalits-decision-mike-schwartz-poonc/)
