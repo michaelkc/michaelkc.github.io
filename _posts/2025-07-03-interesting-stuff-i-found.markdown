@@ -87,3 +87,13 @@ Hadi Hariri made ChatGPT gather up an old series of public speaking tips to an e
 I have little experience with public speaking, but semi-frequently do internal presentations, and I guess the same tips apply for smaller audiences too.
 
 [Public speaking tips](https://www.linkedin.com/posts/hadi-hariri_public-speaking-tips-activity-7319430541206798336-wbMH/)
+
+### Polyfill for .NET
+Great idea borrowed from JS (and others), this library polyfills features from newer .NET.
+
+[Polyfill](https://github.com/SimonCropp/Polyfill)
+
+### Why Bell Labs worked so well
+A critique of the current approach to science R&D funding and management, with a look back at what made (the setup around) Bell Labs great
+
+[Why Bell Labs worked so well](https://manganiello.social/notice/AukwkbWFAQDB0uXM80)
