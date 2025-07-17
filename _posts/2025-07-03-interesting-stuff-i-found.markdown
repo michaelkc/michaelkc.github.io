@@ -97,3 +97,18 @@ Great idea borrowed from JS (and others), this library polyfills features from n
 A critique of the current approach to science R&D funding and management, with a look back at what made (the setup around) Bell Labs great
 
 [Why Bell Labs worked so well](https://manganiello.social/notice/AukwkbWFAQDB0uXM80)
+
+### Your Career Needs a Vision, Not More Goals 
+A friendly reminder that career management (and life!) involves more than simple goal setting. Also don't expect your employer to manage your career!
+
+The message aligns well with the [systems over goals](https://www.goodreads.com/quotes/973029-a-goal-is-a-specific-objective-that-you-either-achieve) approach Scott Adams (whose philosophical writings including old Dilbert I like, while I strongly dislike his more recent public politics) advocates.
+
+[Your Career Needs a Vision, Not More Goals](https://alifeengineered.substack.com/p/your-career-needs-a-vision-not-more)
+
+### Pyright
+Python is emerging as an unavoidable language for data science and embedded work, and with `uv` its dependency management is looking better than ever. I also suspect that LLM agents
+have an easier time working with Python than .NET. At least I would like to try it out.
+
+However, I strongly believe in the value of implicit, strong typing. Modern Python appears to support type annotations, and then there is Pyright from Microsoft.
+
+[Pyright Playground](https://pyright-play.net/)
