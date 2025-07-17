@@ -112,3 +112,8 @@ have an easier time working with Python than .NET. At least I would like to try 
 However, I strongly believe in the value of implicit, strong typing. Modern Python appears to support type annotations, and then there is Pyright from Microsoft.
 
 [Pyright Playground](https://pyright-play.net/)
+
+### Bitchat
+While there has been a lot of writing that the code is not security reviewed, vibe coded etc. etc., even if the implementation is pre-prototype worthy, the concept of a peer-to-peer network not involving the internet, being carried from phone to phone, is fascinating. But I guess it would quickly be abused for crime, leaving it in legal quagmire like hosting a Tor exit node.
+
+[Bitchat](https://github.com/permissionlesstech/bitchat)
