@@ -117,3 +117,8 @@ However, I strongly believe in the value of implicit, strong typing. Modern Pyth
 While there has been a lot of writing that the code is not security reviewed, vibe coded etc. etc., even if the implementation is pre-prototype worthy, the concept of a peer-to-peer network not involving the internet, being carried from phone to phone, is fascinating. But I guess it would quickly be abused for crime, leaving it in legal quagmire like hosting a Tor exit node.
 
 [Bitchat](https://github.com/permissionlesstech/bitchat)
+
+### Xbow - AI automated pentesting
+Maybe their claims are exaggerated, but it makes you wonder: If this capability is close to being commercially available, the current hybrid warfare tactics employeed by bad nation states may be about to get a lot worse...
+
+[Xbow has reached the top spot on the US pentester leaderboard](https://xbow.com/blog/top-1-how-xbow-did-it/)
