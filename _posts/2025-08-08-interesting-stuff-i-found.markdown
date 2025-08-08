@@ -8,3 +8,10 @@ date:   2025-08-08 14:27:00 +0200
 and there is [official support coming in .NET 10](https://www.youtube.com/watch?v=nHUwqsRtPCU).
 
 I might just hold off until .NET 10, but it will be nice, as it will allow less brittle integration tests of Blazor UIs, something that work very poorly against live environments atm.
+
+### Best Current Practice for OAuth 2.0 Security
+Spent a bit of time browsing through the new stuff (it was published in January). Even in the final version it still mandates the use of mTLS or DPoP for public client refresh tokens, something the [Duende folks decided was actually not useful](https://duendesoftware.com/blog/20240405-refresh-token-reuse/) when they dropped their rotation-by-default policy around [draft 26](https://datatracker.ietf.org/doc/draft-ietf-oauth-security-topics/26/).
+
+Anyway, the recommendation for me is clear: Make everything confidential clients going forward, use BFF if you have to.
+
+[RFC9700 - Best Current Practice for OAuth 2.0 Security](https://www.rfc-editor.org/rfc/rfc9700.html)
