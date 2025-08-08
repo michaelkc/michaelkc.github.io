@@ -15,3 +15,8 @@ Spent a bit of time browsing through the new stuff (it was published in January)
 Anyway, the recommendation for me is clear: Make everything confidential clients going forward, use BFF if you have to.
 
 [RFC9700 - Best Current Practice for OAuth 2.0 Security](https://www.rfc-editor.org/rfc/rfc9700.html)
+
+### Blazor PacMan
+Oldie but goldie
+
+[Blazor PacMan](https://dunnhq.com/pacman/)
