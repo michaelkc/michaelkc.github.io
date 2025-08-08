@@ -20,3 +20,10 @@ Anyway, the recommendation for me is clear: Make everything confidential clients
 Oldie but goldie
 
 [Blazor PacMan](https://dunnhq.com/pacman/)
+
+### PostmarketOS - Self-hosting a cluster on old phones
+I find the idea of a home-made cluster of old phones strangely appealing, and PostmarketOS is doing the hard work of making it happen. 
+Unfortunately, many old phones are so locked-down they are nothing more than e-waste, and for real world usage 
+I think you would want to be able to remove the batteries to avoid making a huge fire hazard. But all that compute...fun stuff could be made.
+
+[Self-hosting a cluster on old phones](https://hackaday.com/2025/04/09/self-hosting-a-cluster-on-old-phones/)
