@@ -30,3 +30,8 @@ I think you would want to be able to remove the batteries to avoid making a huge
 
 ### Pinball (and Batman)
 Played on a [Batman '66](https://www.ipdb.org/machine.cgi?id=6354) today. I miss daily pinball (since [Alien Poker](https://www.ipdb.org/machine.cgi?id=48) at work broke :-/) and 1966 Batman.
+
+### Metalama in Linqpad
+Query source code with Linq - in Linqpad. Very cool, opens up many of the ad hoc query scenarios that tools like NDepend excels at. 
+
+[Inspecting source code and dependencies using LINQPad](https://doc.metalama.net/conceptual/introspection/linqpad)
