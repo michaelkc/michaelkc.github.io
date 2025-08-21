@@ -35,3 +35,11 @@ Played on a [Batman '66](https://www.ipdb.org/machine.cgi?id=6354) today. I miss
 Query source code with Linq - in Linqpad. Very cool, opens up many of the ad hoc query scenarios that tools like NDepend excels at. 
 
 [Inspecting source code and dependencies using LINQPad](https://doc.metalama.net/conceptual/introspection/linqpad)
+
+### Nowgrep and RipGrep
+Interesting to see if [Nowgrep](https://x.com/CharlieMQV/status/1957552694186418228?t=1IpD8H_qo2luEjrDjNp5Jg) can be turned into a viable product, until then [RipGrep](https://github.com/BurntSushi/ripgrep) will do.
+
+`winget install BurntSushi.ripgrep.MSVC`
+
+Having either tool integrated in [Total Commander](https://www.ghisler.com/) search (like Everything) would be even greater. I love Total Commander search, but the combination of node_modules and the .git folders (if you are searching hidden files) 
+acts like a tar pit....
