@@ -67,3 +67,8 @@ It is a hard call, because on the consumer end, I absolutely do not want to deal
 Then again, my experience tells me he is absolutely right in that if you increment major all the time, people will stay on the old versions...
 
 [Practical vs. Strict Semantic Versioning](https://aaronstannard.com/oss-semver/)
+
+### Rebus Sagas
+I was implementing a Rebus Saga at work for reconciling event replicas, and this article was very helpful.
+
+[Long-running business processes in C# with Rebus on Azure](https://seankearon.me/posts/2020/12/rebus-sagas-csharp/)
