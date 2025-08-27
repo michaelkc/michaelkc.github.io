@@ -43,3 +43,27 @@ Interesting to see if [Nowgrep](https://x.com/CharlieMQV/status/1957552694186418
 
 Having either tool integrated in [Total Commander](https://www.ghisler.com/) search (like Everything) would be even greater. I love Total Commander search, but the combination of node_modules and the .git folders (if you are searching hidden files) 
 acts like a tar pit....
+
+### BlendOS
+Inspired by DHH and [Omarchy](https://omarchy.org/), I am dabbling with Linux again outside of work, on an old laptop. BlendOS is a representative of an interesting new approach: 
+Run the core OS (here Arch) more or less immutable, that is packages are defined and built to a "system image" based on a "track"
+(think Phone OS firmware upgrade, with tracks primarily concerned with the Window Manager), then Flatpaks are layered on top for "native"
+applications. This is supplemented with "containers", where different distributions (e.g. Ubuntu) can be run inside containers. 
+There is also a container that can run Android apps using [WayDroid](https://waydro.id/).
+
+[BlendOS](https://blendos.co/)
+
+### GlazeVM / Tiling window managers
+Also inspired by DHH, I gave tiling Window Managers a look. Since i run mostly Windows, I ended up trying out GlazeVM. I can certainly see the appeal, 
+but I quickly realized that I do not currently have the mental capacity for such a monumental shift in my daily driver setup. If I get some free time, I will give GlazeWM (or Hyprland) another look though, 
+it seems solid.
+
+[GlazeWM](https://github.com/glzr-io/glazewm)
+
+### Practical vs. Strict Semantic Versioning
+An older article I saw referenced. Should you follow SemVer strictly, and bump major version for _any_ public change? And does that give you a "golden ticket" for breaking stuff all the time?
+Or should you only bump major when something significant _and_ necessary (for new features etc.) change, then document a migration path?
+It is a hard call, because on the consumer end, I absolutely do not want to deal with a lot of breakage when bumping non-major versions on a range of components all the time. 
+Then again, my experience tells me he is absolutely right in that if you increment major all the time, people will stay on the old versions...
+
+[Practical vs. Strict Semantic Versioning](https://aaronstannard.com/oss-semver/)
