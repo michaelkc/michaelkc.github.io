@@ -25,7 +25,7 @@
   async function initializeSearch() {
     try {
       await loadScript(lunrCDN, lunrIntegrity);
-      const response = await fetch("/search.json");
+      const response = await fetch(`/search.json?t=${new Date().getTime()}`);
       if (!response.ok) {
         console.error("Error fetching search index:", response.statusText);
         return;
