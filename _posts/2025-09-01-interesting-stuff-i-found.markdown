@@ -21,3 +21,13 @@ Another contender in the NUnit/MSTest/XUnit space. Since I maintain code in both
 Not sure how Playwright integration looks atm, but one to watch.
 
 [Converting an xUnit test project to TUnit](https://andrewlock.net/converting-an-xunit-project-to-tunit/)
+
+### Decision tree for app authentication
+One of the greatest features of public cloud is the ability to simply not have any passwords to steal, i.e. managed identities. While I have previously been bitten 
+by the fact that Azure Managed Identities do not have a SLA (and they started running slowly), I still promote and use them heavily.
+
+Workload identity federatuib is also great if your platform supports it. Certs are a bit of a pain, but still better than rotating client secrets...
+
+[Decision tree for app authentication](https://x.com/merill/status/1718897891018965266?t=sx3hI-hS2SAT4K5KNsvbyA)
+
+
