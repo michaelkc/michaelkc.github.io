@@ -10,3 +10,14 @@ I do like the approach of gradual rollout though, and the architectural-constrai
 (usually [NetArchTest](https://github.com/BenMorris/NetArchTest/) but I am not sure it is maintained anymore?) 
 
 [Refactoring Stubborn, Legacy Codebases](https://www.infoq.com/presentations/refactoring-legacy-codebases/)
+
+### Mackie's Pizza
+If you live in Aarhus, you probably remember Mackie's Pizza. It turns out one of the people who made pizza there now has a food truck
+
+[Mackie's Pizza](https://mackiespizzatruck.dk/om-mackies/)
+
+### TUnit
+Another contender in the NUnit/MSTest/XUnit space. Since I maintain code in both .NET Framework Classic and .NET 8+, a framework that can work in both is appealing.
+Not sure how Playwright integration looks atm, but one to watch.
+
+[Converting an xUnit test project to TUnit](https://andrewlock.net/converting-an-xunit-project-to-tunit/)
