@@ -50,3 +50,8 @@ I guess it all still exists behind the scenes.
 Really shows why security infra legacy and bridging is not just a maintenance burden - it is also a ripe opportunity for holes and unintended access paths to creep in.
 
 [One Token to rule them all - obtaining Global Admin in every Entra ID tenant via Actor tokens](https://dirkjanm.io/obtaining-global-admin-in-every-entra-id-tenant-with-actor-tokens/)
+
+### Azure RG Janitor
+Nice little example of using Spectre.Console and the dotnet 10 features around scripting C#. I like TUIs almost as much as my favorite iconoclast [DHH](https://www.youtube.com/watch?v=gcwzWzC7gUA) does.
+
+[cleanup-rg.cs](https://gist.github.com/davidfowl/5e049dcbdeaa485fbafdbc0b9feeaab7)
