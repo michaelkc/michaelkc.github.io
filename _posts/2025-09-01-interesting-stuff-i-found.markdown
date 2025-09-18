@@ -42,3 +42,11 @@ Also in the "burn-in prevention" category, this tool allows control of the task 
 `winget install 9pf4kz2vn4w9`
 
 [TranslucentTB](https://github.com/TranslucentTB/TranslucentTB)
+
+### Rooting every Entra tenant
+Insane vulnerability. I remember early Azure and the ACS, and have gone many rounds with SAML-based actor tokens - never without signatures though!
+I guess it all still exists behind the scenes. 
+
+Really shows why security infra legacy and bridging is not just a maintenance burden - it is also a ripe opportunity for holes and unintended access paths to creep in.
+
+[One Token to rule them all - obtaining Global Admin in every Entra ID tenant via Actor tokens](https://dirkjanm.io/obtaining-global-admin-in-every-entra-id-tenant-with-actor-tokens/)
