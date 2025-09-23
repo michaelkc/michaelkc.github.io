@@ -60,3 +60,8 @@ Nice little example of using Spectre.Console and the dotnet 10 features around s
 NPM [Supply chain security](https://www.microsoft.com/en-us/securityengineering/sdl/s2c2f) is a huge issue, this tool looks like an easy way to at least stop some of the malicious stuff being pushed again and again.
 
 [Aikido Safe Chain](https://www.aikido.dev/blog/introducing-safe-chain)
+
+### CloudKitchens Study on GenAI DevEx
+A nice point-of-view on pratical usage of AI coding agents. I have not tried Cursor, but I find it interesting that they rate Copilot highly - need to look into that, as my use so far has not left me impressed.
+
+[Study on GenAI DevEx](https://techblog.cloudkitchens.com/p/study-and-update-on-genai-devex)
