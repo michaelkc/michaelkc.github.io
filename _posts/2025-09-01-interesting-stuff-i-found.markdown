@@ -65,3 +65,12 @@ NPM [Supply chain security](https://www.microsoft.com/en-us/securityengineering/
 A nice point-of-view on pratical usage of AI coding agents. I have not tried Cursor, but I find it interesting that they rate Copilot highly - need to look into that, as my use so far has not left me impressed.
 
 [Study on GenAI DevEx](https://techblog.cloudkitchens.com/p/study-and-update-on-genai-devex)
+
+### From CQRS and back - Netflix Tudum
+Reading the article, I also question if this is not a case of too many resources leading to extreme over-engineering. I would think cloud services like CosmosDB (of which I am sure there is an alternative in AWS where Netflix lives) 
+could handle the scale with read-your-writes, and even if it cannot, I would imagine ample opportunity to leverage output caching before reaching for dedicated read models with Kafka in between. 
+
+I guess the takeaway is like Kelly writes: "Consistency at scale is easier than ever.". Many architectural patterns exists to handle extreme scale, which in itself is a shrinking concept as cloud services, networks and even [on-prem hardware](https://www.eveonline.com/news/view/a-history-of-eve-database-server-hardware) gets more and more powerful.
+
+[Netflix revamps Tudum with RAW Hollow](https://www.infoq.com/news/2025/08/netflix-tudum-cqrs-raw-hollow/) (via the brilliant [Kelly Sommers](https://x.com/kellabyte/status/1957933408698400931))
+
