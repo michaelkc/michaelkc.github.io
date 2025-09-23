@@ -55,3 +55,8 @@ Really shows why security infra legacy and bridging is not just a maintenance bu
 Nice little example of using Spectre.Console and the dotnet 10 features around scripting C#. I like TUIs almost as much as my favorite iconoclast [DHH](https://www.youtube.com/watch?v=gcwzWzC7gUA) does.
 
 [cleanup-rg.cs](https://gist.github.com/davidfowl/5e049dcbdeaa485fbafdbc0b9feeaab7)
+
+### Aikido Safe Chain
+NPM [Supply chain security](https://www.microsoft.com/en-us/securityengineering/sdl/s2c2f) is a huge issue, this tool looks like an easy way to at least stop some of the malicious stuff being pushed again and again.
+
+[Aikido Safe Chain](https://www.aikido.dev/blog/introducing-safe-chain)
