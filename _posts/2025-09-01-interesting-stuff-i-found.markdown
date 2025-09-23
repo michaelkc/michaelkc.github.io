@@ -74,3 +74,8 @@ I guess the takeaway is like Kelly writes: "Consistency at scale is easier than 
 
 [Netflix revamps Tudum with RAW Hollow](https://www.infoq.com/news/2025/08/netflix-tudum-cqrs-raw-hollow/) (via the brilliant [Kelly Sommers](https://x.com/kellabyte/status/1957933408698400931))
 
+### AZ-204
+Passed the exam this month. I found the [Whizlabs](https://www.whizlabs.com/) material and practice tests quite nice for preparation, and reasonably priced, so a completely unbiased recommendation from here. Together with Microsoft Learn (which can be [used during the exam](https://learn.microsoft.com/en-us/credentials/support/exam-duration-exam-experience#accessing-microsoft-learn-during-your-certification-exam) but [beware](https://certs.msfthub.wiki/guide/takingtheexams/#microsoft-learn-during-your-exam)), that was what I needed to pass.
+
+
+
