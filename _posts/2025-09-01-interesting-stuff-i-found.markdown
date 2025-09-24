@@ -88,3 +88,6 @@ via [Gregor Hophe](https://www.linkedin.com/posts/ghohpe_architectelevator-liber
 I was annoyed that I could not `cd` to Windows paths (like `C:\foo\bar`) copied from [Total Commander](https://www.ghisler.com) to the inside of WSL (which mounts them under `/mnt/<drive letter>`). Copilot had little trouble conjuring up [wslcd](https://github.com/michaelkc/wslcd). I have not even looked at the code (beyond basic "is it deleting my drive" review), and it seems to be working well.
 
 A fun exercise, and "my" first, actually useful Golang project. Perhaps long term using [zoxide](https://github.com/ajeetdsouza/zoxide) or even Mark Russinovich' new [jcd](https://learn.microsoft.com/en-us/sysinternals/downloads/jcd) would be a better option, but for now this tool solves exactly what annoyed me. 
+
+### Azure Front Door Gateway Timeout issues
+We have been troubleshooting an incident with Azure Front Door, which seems to have [lingered for a while](https://learn.microsoft.com/en-ie/answers/questions/1331370/front-door-responds-with-origintimeout-after-4-sec). I hope Microsoft will eventually produce a more robust solution of the root causes than retries...
