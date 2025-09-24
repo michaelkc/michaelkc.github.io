@@ -77,5 +77,14 @@ I guess the takeaway is like Kelly writes: "Consistency at scale is easier than 
 ### AZ-204
 Passed the exam this month. I found the [Whizlabs](https://www.whizlabs.com/) material and practice tests quite nice for preparation, and reasonably priced, so a completely unbiased recommendation from here. Together with Microsoft Learn (which can be [used during the exam](https://learn.microsoft.com/en-us/credentials/support/exam-duration-exam-experience#accessing-microsoft-learn-during-your-certification-exam) but [beware](https://certs.msfthub.wiki/guide/takingtheexams/#microsoft-learn-during-your-exam)), that was what I needed to pass.
 
+### Liberating structures & Open Practice Library
+I do not have a use case right now, but these team practices seem like a nice catalog to get inspiration from, if you need to run team sessions or tighten up some internal processes.
 
+[Liberating structures](https://www.liberatingstructures.com/) 
+[Open Practice Library](https://openpracticelibrary.com) 
+via [Gregor Hophe](https://www.linkedin.com/posts/ghohpe_architectelevator-liberatingstructures-activity-7361507837325295616-ljJj) - looking forward to attending his workshop next week!
 
+### Vibe coding a "me-ware" tool - wslcd
+I was annoyed that I could not `cd` to Windows paths (like `C:\foo\bar`) copied from [Total Commander](https://www.ghisler.com) to the inside of WSL (which mounts them under `/mnt/<drive letter>`). Copilot had little trouble conjuring up [wslcd](https://github.com/michaelkc/wslcd). I have not even looked at the code (beyond basic "is it deleting my drive" review), and it seems to be working well.
+
+A fun exercise, and "my" first, actually useful Golang project. Perhaps long term using [zoxide](https://github.com/ajeetdsouza/zoxide) or even Mark Russinovich' new [jcd](https://learn.microsoft.com/en-us/sysinternals/downloads/jcd) would be a better option, but for now this tool solves exactly what annoyed me. 
