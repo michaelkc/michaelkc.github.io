@@ -33,3 +33,8 @@ And I walked away with a better idea of how MS virtual training works.
 The labs were somewhat broken (e.g. "do not introduce the synthetic bug in main but make a branch and a PR" ... "fix the bug you introduced in main"), but I found it interesting that they were automated with GitHub Actions, that analyzed your progress and updated the lab instructions based on this.
 
 I previously did the MS Learn test exam for GH-500, and it seems way too easy compared to something like AZ-204. Not sure if this reflects the actual exam, but maybe I should give it a shot...
+
+### Paperless-ngx
+I have long considered scanning my old physical documents to PDF. Paperless-ngx offers a web interface for ingestion/OCR/tagging of scanned documents (and other document types), and might be a useful part of that.
+
+[Paperless-ngx](https://docs.paperless-ngx.com/)
