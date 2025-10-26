@@ -43,3 +43,8 @@ I have long considered scanning my old physical documents to PDF. Paperless-ngx 
 Not as in "Knee-deep in the dead", but as in what happens when you try to get frontier models to solve problems for which their training data was insufficient. E.g. non-tool assisted multiplication, representing unusual imagery like "a wine glass filled to the brink" or esoteric application code. Fortunately (?) there is a lot of boilerplate involved in development still...
 
 [The Doom loop](https://codemanship.wordpress.com/2025/10/25/the-ai-ready-software-developer-9-well-trodden-paths/)
+
+### Net Promoter Score
+[NPS](https://en.wikipedia.org/wiki/Net_promoter_score) is getting more and more traction, but I cannot help but wonder if [cultural bias](https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2F72e03vux9aj11.jpg%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3Da7f2f183508eb68a32c57e4867b07607e2260f13) is setting up organizations for disappointment and false conclusions...
+
+
