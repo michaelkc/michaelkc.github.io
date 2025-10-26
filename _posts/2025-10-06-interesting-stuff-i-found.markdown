@@ -38,3 +38,8 @@ I previously did the MS Learn test exam for GH-500, and it seems way too easy co
 I have long considered scanning my old physical documents to PDF. Paperless-ngx offers a web interface for ingestion/OCR/tagging of scanned documents (and other document types), and might be a useful part of that.
 
 [Paperless-ngx](https://docs.paperless-ngx.com/)
+
+### The Doom loop
+Not as in "Knee-deep in the dead", but as in what happens when you try to get frontier models to solve problems for which their training data was insufficient. E.g. non-tool assisted multiplication, representing unusual imagery like "a wine glass filled to the brink" or esoteric application code. Fortunately (?) there is a lot of boilerplate involved in development still...
+
+[The Doom loop](https://codemanship.wordpress.com/2025/10/25/the-ai-ready-software-developer-9-well-trodden-paths/)
