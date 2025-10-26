@@ -47,4 +47,5 @@ Not as in "Knee-deep in the dead", but as in what happens when you try to get fr
 ### Net Promoter Score
 [NPS](https://en.wikipedia.org/wiki/Net_promoter_score) is getting more and more traction, but I cannot help but wonder if [cultural bias](https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2F72e03vux9aj11.jpg%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3Da7f2f183508eb68a32c57e4867b07607e2260f13) is setting up organizations for disappointment and false conclusions...
 
-
+Macrodata Refinement Keycaps
+Finished watching [Severance](https://www.imdb.com/title/tt11280740/) today, and I found out you can get a set of matching [Macrodata Refinement-style keycaps](https://spkeyboards.com/products/sa-macrodata-refinement). I like the retro style, but they are expensive, and I use [blank keycaps](https://www.daskeyboard.com/daskeyboard-4-ultimate/)...
