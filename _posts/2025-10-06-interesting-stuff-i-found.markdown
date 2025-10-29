@@ -30,7 +30,8 @@ Triple-up on training, I did the [GH-500](https://learn.microsoft.com/en-us/cred
 Strange pacing in the material, some of it very basic, some of the stuff around CodeQL very deep and difficult to grasp in a few overloaded slides, but the trainer did his best to make it work.
 And I walked away with a better idea of how MS virtual training works.
 
-The labs were somewhat broken (e.g. "do not introduce the synthetic bug in main but make a branch and a PR" ... "fix the bug you introduced in main"), but I found it interesting that they were automated with GitHub Actions, that analyzed your progress and updated the lab instructions based on this.
+The labs were somewhat broken (e.g. "do not introduce the synthetic bug in main but make a branch and a PR" ... "fix the bug you introduced in main"), but I found it interesting that they were automated with GitHub Actions, 
+that analyzed your progress and updated the lab instructions based on this.
 
 I previously did the MS Learn test exam for GH-500, and it seems way too easy compared to something like AZ-204. Not sure if this reflects the actual exam, but maybe I should give it a shot...
 
@@ -40,12 +41,34 @@ I have long considered scanning my old physical documents to PDF. Paperless-ngx 
 [Paperless-ngx](https://docs.paperless-ngx.com/)
 
 ### The Doom loop
-Not as in "Knee-deep in the dead", but as in what happens when you try to get frontier models to solve problems for which their training data was insufficient. E.g. non-tool assisted multiplication, representing unusual imagery like "a wine glass filled to the brink" or esoteric application code. Fortunately (?) there is a lot of boilerplate involved in development still...
+Not as in "Knee-deep in the dead", but as in what happens when you try to get frontier models to solve problems for which their training data was insufficient. E.g. non-tool assisted multiplication, 
+representing unusual imagery like "a wine glass filled to the brink" or esoteric application code. Fortunately (?) there is a lot of boilerplate involved in development still...
 
 [The Doom loop](https://codemanship.wordpress.com/2025/10/25/the-ai-ready-software-developer-9-well-trodden-paths/)
 
 ### Net Promoter Score
-[NPS](https://en.wikipedia.org/wiki/Net_promoter_score) is getting more and more traction, but I cannot help but wonder if [cultural bias](https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2F72e03vux9aj11.jpg%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3Da7f2f183508eb68a32c57e4867b07607e2260f13) or [survey fatigue](https://x.com/GantLaborde/status/1981161493979857290) is setting up organizations for disappointment and false conclusions...
+[NPS](https://en.wikipedia.org/wiki/Net_promoter_score) is getting more and more traction, but I cannot help but wonder if 
+[cultural bias](https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2F72e03vux9aj11.jpg%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3Da7f2f183508eb68a32c57e4867b07607e2260f13) or 
+[survey fatigue](https://x.com/GantLaborde/status/1981161493979857290) is setting up organizations for disappointment and false conclusions...
 
 ### Macrodata Refinement Keycaps (from Severance)
-Finished watching [Severance](https://www.imdb.com/title/tt11280740/) today, and I found out you can get a set of matching [Macrodata Refinement-style keycaps](https://spkeyboards.com/products/sa-macrodata-refinement). I like the retro style, but they are expensive, and I use [blank keycaps](https://www.daskeyboard.com/daskeyboard-4-ultimate/)...
+Finished watching [Severance](https://www.imdb.com/title/tt11280740/) today, and I found out you can get a set of matching 
+[Macrodata Refinement-style keycaps](https://spkeyboards.com/products/sa-macrodata-refinement). 
+I like the retro style, but they are expensive, and I use [blank keycaps](https://www.daskeyboard.com/daskeyboard-4-ultimate/)...
+
+### Cline + Grok Code Fast 1
+I am [vibe coding](https://www.youtube.com/watch?v=JeNS1ZNHQs8) an new version of my PhoneShare app, that I use to capture and LLM 
+summarize links from social media (which mostly happens on LinkedIn these days after Twitter imploded). 
+
+The app started out from a oneshot with M365 Copilot + GPT-5 which sorta worked, but I had little luck when I tried to follow up 
+with GitHub Copilot, [Senatus](https://github.com/PaodingSoftware/senatus-en/blob/main/docs/github-spec-kit-is-just-too-complex.md) 
+and the free GPT-1 / GPT-5-Mini models (my Premium model requests are provided by work, so I do not want to use that for hobby projects). 
+It seemed to be stuck in "the Doom loop". So I was looking for alternatives.
+
+After a quick look at market leader Cursor, which I considered subscribing to, I found [Cline](https://cline.bot/), specifically the terminal coding agent. 
+And it turns out that currently, usage with [grok-code-fast-1](https://x.ai/news/grok-code-fast-1) is completely free 
+(even though Elon went crazy, I do not mind spending his money on tokens)
+The results were pretty good - it picked up on the Senatus plan, found the failing tests GPT-5 had created and, given appropriate number of "fix the tests" inputs,
+it did.
+Since the new architecture is a complete split of a static web app Front End with configureable backend, I might publish the repo when I am done. 
+But I guess I should look at the actual code first :-)
