@@ -72,3 +72,29 @@ The results were pretty good - it picked up on the Senatus plan, found the faili
 it did.
 Since the new architecture is a complete split of a static web app Front End with configureable backend, I might publish the repo when I am done. 
 But I guess I should look at the actual code first :-)
+
+### ORAS - use container registries for non-container-image artifacts
+As part of my thinking on how to replace Octopus with GitHub flows, there is a need to store binaries with metadata (and perhaps other artifacts like SBOM) between 
+the build and release stages (as per [Build Binaries Only Once](https://octopus.com/blog/build-your-binaries-once))
+
+Some workloads naturally use container images for this, but since I use .NET and Azure App Service a lot, simple zip deployment is often all that is needed. 
+I have seen examples of using GitHub Releases for this purpose, and while it works, I would really like to store binaries in a single place (like the Octopus feeds), 
+with the ability to apply my own retention policies and access control, separate of source access.
+
+That lead me to [ORAS](https://oras.land/) which offers the ability to store arbitrary files as versioned container registry repositories. You install it with
+
+`winget install oras`
+
+then authenticate with
+
+`oras login <container registry url>`
+
+push the file(s) with something like
+
+`oras push <container registry url>/my-application:1.1.1001 --artifact-type application/zip --annotation "org.opencontainers.image.title=My Deployment artifacts" --annotation "..."  MyApplication.1.1.1001.zip`
+
+and can then download it where you need to deploy it with
+
+`oras pull <container registry url>/my-application:1.1.1001`
+
+I have only scratched the surface here, but it looks very promising.
