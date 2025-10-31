@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src data:;">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%235b21b6'/%3E%3Ctext x='50' y='70' font-family='sans-serif' font-size='60' font-weight='bold' text-anchor='middle' fill='white'%3E🔒%3C/text%3E%3C/svg%3E">
+    <title>Secure Password Generator</title>
+    <link rel="stylesheet" href="css/pico.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Secure Password Generator</h1>
+        <p>All passwords are generated locally in your browser. Nothing is sent over the network. A Content Security Policy prevents any external communication.</p>
+        
+        <div id="loading">
+            <p aria-busy="true">Loading wordlist...</p>
+        </div>
+
+        <div class="layout-grid">
+            <section class="options-column">
+                <h2>Options</h2>
+                
+                <fieldset>
+                    <legend>Password Type</legend>
+                    <label>
+                        <input type="radio" name="type" value="passphrase" checked>
+                        Passphrase (words separated by symbols, e.g. dashes)
+                    </label>
+                    <label>
+                        <input type="radio" name="type" value="random">
+                        Random Characters
+                    </label>
+                </fieldset>
+
+                <div id="passphrase-options">
+                    <label>
+                        Number of words: <span id="word-count-value">3</span>
+                        <input type="range" id="word-count" min="3" max="7" value="3">
+                    </label>
+                    <fieldset>
+                        <label>
+                            <input type="checkbox" id="capitalize-words">
+                            Capitalize first letter of each word
+                        </label>
+                        <label>
+                            <input type="checkbox" id="random-separator">
+                            Use random separator instead of dash
+                        </label>
+                    </fieldset>
+                </div>
+
+                <div id="random-options" class="hidden">
+                    <label>
+                        Password length: <span id="char-length-value">16</span>
+                        <input type="range" id="char-length" min="12" max="60" value="16">
+                    </label>
+                    <fieldset>
+                        <label>
+                            <input type="checkbox" id="use-uppercase" checked>
+                            Include uppercase letters
+                        </label>
+                        <label>
+                            <input type="checkbox" id="use-lowercase" checked>
+                            Include lowercase letters
+                        </label>
+                        <label>
+                            <input type="checkbox" id="use-numbers" checked>
+                            Include numbers
+                        </label>
+                        <label>
+                            <input type="checkbox" id="use-symbols" checked>
+                            Include symbols
+                        </label>
+                        <label>
+                            <input type="checkbox" id="exclude-ambiguous" checked>
+                            Exclude ambiguous characters (i, l, 1, I, o, O, 0)
+                        </label>
+                    </fieldset>
+                </div>
+
+                <label>
+                    Number of passwords to generate: <span id="count-value">5</span>
+                    <input type="range" id="count" min="1" max="20" value="5">
+                </label>
+
+                <div class="generate-section">
+                    <button id="generate-btn">Generate Passwords</button>
+                    <span id="entropy-display"></span>
+                </div>
+            </section>
+
+            <div id="results" class="results-column"></div>
+        </div>
+    </main>
+
+    <script src="js/passwords.js"></script>
+</body>
+</html>
