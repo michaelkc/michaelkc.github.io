@@ -98,3 +98,11 @@ and can then download it where you need to deploy it with
 `oras pull <container registry url>/my-application:1.1.1001`
 
 I have only scratched the surface here, but it looks very promising.
+
+### Yet another password generator
+I use a lot of passwords still, and while there are plenty of generators out there, I figured that making one myself could be a fun vibe coding exercise.
+I had Copilot / Sonnet create the code, and M365 Copilot security review it, to arrive at the final solution. 
+It is deliberately kept simple, ~450 lines of unminified Javascript, and all additional resources used (Pico CSS and some custom styles) are also kept unminified for easy review.
+In addition, a CSP policy prevents loading anything off-origin just in case.
+
+(yet another) [Secure Password Generator](https://www.michaelkc.dk/passwords/)
