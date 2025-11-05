@@ -106,3 +106,9 @@ It is deliberately kept simple, ~450 lines of unminified Javascript, and all add
 In addition, a CSP policy prevents loading anything off-origin just in case.
 
 (yet another) [Secure Password Generator](https://www.michaelkc.dk/passwords/)
+
+### Unregistry - skip the container registry
+More to my taste than the ephemeral registry I wrote about previously is Unregistry, where you make the daemon on the remote end where you want your image to end up host a registry you can push the (missing layers of the) container image to.
+I do not have a use case right now, but one to look into next time I am dabbling with containers at home (via David Fowler)
+
+[Unregistry](https://github.com/psviderski/unregistry)
