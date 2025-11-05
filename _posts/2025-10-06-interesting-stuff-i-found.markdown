@@ -112,3 +112,9 @@ More to my taste than the ephemeral registry I wrote about previously is Unregis
 I do not have a use case right now, but one to look into next time I am dabbling with containers at home (via David Fowler)
 
 [Unregistry](https://github.com/psviderski/unregistry)
+
+### MCP as generic, non-agent plugins
+Another lens to view MCP as "USB-C for APIs", a universal interface, allowing your non-agentic apps to piggyback on the huge amount of functionality being exposed as MCP servers. Some of the comments predicts impending collapse, when the MCP server
+vendors sour on the value proposition for them in exposing their functionality and data this way.
+
+[MCP: An (Accidentally) Universal Plugin System](https://worksonmymachine.ai/p/mcp-an-accidentally-universal-plugin)
