@@ -21,3 +21,9 @@ In principle, this sounds great, but lack of .NET support and lack of Microsoft 
 
 [CI/CD with Dagger and Azure](https://bakson.dev/2023/07/03/deploy-azure-webapp-dagger.html)
 
+### Fizzy - a fresh take on Kanban
+The BaseCamp folks made a Kanban board / task tracker, free for up to 1000 cards. Also the code is open source (like they did with Campfire), 
+which I would think is really valueable for upcoming Ruby programmers. At least I always wished for access to commercially-viable codebases to 
+learn from early in my career, but that was unfortunately not commonly available for .NET in the early 2000s...
+
+[Fizzy](https://www.fizzy.do/)
