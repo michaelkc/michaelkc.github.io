@@ -27,3 +27,8 @@ which I would think is really valueable for upcoming Ruby programmers. At least 
 learn from early in my career, but that was unfortunately not commonly available for .NET in the early 2000s...
 
 [Fizzy](https://www.fizzy.do/)
+
+### How to write a great agents.md
+Nice, actionable guidance.
+
+[How to write a great agents.md: Lessons from over 2,500 repositories](https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/)
