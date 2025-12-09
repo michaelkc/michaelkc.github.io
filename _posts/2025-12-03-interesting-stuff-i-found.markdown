@@ -32,3 +32,13 @@ learn from early in my career, but that was unfortunately not commonly available
 Nice, actionable guidance.
 
 [How to write a great agents.md: Lessons from over 2,500 repositories](https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/)
+
+### The Engineers Who Can’t Use AI Agents Don’t Have a Tools Problem
+Postulates that to use AI (coding) agents efficiently, you have to be able to
+
+- understand what you are building
+- externalize that understanding in writing
+
+That is defintely true, but not the whole picture (as in: more is needed, context, experience etc.). It made me think of Kent Becks [90% of My Skills Are Now Worth $0...but the other 10% are worth 1000x](https://tidyfirst.substack.com/p/90-of-my-skills-are-now-worth-0)
+
+[The Engineers Who Can’t Use AI Agents Don’t Have a Tools Problem](https://agentdrivendevelopment.com/the-engineers-who-cant-use-ai-agents-dont-have-a-tools-problem/)
