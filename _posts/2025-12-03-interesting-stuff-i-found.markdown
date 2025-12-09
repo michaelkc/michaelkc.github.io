@@ -41,4 +41,6 @@ Postulates that to use AI (coding) agents efficiently, you have to be able to
 
 That is defintely true, but not the whole picture (as in: more is needed, context, experience etc.). It made me think of Kent Becks [90% of My Skills Are Now Worth $0...but the other 10% are worth 1000x](https://tidyfirst.substack.com/p/90-of-my-skills-are-now-worth-0)
 
+EDIT: See also Adam Tornhills take [I tend to delete 80% of the generated code. The remaining 20% I refactor](https://www.linkedin.com/posts/adam-tornhill-71759b48_my-quick-and-very-subjective-take-on-ai-coding-activity-7402723654834569216-2zt6/)
+
 [The Engineers Who Can’t Use AI Agents Don’t Have a Tools Problem](https://agentdrivendevelopment.com/the-engineers-who-cant-use-ai-agents-dont-have-a-tools-problem/)
