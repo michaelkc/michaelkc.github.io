@@ -44,3 +44,8 @@ That is defintely true, but not the whole picture (as in: more is needed, contex
 EDIT: See also Adam Tornhills take [I tend to delete 80% of the generated code. The remaining 20% I refactor](https://www.linkedin.com/posts/adam-tornhill-71759b48_my-quick-and-very-subjective-take-on-ai-coding-activity-7402723654834569216-2zt6/)
 
 [The Engineers Who Can’t Use AI Agents Don’t Have a Tools Problem](https://agentdrivendevelopment.com/the-engineers-who-cant-use-ai-agents-dont-have-a-tools-problem/)
+
+### Azure CDK progress
+Previously-mentioned Azure CDK seem to be maturing nicely. They are not pushing it very hard, so I guess the intended usage is more via the higher-level deployment story of Aspire?
+
+[Azure CDK](https://www.nuget.org/packages/Azure.Provisioning#readme-body-tab)
