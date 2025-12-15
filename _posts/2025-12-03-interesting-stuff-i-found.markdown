@@ -49,3 +49,9 @@ EDIT: See also Adam Tornhills take [I tend to delete 80% of the generated code. 
 Previously-mentioned Azure CDK seem to be maturing nicely. They are not pushing it very hard, so I guess the intended usage is more via the higher-level deployment story of Aspire?
 
 [Azure CDK](https://www.nuget.org/packages/Azure.Provisioning#readme-body-tab)
+
+### Using SPIFFE as an OAuth client credential
+I have not worked with SPIFFE (or mTLS for that matter), only the somewhat-related managed identities inside Azure and GitHub OIDC. But eliminating secrets is great for security, so nice to see traction on standardizing this stuff. 
+Perhaps Azure PaaS platform managed identities can offer SPIFFE capabilities in the future for federating passwordless workload identities?
+
+[SPIFFE client auth](https://datatracker.ietf.org/doc/draft-ietf-oauth-spiffe-client-auth/)
