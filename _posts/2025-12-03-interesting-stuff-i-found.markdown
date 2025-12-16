@@ -69,3 +69,15 @@ in the wrong context (just like implementing FAANG architecture in the wrong con
 I also like the [Contrast best practices between OS and enterprise](https://gist.github.com/bdfinst/496d06b057c44edae7fd88d906e78f67) list.
 
 [Bryan Finster on LinkedIn](https://www.linkedin.com/posts/bryan-finster_contrast-best-practices-between-os-and-enterprise-activity-7399522364876840961-CmNj/)
+
+### Mistral Vibe CLI & Devstral Small 2
+Nice to see European AI is still there.
+
+I have not tried Devstral Small 2 (or Qwen 3 coder flash for that matter), but a laptop-runnable coding model have a lot of appeal.  My experiments with OpenCode/Cline and 
+Grok Code Fast has not been very successful, but not sure if that is mostly the model or the agent...maybe time to give the small models a shot.
+
+It has been many years since I have been able to code efficiently offline; in the old days it was Google, these days it is the coding agent.
+
+For work (with GitHub Copilot), nothing I have tried beat Claude Sonnet 4.5 and Claude Opus 4.5. Although I did read that Gemini had an edge on large, legacy codebases.
+
+[Devstral2 & Mistral Vibe CLI](https://mistral.ai/news/devstral-2-vibe-cli)
