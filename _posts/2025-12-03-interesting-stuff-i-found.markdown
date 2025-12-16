@@ -55,3 +55,17 @@ I have not worked with SPIFFE (or mTLS for that matter), only the somewhat-relat
 Perhaps Azure PaaS platform managed identities can offer SPIFFE capabilities in the future for federating passwordless workload identities?
 
 [SPIFFE client auth](https://datatracker.ietf.org/doc/draft-ietf-oauth-spiffe-client-auth/)
+
+### Adapting open source practices in the wrong context
+Great quote, which I fully agree with:
+> Open source practices are the MOST wasteful way to deliver software.
+> They exist to manage the fact that there is no trust and there are no shared incentives.
+> When used in an enterprise, they are are wasteful and even dangerous. 
+
+I once encountered a team that had adopted Git Flow for what was basically a web-based SaaS. Predictably, this ran completely off the rails in zero-value overhead. 
+They were able to adapt their processes to a better place afterwards, but reckless implementation of open source practices
+in the wrong context (just like implementing FAANG architecture in the wrong context) remains a danger.
+
+I also like the [Contrast best practices between OS and enterprise](https://gist.github.com/bdfinst/496d06b057c44edae7fd88d906e78f67) list.
+
+[Bryan Finster on LinkedIn](https://www.linkedin.com/posts/bryan-finster_contrast-best-practices-between-os-and-enterprise-activity-7399522364876840961-CmNj/)
