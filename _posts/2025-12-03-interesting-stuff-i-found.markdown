@@ -87,3 +87,7 @@ Nice overview of some of the tricks Claude Code use to steer the behaviour of th
 
 [Why Coding Agents Aren't Interchangeable](https://blog.thepete.net/blog/2025/12/10/same-model-different-results-why-coding-agents-arent-interchangeable/)
 
+### Vibe Engineering JustHTML
+Great account of vibe engineering in action. I am building an application currently, not a library, but I have similar experience. The process shines when you can guide the agent with key design choices, then it can fill out the blanks. 
+
+[How I wrote JustHTML using coding agents](https://friendlybit.com/python/writing-justhtml-with-coding-agents/)
