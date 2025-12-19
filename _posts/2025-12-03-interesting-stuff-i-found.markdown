@@ -91,3 +91,9 @@ Nice overview of some of the tricks Claude Code use to steer the behaviour of th
 Great account of vibe engineering in action. I am building an application currently, not a library, but I have similar experience. The process shines when you can guide the agent with key design choices, then it can fill out the blanks. 
 
 [How I wrote JustHTML using coding agents](https://friendlybit.com/python/writing-justhtml-with-coding-agents/)
+
+### How I Built a Production App with Claude Code
+Interesting observations from Josh Anderson - that agent coding collapse with huge context is a message I have heard before, however I recently say someone report that Gemini 3 Pro works well when things get large. 
+It is in preview in GitHub Copilot now, but did not work very well in my (extremely limited, 2-3 prompts) testing today (on a small solution).
+
+[How I Built a Production App with Claude Code](https://leadershiplighthouse.substack.com/p/how-i-built-a-production-app-with)
