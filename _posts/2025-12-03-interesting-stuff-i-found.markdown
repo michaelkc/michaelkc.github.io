@@ -81,3 +81,9 @@ It has been many years since I have been able to code efficiently offline; in th
 For work (with GitHub Copilot), nothing I have tried beat Claude Sonnet 4.5 and Claude Opus 4.5. Although I did read that Gemini had an edge on large, legacy codebases.
 
 [Devstral2 & Mistral Vibe CLI](https://mistral.ai/news/devstral-2-vibe-cli)
+
+### Same Model, Different Results: Why Coding Agents Aren't Interchangeable
+Nice overview of some of the tricks Claude Code use to steer the behaviour of the underlying LLM, and reflections on what makes different agents work differently on top of the same model.
+
+[Why Coding Agents Aren't Interchangeable](https://blog.thepete.net/blog/2025/12/10/same-model-different-results-why-coding-agents-arent-interchangeable/)
+
