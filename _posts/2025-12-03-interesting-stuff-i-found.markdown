@@ -45,6 +45,8 @@ EDIT: See also Adam Tornhills take [I tend to delete 80% of the generated code. 
 
 [The Engineers Who Can’t Use AI Agents Don’t Have a Tools Problem](https://agentdrivendevelopment.com/the-engineers-who-cant-use-ai-agents-dont-have-a-tools-problem/)
 
+EDIT: And another take: [90 percent](https://lucumr.pocoo.org/2025/9/29/90-percent/)
+
 ### Azure CDK progress
 Previously-mentioned Azure CDK seem to be maturing nicely. They are not pushing it very hard, so I guess the intended usage is more via the higher-level deployment story of Aspire?
 
