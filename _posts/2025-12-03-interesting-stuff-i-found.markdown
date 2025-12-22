@@ -99,3 +99,8 @@ Interesting observations from Josh Anderson - that agent coding collapse with hu
 It is in preview in GitHub Copilot now, but did not work very well in my (extremely limited, 2-3 prompts) testing today (on a small solution).
 
 [How I Built a Production App with Claude Code](https://leadershiplighthouse.substack.com/p/how-i-built-a-production-app-with)
+
+### GitHub Actions Has a Package Manager, and It Might Be the Worst
+On the atrocious security posture of GitHub Actions. To mitigate, I try to stick to GitHub/Microsoft provided actions (in the hope that they know what they are doing) + NUKE + a few, carefully reviewed, forked and SHA-pinned actions.
+
+[GitHub Actions Has a Package Manager, and It Might Be the Worst](https://nesbitt.io/2025/12/06/github-actions-package-manager.html)
