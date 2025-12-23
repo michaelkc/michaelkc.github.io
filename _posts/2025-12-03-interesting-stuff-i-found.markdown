@@ -104,3 +104,9 @@ It is in preview in GitHub Copilot now, but did not work very well in my (extrem
 On the atrocious security posture of GitHub Actions. To mitigate, I try to stick to GitHub/Microsoft provided actions (in the hope that they know what they are doing) + NUKE + a few, carefully reviewed, forked and SHA-pinned actions.
 
 [GitHub Actions Has a Package Manager, and It Might Be the Worst](https://nesbitt.io/2025/12/06/github-actions-package-manager.html)
+
+### MCP 2025-11-25 spec
+Digging through it today, I understand the basics of MCP but need to know more about the details. MCP is everywhere right now, 
+and the potential (and potential risk) is huge.
+
+[MCP 2025-11-25](https://modelcontextprotocol.io/specification/2025-11-25)
