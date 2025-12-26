@@ -110,3 +110,8 @@ Digging through it today, I understand the basics of MCP but need to know more a
 and the potential (and potential risk) is huge.
 
 [MCP 2025-11-25](https://modelcontextprotocol.io/specification/2025-11-25)
+
+### Pydoll - Evasion-first browser automation
+TIL there are alternative to Playwright/Selenium browser automation that actively try to evade detection. Evil-ish, reminds me of the AI companies ignoring `robots.txt`.
+
+[Pydoll](https://github.com/autoscrape-labs/pydoll?tab=readme-ov-file)
