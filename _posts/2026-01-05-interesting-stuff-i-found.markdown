@@ -25,3 +25,8 @@ Not a big fan of video content, but this one is gold. It walks through the cruci
 - spec out the new feature using a “human–machine interface first” approach
 
 [Feature Design](https://x.com/mitchellh/status/2001810354096214059)
+
+### textarea.my
+A [distraction-free, bare-bones text editor](https://github.com/antonmedv/textarea) that saves content base64-encoded in the url
+
+[textarea.my](https://textarea.my)
