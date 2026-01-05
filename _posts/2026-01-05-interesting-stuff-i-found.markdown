@@ -16,3 +16,12 @@ The Ralph Wiggum part is then to look where the agent falters and add explicit i
 The latter part I have used myself with Copilot, when it had trouble working with translation files.
 
 [Stop Chatting with AI. Start Loops (Ralph Driven Development)](https://lukeparker.dev/stop-chatting-with-ai-start-loops-ralph-driven-development)
+
+### Mitchell Hashimoto on "Feature Design"
+Not a big fan of video content, but this one is gold. It walks through the crucial process of taking a step back when feature requests come in and:
+
+- identify the underlying issue the requester hopes the feature will solve
+- figure out how to address multiple such issues with a new feature that aligns with the product vision
+- spec out the new feature using a “human–machine interface first” approach
+
+[Feature Design](https://x.com/mitchellh/status/2001810354096214059)
