@@ -39,3 +39,11 @@ Supplementing the treatise on exfiltration risks in [the lethal trifecta](https:
 
 [The Price of Intelligence](https://cacm.acm.org/practice/the-price-of-intelligence/)
 
+### The Misconceptions About Vibe-Coding
+Some good takes here, specifically that 
+- vibe coded apps are the new Excel (good for individual stuff, not so good when moving to multi-user, deployed apps)
+- the people threatened the most by vibe coding are entrepeneurs with simple SaaS offerings, not developers
+- developers stay relevant by moving up the complexity stack (architecture, review)
+- vibe-coding’s ceiling is determined by your ability to validate the output
+
+[The Misconceptions About Vibe-Coding](https://blog.fka.dev/blog/2025-12-06-the-misconceptions-about-vibe-coding/)
