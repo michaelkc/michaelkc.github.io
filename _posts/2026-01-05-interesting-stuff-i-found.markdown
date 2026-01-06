@@ -33,3 +33,9 @@ Not a big fan of video content, but this one is gold. It walks through the cruci
 A [distraction-free, bare-bones text editor](https://github.com/antonmedv/textarea) that saves content base64-encoded in the url
 
 [textarea.my](https://textarea.my)
+
+### The Price of Intelligence - Three risks inherent in LLMs.
+Supplementing the treatise on exfiltration risks in [the lethal trifecta](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/), this article discusses inherent issues in LLMs themselves, such as hallucination.
+
+[The Price of Intelligence](https://cacm.acm.org/practice/the-price-of-intelligence/)
+
