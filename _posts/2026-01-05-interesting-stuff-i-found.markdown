@@ -11,9 +11,12 @@ An updated version of GistPreview, which allows hosting single-file HTML pages o
 ### "Ralph Wiggum" agentic coding
 As I understand it the core philosophy here is to come up with an implementation plan (like spec-driven), then convert it to individually implementable features and run the agent in a non-interactive, sequential loop to implement the plan. 
 
-The Ralph Wiggum part is then to look where the agent falters and add explicit instructions in `AGENTS.md` (combined with prompting it to do some housekeeping of its own instructions as well).
+<strike>The Ralph Wiggum part is then to look where the agent falters and add explicit instructions in `AGENTS.md` (combined with prompting it to do some housekeeping of its own instructions as well).
 
-The latter part I have used myself with Copilot, when it had trouble working with translation files.
+The latter part I have used myself with Copilot, when it had trouble working with translation files.</strike>
+
+The Ralph Wiggum part is the iteration with the same prompt on the same problem until a stop condition is met. The idea being that the agent will then build upon partial solutions in previous loops, and be able to run unattended for longer.
+[This article](https://dev.to/sivarampg/the-ralph-wiggum-approach-running-ai-coding-agents-for-hours-not-minutes-57c1) explains it well.
 
 [Stop Chatting with AI. Start Loops (Ralph Driven Development)](https://lukeparker.dev/stop-chatting-with-ai-start-loops-ralph-driven-development)
 
