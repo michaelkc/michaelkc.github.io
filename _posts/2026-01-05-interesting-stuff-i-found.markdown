@@ -47,3 +47,10 @@ Some good takes here, specifically that
 - vibe-coding’s ceiling is determined by your ability to validate the output
 
 [The Misconceptions About Vibe-Coding](https://blog.fka.dev/blog/2025-12-06-the-misconceptions-about-vibe-coding/)
+
+### AI rollout satire (& AI Underpants Gnomes)
+Had a good laughh at [this](https://x.com/gothburz/status/1999124665801880032) and it led me to this piece by Jeffrey Snover. 
+That is a more serious treatise on how many companies adopt generative AI out of fear of "missing the boat", 
+with no clue how to derive value. That was how I felt when I saw the Gordon agent in Docker...
+
+[AI Underpants Gnomes: The Missing Step in Your Strategy](https://www.jsnover.com/blog/2025/11/18/ai-underpants-gnomes-the-missing-step-in-your-strategy/)
