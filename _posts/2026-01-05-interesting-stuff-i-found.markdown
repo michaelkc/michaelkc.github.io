@@ -62,3 +62,16 @@ I previously speculated that the outcome disparity people experience with agenti
 I am definitely going to watch the videos [1](https://www.youtube.com/watch?v=Jr2auYrBDA4&t=8s) [2](https://www.youtube.com/watch?v=ZBkRBs4O1VM) and try out [the workshop](https://ghuntley.com/agent/). 
 
 [AI-native software engineering & the Ralph loop](https://x.com/jaimefjorge/status/2011381315929583747)
+
+### mitmproxy
+Spent a bit of time getting `mitmproxy` running today.
+
+Basics:
+
+- install with `winget install 9NWNDLQMNZD7`
+- trust root cert via [mitm.it](http://mitm.it)
+- capture trace for specific domain patterns `mitmproxy -p 9595 --allow-host .*mydomain1.com  --allow-host .*mydomain2.org --no-show-ignored-hosts --store-streamed-bodies --save-stream-file ./capture.mitm`
+- configure Windows proxy to use `http://localhost:9595`
+- do what you want traced and stop `mitmproxy`
+- load up `capture.mitm` in `mitmweb`
+
