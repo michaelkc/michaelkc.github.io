@@ -70,8 +70,13 @@ Basics:
 
 - install with `winget install 9NWNDLQMNZD7`
 - trust root cert via [mitm.it](http://mitm.it)
-- capture trace for specific domain patterns `mitmproxy -p 9595 --allow-host .*mydomain1.com  --allow-host .*mydomain2.org --no-show-ignored-hosts --store-streamed-bodies --save-stream-file ./capture.mitm`
+- capture trace for specific domain patterns
+  - `mitmproxy -p 9595 --allow-host .*mydomain1.com  --allow-host .*mydomain2.org --no-show-ignored-hosts --store-streamed-bodies --save-stream-file ./capture.mitm`
 - configure Windows proxy to use `http://localhost:9595`
+  - `reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyEnable /t REG_DWORD /d 1 /f`
+    `reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyServer /t REG_SZ /d http://localhost:9595 /f`
 - do what you want traced and stop `mitmproxy`
+- disable Windows proxy
+  - `reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyEnable /t REG_DWORD /d 0 /f`
 - load up `capture.mitm` in `mitmweb`
 
