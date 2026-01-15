@@ -54,3 +54,11 @@ That is a more serious treatise on how many companies adopt generative AI out of
 with no clue how to derive value. That was how I felt when I saw the Gordon agent in Docker...
 
 [AI Underpants Gnomes: The Missing Step in Your Strategy](https://www.jsnover.com/blog/2025/11/18/ai-underpants-gnomes-the-missing-step-in-your-strategy/)
+
+### AI-native software engineering & the Ralph loop
+Some hyperbole, but very interesting. I did dabble a bit with reverse engineering approaches (not products) to skills, with some success.
+I previously speculated that the outcome disparity people experience with agentic coding might be due to language choice and the models ability to work with your choice. Maybe it is time to trial work in alleged S-Tier languages like Typescript instead of F-Tier .NET ?
+
+I am definitely going to watch the videos [1](https://www.youtube.com/watch?v=Jr2auYrBDA4&t=8s) [2](https://www.youtube.com/watch?v=ZBkRBs4O1VM) and try out [the workshop](https://ghuntley.com/agent/). 
+
+[AI-native software engineering & the Ralph loop](https://x.com/jaimefjorge/status/2011381315929583747)
