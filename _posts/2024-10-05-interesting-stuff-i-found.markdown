@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Interesting stuff i found - October 2024"
+title:  "Interesting stuff I found - October 2024"
 date:   2024-10-05 21:48:00 +0200
 ---
 ### Service Granularity

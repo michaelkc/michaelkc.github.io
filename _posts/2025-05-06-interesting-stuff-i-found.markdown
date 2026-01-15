@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Interesting stuff i found - May 2025"
+title:  "Interesting stuff I found - May 2025"
 date:   2025-05-06 18:10:00 +0200
 ---
 ### OpenCodex

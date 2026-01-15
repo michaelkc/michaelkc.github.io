@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Interesting stuff i found - March 2025"
+title:  "Interesting stuff I found - March 2025"
 date:   2025-03-02 22:05:00 +0200
 ---
 ### Monkeytype

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Interesting stuff i found - April 2025"
+title:  "Interesting stuff I found - April 2025"
 date:   2025-04-03 14:05:00 +0200
 ---
 ### FastEndpoints

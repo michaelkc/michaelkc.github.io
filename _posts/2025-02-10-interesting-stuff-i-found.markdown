@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Interesting stuff i found - February 2025"
+title:  "Interesting stuff I found - February 2025"
 date:   2025-02-10 22:09:00 +0200
 ---
 ### Using Nix with GitHub Actions

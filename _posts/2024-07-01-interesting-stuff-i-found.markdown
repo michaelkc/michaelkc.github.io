@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Interesting stuff i found - July 2024"
+title:  "Interesting stuff I found - July 2024"
 date:   2024-07-01 14:26:20 +0200
 ---
 ### Octopus Deploy alternatives - FDeploy and thinking about the Octopus model on GitHub Actions

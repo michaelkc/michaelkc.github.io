@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Interesting stuff i found - June 2025"
+title:  "Interesting stuff I found - June 2025"
 date:   2025-06-01 13:51:00 +0200
 ---
 ### LegoGPT

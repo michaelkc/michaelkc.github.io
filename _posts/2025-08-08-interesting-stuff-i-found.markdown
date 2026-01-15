@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Interesting stuff i found - August 2025"
+title:  "Interesting stuff I found - August 2025"
 date:   2025-08-08 14:27:00 +0200
 ---
 ### Hosting HTTP(s) enabled endpoints during .NET testing

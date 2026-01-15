@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Interesting stuff i found - October 2025"
+title:  "Interesting stuff I found - October 2025"
 date:   2025-10-06 21:05:00 +0200
 ---
 ### DHH on why he does not have 15 minutes for a "quick call"

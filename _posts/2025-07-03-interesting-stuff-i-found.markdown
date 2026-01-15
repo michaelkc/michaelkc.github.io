@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Interesting stuff i found - July 2025"
+title:  "Interesting stuff I found - July 2025"
 date:   2025-07-03 14:24:00 +0200
 ---
 ### Azure Icons

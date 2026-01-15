@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Interesting stuff i found - August 2024"
+title:  "Interesting stuff I found - August 2024"
 date:   2024-08-11 20:13:20 +0200
 ---
 ### Acknowledge the rising importance of understanding code over merely writing

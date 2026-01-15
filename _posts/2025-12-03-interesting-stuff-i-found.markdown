@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Interesting stuff i found - December 2025"
+title:  "Interesting stuff I found - December 2025"
 date:   2025-12-03 12:31:00 +0200
 ---
 ### NUKE in trouble? How about Dagger

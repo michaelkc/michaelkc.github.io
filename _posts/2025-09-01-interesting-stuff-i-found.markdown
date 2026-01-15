@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Interesting stuff i found - September 2025"
+title:  "Interesting stuff I found - September 2025"
 date:   2025-09-01 07:49:00 +0200
 ---
 ### Refactoring Stubborn, Legacy Codebases

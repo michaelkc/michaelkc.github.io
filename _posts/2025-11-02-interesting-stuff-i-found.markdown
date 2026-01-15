@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Interesting stuff i found - November 2025"
+title:  "Interesting stuff I found - November 2025"
 date:   2025-11-02 17:25:00 +0100
 ---
 ### When the Shapes Don't Fit: Modelling Team Interaction Anti-Patterns with Honesty

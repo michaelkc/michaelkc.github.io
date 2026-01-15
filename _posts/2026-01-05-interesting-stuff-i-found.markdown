@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Interesting stuff i found - January 2026"
+title:  "Interesting stuff I found - January 2026"
 date:   2026-01-05 13:08:00 +0200
 ---
 ### GistHost

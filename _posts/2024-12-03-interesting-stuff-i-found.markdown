@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Interesting stuff i found - December 2024"
+title:  "Interesting stuff I found - December 2024"
 date:   2024-12-03 09:05:01 +0100
 ---
 ### Low-budget migration from .NET Startup-based hosting to minimal hosting
