@@ -80,3 +80,17 @@ Basics:
   - `reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v ProxyEnable /t REG_DWORD /d 0 /f`
 - load up `capture.mitm` in `mitmweb`
 
+### WezTerm
+While Windows Terminal is great, it is good to have competition in the space on Windows. Wezterm comes with [interesting features](https://wezterm.org/features.html) I want to dig into.
+
+Install with `winget install wez.wezterm`
+
+[WezTerm](https://wezterm.org/index.html)
+
+### Blazor Hot Reloading
+I am shifting to UI adjustment work as we wrap up a project at work, and that led me to investigate the state of Blazor Hot Reloading. It is much, much better than when I looked last, 
+and works even when not debugging. One gotcha is that "hot reload on save" is not enabled by default in VS 2026; you must press `ALT-F10` to hot reload (or enable it in options).
+
+Also I noticed that the browser refresh script injected is now an actual script file, which might mean that running with a CSP locally might finally be doable (it used to be direct script injection).
+
+[Write and debug running code with Hot Reload in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/debugger/hot-reload?view=visualstudio&pivots=programming-language-dotnet)
