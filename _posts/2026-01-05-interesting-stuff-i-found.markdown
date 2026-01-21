@@ -94,3 +94,27 @@ and works even when not debugging. One gotcha is that "hot reload on save" is no
 Also I noticed that the browser refresh script injected is now an actual script file, which might mean that running with a CSP locally might finally be doable (it used to be direct script injection).
 
 [Write and debug running code with Hot Reload in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/debugger/hot-reload?view=visualstudio&pivots=programming-language-dotnet)
+
+### Resetting package.lock.json on git checkout
+I was doing a lot of branch switching today, and got annoyed with Git complaining
+
+```
+git checkout main
+error: Your local changes to the following files would be overwritten by checkout:
+        src/DotNetProject1/packages.lock.json
+        src/DotNetProject1/packages.lock.json
+Please commit your changes or stash them before you switch branches.
+Aborting
+```
+I want to regenerate lockfiles on build, to ensure that I build with the exact same transitive package versions on the build server as I developed locally. 
+But the file contents are not important to me; when the branch is switched it should ignore any pending changes to the lockfiles lingering from the old branch.
+It will be regenerated as soon as I build anyway.
+
+This `co` Git alias, courtesy of Copilot with some nudging, does the trick:
+```
+[alias]
+  co = "!f() { set -e; CANDIDATES=$(git ls-files -m -o --exclude-standard --full-name -- \"**/packages.lock.json\" || true); if [ -z \"$CANDIDATES\" ]; then CANDIDATES=$(git ls-files --full-name -- \"**/packages.lock.json\" || true); fi; OLDIFS=\"$IFS\"; IFS=$(printf '\n'); for f in $CANDIDATES; do [ -z \"$f\" ] || { git restore --staged --worktree -- \"$f\" 2>/dev/null || true; git checkout -- \"$f\" 2>/dev/null || true; git clean -f -- \"$f\" 2>/dev/null || true; }; done; IFS=\"$OLDIFS\"; git checkout \"$@\"; }; f"
+```
+Add it to `~/..gitconfig.aliases` (when using [Phil Haack's Git aliases](https://haacked.com/archive/2019/02/14/including-git-aliases/))
+
+It slows down the checkout process quite a bit though, but if that ends up annoying me I might make a separate alias for "fast" switching (or just use `checkout`).
