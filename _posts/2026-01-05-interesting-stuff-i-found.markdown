@@ -102,7 +102,7 @@ I was doing a lot of branch switching today, and got annoyed with Git complainin
 git checkout main
 error: Your local changes to the following files would be overwritten by checkout:
         src/DotNetProject1/packages.lock.json
-        src/DotNetProject1/packages.lock.json
+        src/DotNetProject2/packages.lock.json
 Please commit your changes or stash them before you switch branches.
 Aborting
 ```
