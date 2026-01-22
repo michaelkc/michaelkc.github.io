@@ -118,3 +118,9 @@ This `co` Git alias, courtesy of Copilot with some nudging, does the trick:
 Add it to `~/..gitconfig.aliases` (when using [Phil Haack's Git aliases](https://haacked.com/archive/2019/02/14/including-git-aliases/))
 
 It slows down the checkout process quite a bit though, but if that ends up annoying me I might make a separate alias for "fast" switching (or just use `checkout`).
+
+### Upscaling images - upscayl
+I had to print some low-resolution images today, and experimented with putting them through AI upscaling. Upscayl runs locally (or you can pay for cloud), is free, open source (models possibly only open-weight?) and worked great for my use case.
+Only gotchas is that you must have an NVIDIA card for it to work, but most of my machines do...
+
+[Upscayl](https://github.com/upscayl/upscayl/)
