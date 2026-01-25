@@ -124,3 +124,7 @@ I had to print some low-resolution images today, and experimented with putting t
 Only gotchas is that you must have an NVIDIA card for it to work, but most of my machines do...
 
 [Upscayl](https://github.com/upscayl/upscayl/)
+
+### AI personal assistants
+Things are heating up with [ClawdBot](https://docs.clawd.bot/), which got a lot of hype this week. I am not personally ready to connect bleeding edge code and models with questionable safeguards to my critical workflows just yet, but I certainly see the allure of finally feeling close to realizing the "personal agent does stuff for me" vision.
+While other people work out the kinks, I am dabbling a bit with [Goose](https://block.github.io/goose/), where things are somewhat less exposed and you are more in control of what is happening (like Copilot).
