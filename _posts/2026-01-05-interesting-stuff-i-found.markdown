@@ -128,3 +128,10 @@ Only gotchas is that you must have an NVIDIA card for it to work, but most of my
 ### AI personal assistants
 Things are heating up with [ClawdBot](https://docs.clawd.bot/), which got a lot of hype this week. I am not personally ready to connect bleeding edge code and models with questionable safeguards to my critical workflows just yet, but I certainly see the allure of finally feeling close to realizing the "personal agent does stuff for me" vision.
 While other people work out the kinks, I am dabbling a bit with [Goose](https://block.github.io/goose/), where things are somewhat less exposed and you are more in control of what is happening (like Copilot).
+
+EDIT: [How a Single Email Turned My ClawdBot Into a Data Leak ](https://www.reddit.com/r/ClaudeCode/comments/1qnsn9t/how_a_single_email_turned_my_clawdbot_into_a_data/) and [From Clawdbot to Moltbot: How a C&D, Crypto Scammers, and 10 Seconds of Chaos Took Down the Internet's Hottest AI Project ](https://dev.to/sivarampg/from-clawdbot-to-moltbot-how-a-cd-crypto-scammers-and-10-seconds-of-chaos-took-down-the-4eck). Making a chat/email-accessible personal agent with the right balance between safety and usability is hard. Reading the article, I wonder who dumps money they cannot afford to loose into new crypto-coins like that? I do not feel sorry for them.
+
+### Scott Adams
+Scott Adams found out if the world really is a simulation as he often speculated. This obituary mirrors my feelings on the matter well. If you can overlook the post-Trump years and subsequent horrible political views (and that is hard), his books and writings contain many valueable life-lessons, like [Systems over goals](https://web.archive.org/web/20131122191323/https://dilbert.com/blog/entry/goals_vs_systems/). I will always remember old Dilbert fondly.
+
+[Andreas Backhaus - My journey with Scott Adams](https://plausiblyexogenous.substack.com/p/my-journey-with-scott-adams)
