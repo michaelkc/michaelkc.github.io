@@ -4,7 +4,7 @@ title:  "Interesting stuff I found - February 2026"
 date:   2026-02-02 16:00:00 +0100
 ---
 ### Google Technical Writing course
-I am cheweing through. Good tips, maybe you can distill it to a technical writing agent/reviewer?
+I am chewing through the course. Good tips, maybe you could distill it to a technical writing agent/reviewer?
 
 [Google Technical Writing](https://developers.google.com/tech-writing)
 
