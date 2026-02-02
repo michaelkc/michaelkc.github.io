@@ -22,6 +22,6 @@ At any rate, I am 100% convinced you need a strategy for applying your infra def
 Working with a passkey rollout plan, and I am digesting the tome linked below, to come up with personas and a scenario test plan. 
 
 When they work, passkeys are wonderful and secure. 
-But I think the mental model is very difficult to grasp for the average user - which can quickly translate to support needs when things starts going south.
+But I think the mental model is very difficult to grasp for the average user - which can quickly translate to support needs when things start going south.
 
 [Tour of WebAuthn](https://www.imperialviolet.org/tourofwebauthn/tourofwebauthn.html)
