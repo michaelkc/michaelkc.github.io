@@ -25,3 +25,9 @@ When they work, passkeys are wonderful and secure.
 But I think the mental model is very difficult to grasp for the average user - which can quickly translate to support needs when things start going south.
 
 [Tour of WebAuthn](https://www.imperialviolet.org/tourofwebauthn/tourofwebauthn.html)
+
+### Azure Key Vault Emulator
+Microsoft now supplies an Azure Service Bus emulator, but still no Key Vault emulator. This guy did the hard work, and that will come in handy with local-dev Aspire 
+and not least using it in a TestContainer and the [real-port hosting option for WebApplicationFactory in .NET 10](https://www.youtube.com/watch?v=nHUwqsRtPCU).
+
+[Azure KeyVault Emulator](https://github.com/james-gould/azure-keyvault-emulator?tab=readme-ov-file#running-the-emulator-with-net-aspire)
