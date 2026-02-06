@@ -51,6 +51,20 @@ I really try to grok the principles people are uncovering, and am experimenting 
 
 [Writing a good CLAUDE.md](https://www.humanlayer.dev/blog/writing-a-good-claude-md)
 
+### Writing a great AGENTS.md
+From good to great, Matt Nigh from GitHub chimes in with an analysis of 2,500 `AGENTS.md` files and concludes that it must cover 6 core areas:
+
+- commands
+- testing
+- project structure
+- code style
+- git workflow
+- boundaries. 
+
+I got the link from [How to write a good spec for AI agents](https://addyosmani.com/blog/good-spec/), but I was turned off by his misquoting of the lethal trifecta (AI slop?) - and who seriously uses GPT 4 for anything now?
+
+[How to write a great agents.md: Lessons from over 2,500 repositories](https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/)
+
 ### Oh-my-posh visual configurator
 Nice, vibe-coded app for building out your terminal. I will give it a shot if I tire of the default Aliens theme, which I recently started applying to all my machines with the [Oh-my-posh DSC provider](https://ohmyposh.dev/docs/dsc).
 (my basic setup of Aliens can be DSC-applied with [this file](https://gist.github.com/michaelkc/3b784329c0732e28f1cbc72d4cce27bf))
