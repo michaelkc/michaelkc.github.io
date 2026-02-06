@@ -36,3 +36,10 @@ and not least using it in a TestContainer and the [real-port hosting option for 
 Pete Hodgson argues that the real issues in LLM coding is context management and bad design taste. He uses that to evaluate which of the flavor-of-the-month techniques (e.g. Ralph) and innovations to track closely
 
 [Assessing the Latest AI Coding Hotness](https://blog.thepete.net/blog/2026/01/29/assessing-the-latest-ai-coding-hotness/)
+
+### AGENTS.md docs index vs skills 
+Picking up on the above, context engineering is obviously super important. Especially when it comes to new versions of frameworks, on which the LLM is not properly trained.
+Vercel faced that issue with a new version of `next.js`, and ran experiments with Claude to see if skills were the right way to inject the appropriate context. 
+It turns out coding agents do not call skills reliably, so a compressed index of the `next.js` markdown docs in AGENTS.md worked better.
+
+[AGENTS.md outperforms skills in our agent evals](https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals)
