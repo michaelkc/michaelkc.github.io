@@ -50,3 +50,9 @@ Also in that area, this article considers what to put in `AGENTS.md`, and remind
 I really try to grok the principles people are uncovering, and am experimenting a lot.
 
 [Writing a good CLAUDE.md](https://www.humanlayer.dev/blog/writing-a-good-claude-md)
+
+### Oh-my-posh visual configurator
+Nice, vibe-coded app for building out your terminal. I will give it a shot if I tire of the default Aliens theme, which I recently started applying to all my machines with the [Oh-my-posh DSC provider](https://ohmyposh.dev/docs/dsc).
+(my basic setup of Aliens can be DSC-applied with [this file](https://gist.github.com/michaelkc/3b784329c0732e28f1cbc72d4cce27bf))
+
+[Introducing Oh My Posh Visual Configurator](https://montemagno.com/introducing-oh-my-posh-visual-configurator-finally-a-drag-and-drop-terminal-theme-builder/)
