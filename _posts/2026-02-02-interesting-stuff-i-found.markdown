@@ -56,3 +56,10 @@ Nice, vibe-coded app for building out your terminal. I will give it a shot if I 
 (my basic setup of Aliens can be DSC-applied with [this file](https://gist.github.com/michaelkc/3b784329c0732e28f1cbc72d4cce27bf))
 
 [Introducing Oh My Posh Visual Configurator](https://montemagno.com/introducing-oh-my-posh-visual-configurator-finally-a-drag-and-drop-terminal-theme-builder/)
+
+### Context switching with AI agents
+Nice treatise on how to handle the excessive context switching that arise from constantly waiting on (multiple) agent workstreams. 
+The middle ground between  "too slow to stare and wait, too fast to do meaningful work in the meantime" is a bad place, always has been
+(for builds, deploys, reviews etc. etc.)
+
+[The biggest obstacle for engineer productivity in 2026](https://strategizeyourcareer.com/p/this-ai-problem-is-the-biggest-risk-for-software-engineers-in-2026)
