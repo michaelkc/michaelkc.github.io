@@ -71,6 +71,14 @@ Nice, vibe-coded app for building out your terminal. I will give it a shot if I 
 
 [Introducing Oh My Posh Visual Configurator](https://montemagno.com/introducing-oh-my-posh-visual-configurator-finally-a-drag-and-drop-terminal-theme-builder/)
 
+### WinGet (DSC) Configuration
+Picking up on that, nice to see some docs on DSC / `winget configure`- that would have been nice 14 days ago when I sifted through it!
+Relationship between winget and DSC v2/v3 is still spotty (see comments), and there really need to be more non-imperative providers for dev stuff beyond "switch on dark mode". Basically nothing seems to have happened on that front since [the build video](https://www.youtube.com/watch?v=vvdnel6ffTc).
+
+But with more eyeballs, maybe it will gain some traction?
+
+[WinGet Configuration: Set up your dev machine in one command](https://developer.microsoft.com/blog/winget-configuration-set-up-your-dev-machine-in-one-command)
+
 ### Context switching with AI agents
 Nice treatise on how to handle the excessive context switching that arise from constantly waiting on (multiple) agent workstreams. 
 The middle ground between  "too slow to stare and wait, too fast to do meaningful work in the meantime" is a bad place, always has been
