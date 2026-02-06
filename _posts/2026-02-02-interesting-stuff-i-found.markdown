@@ -43,3 +43,10 @@ Vercel faced that issue with a new version of `next.js`, and ran experiments wit
 It turns out coding agents do not call skills reliably, so a compressed index of the `next.js` markdown docs in AGENTS.md worked better.
 
 [AGENTS.md outperforms skills in our agent evals](https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals)
+
+### Writing a good AGENTS.md
+Also in that area, this article considers what to put in `AGENTS.md`, and reminds that at least Claude (and presumably also Copilot, OpenCode etc.) will often ignore it if it determines it is not relevant.
+
+I really try to grok the principles people are uncovering, and am experimenting a lot.
+
+[Writing a good CLAUDE.md](https://www.humanlayer.dev/blog/writing-a-good-claude-md)
