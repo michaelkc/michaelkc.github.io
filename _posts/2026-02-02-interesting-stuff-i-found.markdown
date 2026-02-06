@@ -31,3 +31,8 @@ Microsoft now supplies an Azure Service Bus emulator, but still no Key Vault emu
 and not least using it in a TestContainer and the [real-port hosting option for WebApplicationFactory in .NET 10](https://www.youtube.com/watch?v=nHUwqsRtPCU).
 
 [Azure KeyVault Emulator](https://github.com/james-gould/azure-keyvault-emulator?tab=readme-ov-file#running-the-emulator-with-net-aspire)
+
+### Evaluating LLM coding agent innovations
+Pete Hodgson argues that the real issues in LLM coding is context management and bad design taste. He uses that to evaluate which of the flavor-of-the-month techniques (e.g. Ralph) and innovations to track closely
+
+[Assessing the Latest AI Coding Hotness](https://blog.thepete.net/blog/2026/01/29/assessing-the-latest-ai-coding-hotness/)
