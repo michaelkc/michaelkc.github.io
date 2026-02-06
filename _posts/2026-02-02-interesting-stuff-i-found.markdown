@@ -85,3 +85,8 @@ The middle ground between  "too slow to stare and wait, too fast to do meaningfu
 (for builds, deploys, reviews etc. etc.)
 
 [The biggest obstacle for engineer productivity in 2026](https://strategizeyourcareer.com/p/this-ai-problem-is-the-biggest-risk-for-software-engineers-in-2026)
+
+### Real-world apps (or: Medium clone built in ... everything)
+Interesting concept: Build the same app in different stacks. Great as a learning tool and to compare approaches
+
+[RealWorld Example Apps](https://github.com/realworld-apps/)
