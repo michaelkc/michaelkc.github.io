@@ -97,3 +97,8 @@ It seems there is quite a pivot from MCP to CLI-based skills at the moment.
 
 [Playwright CLI](https://github.com/microsoft/playwright-cli)
 
+### Addy Osmani's LLM Coding Workflow
+Addy Osmani's LLM coding workflow closely mirrors my own approach. He emphasizes clear plans before coding, small iterative chunks, extensive context, human oversight with testing and frequent commits. 
+
+[My LLM coding workflow going into 2026](https://addyo.substack.com/p/my-llm-coding-workflow-going-into)
+
