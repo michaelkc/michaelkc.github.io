@@ -102,3 +102,9 @@ Addy Osmani's LLM coding workflow closely mirrors my own approach. He emphasizes
 
 [My LLM coding workflow going into 2026](https://addyo.substack.com/p/my-llm-coding-workflow-going-into)
 
+### The art of KPop Demon Hunters
+
+Very nicely done, love the music and looking forward to the [lego sets](https://www.lego.com/en-us/aboutus/news/2026/february/lego-kpop-demon-hunters-sets).
+
+[The art of KPop Demon Hunters](https://theartofkpopdemonhunters.com/)
+
