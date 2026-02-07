@@ -90,3 +90,10 @@ The middle ground between  "too slow to stare and wait, too fast to do meaningfu
 Interesting concept: Build the same app in different stacks. Great as a learning tool and to compare approaches
 
 [RealWorld Example Apps](https://github.com/realworld-apps/)
+
+### Playwright CLI
+Spent a bit of time with an open browser window to the left, Playwright CLI in a VSCode windows (with Grok Code Fast, so free model) to the right. It is fun to describe what to do and have the agent do it in realtime.
+It seems there is quite a pivot from MCP to CLI-based skills at the moment.
+
+[Playwright CLI](https://github.com/microsoft/playwright-cli)
+
