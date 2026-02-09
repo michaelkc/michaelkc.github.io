@@ -121,3 +121,8 @@ Excellent summary of canonical logs and related concepts, though implementing th
 [Logging Sucks](https://loggingsucks.com/)
 [Evlog - Event-based logging tool](https://www.evlog.dev/)
 
+### Vibe coding paralysis and managing workstreams
+Trying to do too much at once with AI tools can lead to cognitive overload and unfinished work; it's important to track what you're building and read the generated code to maintain confidence and keep your skills sharp.
+
+[Vibe coding paralysis: When infinite productivity breaks your brain (Francesco Bonacci on X)](https://x.com/francedot/status/2017858253439345092)
+
