@@ -108,3 +108,9 @@ Very nicely done, love the music and looking forward to the [lego sets](https://
 
 [The art of KPop Demon Hunters](https://theartofkpopdemonhunters.com/)
 
+### AI-assisted coding: Same game, different dice
+
+The article presents a contrarian view arguing that most AI teams see only 0.8x-1.2x productivity gains (not the promised 10x), and that success comes from fundamental practices like TDD, modular design, and small iterative chunks. I think that is a bit pessimistic, especially for resource constrained teams that struggle to fill all roles, but good balance to all the hype.
+
+[The AI-Ready Software Developer: Conclusion – Same Game, Different Dice](https://codemanship.wordpress.com/2026/01/05/the-ai-ready-software-developer-conclusion-same-game-different-dice/)
+
