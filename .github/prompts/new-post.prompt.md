@@ -3,7 +3,7 @@ name: new-post
 description: Add a new section to the current month markdown file
 argument-hint: Provide a URL to an article you want to add to the current month's post, along with any personal reactions or key takeaways you'd like to include in the summary.
 agent: agent
-model: Claude Haiku 4.5 (copilot)
+model: GPT-4.1
 ---
 
 When the user hands you a link, create a new entry in the "interesting stuff I found" post for the current year and month. Follow this pattern exactly:
