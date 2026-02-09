@@ -43,7 +43,7 @@ When the user hands you a link, create a new entry in the "interesting stuff I f
 	Always inspect the actual files that exist at runtime and compute the newest date from those.
 
 3.  Append a new section at the end of that file that mirrors the existing style:
-	- Start with a `###` header that summarizes the highlight in a few words; do **not** put links inside the header. Think of it as a short job title for the discovery.
+	- Start with a blank line from the previous set of links, then a `###` header that summarizes the highlight in a few words; do **not** put links inside the header. Think of it as a short job title for the discovery.
 	- If the user provided personal reactions or key takeaways, lean heavily on those for the body text. If not create a factual summary of the linked article. Output in either case is a single sentence, max 2.
 	- After the body, leave a blank line and then 1–3 markdown links (usually just one) that point to the article or other related resources you referenced. Each link should use descriptive link text reminiscent of the section header or the link’s title.
 4.  Always show the user what was inserted (the new header, body, and link block) so they can verify it matches their expectations.
