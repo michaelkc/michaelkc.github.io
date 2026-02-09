@@ -114,3 +114,10 @@ The article presents a contrarian view arguing that most AI teams see only 0.8x-
 
 [The AI-Ready Software Developer: Conclusion – Same Game, Different Dice](https://codemanship.wordpress.com/2026/01/05/the-ai-ready-software-developer-conclusion-same-game-different-dice/)
 
+### Canonical logs and structured logging
+
+Excellent summary of canonical logs and related concepts, though implementing this pattern in .NET is challenging since standard libraries default to traditional structured logging rather than canonical logs.
+
+[Logging Sucks](https://loggingsucks.com/)
+[Evlog - Event-based logging tool](https://www.evlog.dev/)
+
