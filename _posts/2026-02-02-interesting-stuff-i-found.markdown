@@ -126,3 +126,8 @@ Trying to do too much at once with AI tools can lead to cognitive overload and u
 
 [Vibe coding paralysis: When infinite productivity breaks your brain (Francesco Bonacci on X)](https://x.com/francedot/status/2017858253439345092)
 
+### Summarize.sh: Fast, Scriptable Summaries
+Summarize.sh is great at summarizing YouTube videos (and other types of content). I got it working with Azure AI Foundry GPT-5-mini with a bit of tinkering.
+
+[Summarize.sh](https://summarize.sh/)  
+
