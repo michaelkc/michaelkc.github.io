@@ -142,3 +142,8 @@ Erik Meijer contrasts Google's A2 for dynamic with Microsoft Adaptive Cards (whi
 [Google introduces A2 for dynamic UIs](https://developers.googleblog.com/introducing-a2)
 [Microsoft Adaptive Cards](https://adaptivecards.microsoft.com/)
 [Erik Meijer’s post on X](https://x.com/headinthebox/status/2001093741655019863)
+
+### HTTP's evolution: forced by reality
+Great overview of how HTTP changed over decades, each version adapting to new constraints like latency, mobile, and unreliable networks—never by design, always by necessity.
+
+[HTTP Over the Decades: A Story of Physics, Latency, and Grudging Adaptation](https://www.mostlylucid.net/blog/http-over-the-decades)
