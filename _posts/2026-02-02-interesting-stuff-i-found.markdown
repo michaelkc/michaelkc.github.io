@@ -152,3 +152,9 @@ Great overview of how HTTP changed over decades, each version adapting to new co
 Massive roundup of LLM developments, trends, and tools from 2025—so much happened it’s hard to keep up, and the links alone show the scale of change.
 
 [Simon Willison’s 2025 LLM Year in Review](https://simonwillison.net/2025/Dec/31/the-year-in-llms/)
+
+### Grounded AI adoption: Mitchell Hashimoto's journey
+
+Interesting and grounded take on the journey to see value in agentic coding, without drinking all of the "Ralph Wiggum" kool-aid.
+
+[My AI Adoption Journey – Mitchell Hashimoto](https://mitchellh.com/writing/my-ai-adoption-journey)
