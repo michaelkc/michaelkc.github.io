@@ -158,3 +158,8 @@ Massive roundup of LLM developments, trends, and tools from 2025—so much happe
 Interesting and grounded take on the journey to see value in agentic coding, without drinking all of the "Ralph Wiggum" kool-aid.
 
 [My AI Adoption Journey – Mitchell Hashimoto](https://mitchellh.com/writing/my-ai-adoption-journey)
+
+### Shannon - autonomous LLM pentester
+Shannon is an LLM-powered, autonomous pentester. Have not tried it out, but would be interesting to see it work against [Supercar Showdown](https://hack-yourself-first.azurewebsites.net/)
+
+[Shannon automated pentester](https://github.com/KeygraphHQ/shannon)
