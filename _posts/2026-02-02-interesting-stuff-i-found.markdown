@@ -131,3 +131,14 @@ Summarize.sh is great at summarizing YouTube videos (and other types of content)
 
 [Summarize.sh](https://summarize.sh/)  
 
+### Sundhedsdatabanken
+Drill into Danish medicine consumption in PowerBI. The Danish government has been tracking this stuff for 40 years, it opens up a lot of interesting possibilities for science.
+
+[Sundhedsdatabanken](https://sundhedsdatabank.dk/medicin/medicinsalg-og-udgifter)
+
+### Google A2 vs Microsoft Agents SDK
+Erik Meijer contrasts Google's A2 for dynamic with Microsoft Adaptive Cards (which I had never head of). Agentic UI is surely something that will become important as semi-autonomous  agents starts to gain traction. 
+
+[Google introduces A2 for dynamic UIs](https://developers.googleblog.com/introducing-a2)
+[Microsoft Adaptive Cards](https://adaptivecards.microsoft.com/)
+[Erik Meijer’s post on X](https://x.com/headinthebox/status/2001093741655019863)
