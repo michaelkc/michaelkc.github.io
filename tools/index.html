@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tools & Resources</title>
+    <!-- Pico CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <style>
+        .tool-link {
+            display: block;
+            margin-bottom: 2rem;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .tool-link article {
+            position: relative;
+            transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            cursor: pointer;
+        }
+
+        .tool-link:hover article {
+            border-color: var(--pico-primary);
+            box-shadow: var(--pico-card-box-shadow);
+        }
+
+        article header {
+            font-weight: bold;
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+
+        main {
+            padding-top: 2rem;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding-bottom: 3rem;
+            text-align: center;
+        }
+
+        .cta {
+            margin-top: 1rem;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container">
+        <header>
+            <hgroup>
+                <h1>Tools</h1>
+                <p>A collection of web-based tools and resources.</p>
+            </hgroup>
+        </header>
+
+        <section>
+            <a href="/passwords/" class="tool-link">
+                <article>
+                    <header>Password Generator</header>
+                    <p>Generate secure, random passwords locally in your browser.</p>
+                    <div class="cta">
+                        <span class="secondary" role="button">Open Password Generator</span>
+                    </div>
+                </article>
+            </a>
+
+            <a href="https://emn178.github.io/online-tools/" class="tool-link" target="_blank" rel="noopener">
+                <article>
+                    <header>Emn178 Online Tools</header>
+                    <p>Online tools offer many functions for hashing, encoding, decoding, encryption, decryption,
+                        formatting, generating and so on. Examples include MD5, SHA-256, SHA-512, SHA-3, Keccak, Base64,
+                        Base32, JSON, XML, and QR code related tools.</p>
+                    <div class="cta">
+                        <span class="secondary" role="button">Visit Online Tools</span>
+                    </div>
+                </article>
+            </a>
+        </section>
+
+        <footer>
+            <small><a href="/">Back to Home</a></small>
+        </footer>
+    </main>
+</body>
+
+</html>
