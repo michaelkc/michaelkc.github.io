@@ -174,3 +174,8 @@ I respect Charity Majors, so I am inclined to take this seriously weight on this
 
 [The o16g Manifesto](https://o16g.com/)
 
+### Large Language Models Will Never Be Intelligent, Expert Says
+It is hard not to be confused, I am thinking "two movies, one screen" here.
+
+[Large Language Models Will Never Be Intelligent](https://futurism.com/artificial-intelligence/large-language-models-willnever-be-intelligent)
+
