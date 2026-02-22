@@ -163,3 +163,8 @@ Interesting and grounded take on the journey to see value in agentic coding, wit
 Shannon is an LLM-powered, autonomous pentester. Have not tried it out, but would be interesting to see it work against [Supercar Showdown](https://hack-yourself-first.azurewebsites.net/)
 
 [Shannon automated pentester](https://github.com/KeygraphHQ/shannon)
+
+### Brace for the f***ening
+What if the Tech CEOs ends up being right and white collar work disappears quickly? The most likely case is that they are inflating expectations to keep investments flowing (into the bubble) but what if...?
+
+[Brace for the f***ening](https://justin.searls.co/posts/brace-for-the-fuckening/)
