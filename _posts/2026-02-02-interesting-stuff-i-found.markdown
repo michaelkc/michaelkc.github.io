@@ -54,12 +54,6 @@ I really try to grok the principles people are uncovering, and am experimenting 
 ### Writing a great AGENTS.md
 From good to great, Matt Nigh from GitHub chimes in with an analysis of 2,500 `AGENTS.md` files and concludes that it must cover 6 core areas:
 
-- commands
-- testing
-- project structure
-- code style
-- git workflow
-- boundaries. 
 
 I got the link from [How to write a good spec for AI agents](https://addyosmani.com/blog/good-spec/), but I was turned off by his misquoting of the lethal trifecta (AI slop?) - and who seriously uses GPT 4 for anything now?
 
@@ -178,4 +172,10 @@ I respect Charity Majors, so I am inclined to take this seriously weight on this
 It is hard not to be confused, I am thinking "two movies, one screen" here.
 
 [Large Language Models Will Never Be Intelligent](https://futurism.com/artificial-intelligence/large-language-models-willnever-be-intelligent)
+
+### Amp drops VSCode plugins for CLI
+Amp is killing its VSCode and Cursor extensions, shifting focus to a pure CLI approach.
+
+[Amp announcement: The Coding Agent Is Dead](https://ampcode.com/news/the-coding-agent-is-dead)
+
 
