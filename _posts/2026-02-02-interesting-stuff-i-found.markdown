@@ -165,6 +165,6 @@ Shannon is an LLM-powered, autonomous pentester. Have not tried it out, but woul
 [Shannon automated pentester](https://github.com/KeygraphHQ/shannon)
 
 ### Brace for the f***ening
-What if the Tech CEOs ends up being right and white collar work disappears quickly? The most likely case is that they are inflating expectations to keep investments flowing (into the bubble) but what if...?
+What if the Tech CEOs ends up being right and white collar work disappears quickly? [The most likely case](https://hachyderm.io/@scottgal/116092529976187527) is that they are inflating expectations to keep investments flowing (into the bubble) but what if...?
 
 [Brace for the f***ening](https://justin.searls.co/posts/brace-for-the-fuckening/)
