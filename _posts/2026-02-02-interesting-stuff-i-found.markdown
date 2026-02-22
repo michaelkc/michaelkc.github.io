@@ -147,3 +147,8 @@ Erik Meijer contrasts Google's A2 for dynamic with Microsoft Adaptive Cards (whi
 Great overview of how HTTP changed over decades, each version adapting to new constraints like latency, mobile, and unreliable networks—never by design, always by necessity.
 
 [HTTP Over the Decades: A Story of Physics, Latency, and Grudging Adaptation](https://www.mostlylucid.net/blog/http-over-the-decades)
+
+### 2025: LLMs, agents, and everything else
+Massive roundup of LLM developments, trends, and tools from 2025—so much happened it’s hard to keep up, and the links alone show the scale of change.
+
+[Simon Willison’s 2025 LLM Year in Review](https://simonwillison.net/2025/Dec/31/the-year-in-llms/)
