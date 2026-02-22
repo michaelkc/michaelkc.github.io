@@ -178,4 +178,8 @@ Amp is killing its VSCode and Cursor extensions, shifting focus to a pure CLI ap
 
 [Amp announcement: The Coding Agent Is Dead](https://ampcode.com/news/the-coding-agent-is-dead)
 
+### Local CI 
+Safia, like DHH, advocates for "local CI" as the future of validation, moving away from slow PR-based loops. I think it makes sense if you run that verification in containers, and have a mechanism to attest that it happened (to prevent sloppiness).
+
+[Safia on local CI](https://x.com/captainsafia/status/2012302910571561061)
 
