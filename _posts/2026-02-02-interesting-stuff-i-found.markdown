@@ -168,3 +168,9 @@ Shannon is an LLM-powered, autonomous pentester. Have not tried it out, but woul
 What if the Tech CEOs ends up being right and white collar work disappears quickly? [The most likely case](https://hachyderm.io/@scottgal/116092529976187527) is that they are inflating expectations to keep investments flowing (into the bubble) but what if...?
 
 [Brace for the f***ening](https://justin.searls.co/posts/brace-for-the-fuckening/)
+
+### Outcome engineering and the o16g Manifesto
+I respect Charity Majors, so I am inclined to take this seriously weight on this, even though it seems a bit ahead of things as they are. I certainly think there are other blockers than pure cost in development still.
+
+[The o16g Manifesto](https://o16g.com/)
+
