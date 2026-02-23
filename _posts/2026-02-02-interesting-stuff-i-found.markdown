@@ -183,3 +183,7 @@ Safia, like DHH, advocates for "local CI" as the future of validation, moving aw
 
 [Safia on local CI](https://x.com/captainsafia/status/2012302910571561061)
 
+### The AI Vampire: Who profits from 10x output?
+If AI coding agents can deliver 10x productivity, what is the cost? And who will profit?
+
+[The AI Vampire: Steve Yegge on value capture and burnout](https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163)
