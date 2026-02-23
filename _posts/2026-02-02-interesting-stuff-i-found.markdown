@@ -186,7 +186,7 @@ Safia, like DHH, advocates for "local CI" as the future of validation, moving aw
 ### The AI Vampire: Who profits from 10x output?
 If AI coding agents can deliver 10x productivity, what is the cost? And who will profit?
 
-[The AI Vampire](https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163)
+[The AI Vampire: Steve Yegge on value capture and burnout](https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163)
 
 ### Software is far from dead
 Steven Sinofsky argues that AI won't kill software, but rather increase the demand for it by moving functionality up the stack and making domain expertise more critical.
