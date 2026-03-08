@@ -13,3 +13,10 @@ It also gave me a chance to apply [nuget trusted publishing](https://andrewlock.
 [Michaelkc.Extensions.Configuration.Doppler](https://github.com/michaelkc/Michaelkc.Extensions.Configuration.Doppler)
 
 [Michaelkc.Extensions.Configuration.Doppler package](https://www.nuget.org/packages/Michaelkc.Extensions.Configuration.Doppler)
+
+### A Language For Agents
+Agents prefer strong typing, loose syntax. Python (significant whitespace) and dynamic languages in general are not ideal.
+
+To the list I would add compiled languages where source is not available outright, but that can be [somewhat mitigated with skills](https://github.com/davidfowl/dotnet-skillz/blob/main/skills/ilspy-decompile/SKILL.md).
+
+[A Language For Agents](https://lucumr.pocoo.org/2026/2/9/a-language-for-agents/)
