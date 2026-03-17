@@ -30,3 +30,9 @@ This bums me out, as [HP is making some really slick hardware at a good price po
 Price for best name for "semi-autonomous coding agents" goes to Stripe - I hope "Minions" will take as an industry standard. But what is up with that page background?
 
 [Minions: Stripe’s one-shot, end-to-end coding agents](https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents)
+
+### Peli's Agent Factory
+Similar in spirit to Minions, but built on regular GitHub Actions / GitHub Copilot (or Codex/Claude/Gemini), the agent factory looks really interesting. 
+I have started trialing some of the workflows on a non-critical repo.
+
+[Welcome to Peli's Agent Factory](https://github.github.com/gh-aw/blog/2026-01-12-welcome-to-pelis-agent-factory/)
