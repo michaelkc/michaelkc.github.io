@@ -20,3 +20,13 @@ Agents prefer strong typing, loose syntax. Python (significant whitespace) and d
 To the list I would add compiled languages where source is not available outright, but that can be [somewhat mitigated with skills](https://github.com/davidfowl/dotnet-skillz/blob/main/skills/ilspy-decompile/SKILL.md).
 
 [A Language For Agents](https://lucumr.pocoo.org/2026/2/9/a-language-for-agents/)
+
+### "Nordic" ANSI keyboards on laptops
+My old Thinkpad is dying, and I am in the market for a new one. To my dismay, [HP and Asus has started supplying the nordic market with ANSI-keyboard](https://www.doc.ic.ac.uk/~nuric/posts/hardware/why-do-some-uk-laptops-come-with-a-us-ansi-keyboard-layout/) (one-row enter key vs the traditional two-row ISO variant), with nordic characters painted on. 
+
+This bums me out, as [HP is making some really slick hardware at a good price point](https://www.xda-developers.com/hp-omnibook-ultra-flip-review/). But not going to retrain all that muscle memory. I guess Lenovo will get my business again...
+
+### Minions
+Price for best name for "semi-autonomous coding agents" goes to Stripe - I hope "Minions" will take as an industry standard. But what is up with that page background?
+
+[Minions: Stripe’s one-shot, end-to-end coding agents](https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents)
