@@ -26,6 +26,11 @@ My old Thinkpad is dying, and I am in the market for a new one. To my dismay, [H
 
 This bums me out, as [HP is making some really slick hardware at a good price point](https://www.xda-developers.com/hp-omnibook-ultra-flip-review/). But not going to retrain all that muscle memory. I guess Lenovo will get my business again...
 
+EDIT 24/03: Picked up a [Lenovo Yoga Aura 14" with Intel U7-258V and 32 GB ram](https://psref.lenovo.com/Detail/Yoga_Slim_7_14ILL10?M=83JX00AAMX) for 5.500 DKR (~USD 850), 
+by trading in an old[^1] PC. 
+
+[^1]: How old? Let's just say its CPU was dual core [BobCat](https://en.wikipedia.org/wiki/Bobcat_(microarchitecture)) 
+
 ### Minions
 Price for best name for "semi-autonomous coding agents" goes to Stripe - I hope "Minions" will take as an industry standard. But what is up with that page background?
 
