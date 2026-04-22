@@ -110,19 +110,19 @@ This resonated: "The friends didn't leave — the structure that held them in pl
 [The Loneliness Epidemic in Your Thirties](https://vegoutmag.com/lifestyle/j-a-y-psychology-says-the-loneliness-epidemic-in-peoples-thirties-isnt-caused-by-social-media-or-introversion-its-the-first-decade-where-maintaining-friendships-requires-deliberate-effort-rather-than/)
 
 ### GitHub Copilot CLI Local Models
-GitHub Copilot CLI now supports local models via OpenAI-compatible providers, so you can do development with the same harness without burning cloud tokens. qwen3.5:9b seems to run nicely with Ollama - it does make my old RTX 3060 with 12GB VRAM sweat though, and fast, it is not.
+GitHub Copilot CLI now supports local models via OpenAI-compatible providers, so you can do development with the same harness without burning cloud tokens. `qwen3.5:9b` seems to run nicely with Ollama - it does make my old RTX 3060 with 12GB VRAM sweat though, and fast, it is not.
 
 Run with ollama:
 
 `ollama run qwen3.5:9b-q4_K_M`
 
-then set up Copilot CLI provider:
+then set up Copilot CLI provider (here with `pwsh`):
 
 `$env:COPILOT_PROVIDER_BASE_URL="http://localhost:11434/v1"`
 
 `$env:COPILOT_MODEL="qwen3.5:9b-q4_K_M"`
 
-Then run Copilot cli and listen for the fan spinning up ;-)
+Then run Copilot CLI and listen for the fan spinning up ;-)
 
 <a href="/assets/images/2026-04-copilot-with-local-qwen.webp"><img src="/assets/images/2026-04-copilot-with-local-qwen.webp" alt="GitHub Copilot CLI connected to a local Qwen model" style="display:block; width:100%; max-width:420px; height:auto; margin:1rem auto;" /></a>
 
