@@ -75,7 +75,7 @@ Mitchell Hashimoto argues that the winning move is increasingly to build reusabl
 [Building Block Economy](https://mitchellh.com/writing/building-block-economy)
 
 ### Cybersecurity in the age of instant software
-Bruce Schneier sketching what security might look like once software becomes far more disposable and on-demand. Most people seem to agree that long-term frontier models is a long-time benefit for the blue team, but short-term the red team [must be having](https://copy.fail/) [a field day](https://www.version2.dk/holdning/kvalitetskontrol-en-anden-dag)
+Bruce Schneier sketching what security might look like once software becomes far more disposable and on-demand. Most people seem to agree that frontier models is a long-time benefit for the blue team, but short-term the red team [must be having](https://copy.fail/) [a field day](https://www.version2.dk/holdning/kvalitetskontrol-en-anden-dag)
 
 [Cybersecurity in the Age of Instant Software](https://www.schneier.com/blog/archives/2026/04/cybersecurity-in-the-age-of-instant-software.html)
 
