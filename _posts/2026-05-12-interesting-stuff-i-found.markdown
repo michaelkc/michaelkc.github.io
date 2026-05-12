@@ -9,7 +9,7 @@ Not everyone _want_ their workflows automated like many software developers do.
 [Software Brain (Decoder / The Verge)](https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation)
 
 ### The West Forgot How to Make Things
-Ukraine taught us that peace do not last, so letting weapon-building skills atrophy during peace time has a cost.
+Ukraine taught us that peace does not last, so letting weapon-building skills atrophy during peace time has a cost.
 
 Will the loss of operational knowledge in software development present similar challenges once the current generation of senior engineers retire (along with their pre-AI taste and implicit knowledge from building things manually)?
 
