@@ -5,7 +5,13 @@ date:   2026-06-28 23:00:00 +0200
 ---
 
 ### ComfyUI - local image generation
-Great for local image generation. I had a lot of fun with Flux Schnell and Z-Image-Turbo, both of which can generate an image on my RTX 3060 12GB in about 30-60 seconds.
+Great for local image generation. I had a lot of fun with Flux Schnell and Z-Image-Turbo, both of which can generate an image on my RTX 3060 12GB in about 30-60 seconds. I usually generate a low-resolution image first, then use [Upscayl](https://upscayl.org/) to increase its resolution.
+
+[![Z-Image-Turbo example](/assets/images/z-image-turbo_example_small.jpg)](/assets/images/z-image-turbo_example_upscayl.jpg)
+*Z-Image-Turbo — click for full-size upscaled version*
+
+[![Flux Schnell example](/assets/images/flux-schnell_example_small.jpg)](/assets/images/flux-schnell_example_upscayl.jpg)
+*Flux Schnell — click for full-size upscaled version*
 
 [ComfyUI](https://comfy.org/) | [Flux Schnell workflow](https://comfy.org/workflows/flux_schnell-75fb83052003/) | [Z-Image-Turbo](https://docs.comfy.org/tutorials/image/z-image/z-image-turbo)
 
