@@ -18,7 +18,7 @@
     <p class="meta">Effective date: July 22, 2026<br>
     Last updated: July 22, 2026<br>
     App: PhoneShare Relay (package: dk.michaelkc.phonesharerelay)<br>
-    Developer: Michael K. C. (<a href="mailto:michaelkc@users.noreply.github.com">michaelkc@users.noreply.github.com</a>)</p>
+    Developer: Michael K. C. (<a href="mailto:phonesharerelay@michaelkc.dk">phonesharerelay@michaelkc.dk</a>)</p>
 
     <h2>Overview</h2>
     <p>PhoneShare Relay is a utility that receives text shared from other apps on your Android device and forwards it to an endpoint you configure. The app does not collect personal identifiers, does not run analytics, and does not display advertisements.</p>
@@ -28,7 +28,7 @@
 
     <h2>How your data is stored</h2>
     <ul>
-        <li><strong>On-device only (default).</strong> If no forwarding endpoint is configured, shared text is stored in an encrypted SQLite database on your device and is never transmitted off-device.</li>
+        <li><strong>On-device only (default).</strong> Shared text is stored in a local SQLite database on your device, whether or not a forwarding endpoint is configured. If a forwarding endpoint is configured but cannot be reached, the text remains in the local database and is retried later. Data in the database is never transmitted off-device without your configured endpoint. The database is not encrypted, but data is accessible only to apps with filesystem access on your device.</li>
         <li><strong>Queue retention.</strong> Items remain in the local queue until they are successfully delivered, moved to a dead-letter queue after repeated failures, or cleared by you.</li>
     </ul>
 
@@ -71,6 +71,6 @@
 
     <h2>Contact</h2>
     <p>For questions about this privacy policy, contact:<br>
-    <a href="mailto:michaelkc@users.noreply.github.com">michaelkc@users.noreply.github.com</a></p>
+    <a href="mailto:phonesharerelay@michaelkc.dk">phonesharerelay@michaelkc.dk</a></p>
 </body>
 </html>
