@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — PhoneShare Relay</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; color: #1a1a1a; line-height: 1.6; }
+        h1 { font-size: 1.5rem; }
+        h2 { font-size: 1.15rem; margin-top: 1.8rem; }
+        ul { padding-left: 1.4rem; }
+        li { margin-bottom: 0.4rem; }
+        .meta { color: #666; font-size: 0.9rem; margin-bottom: 2rem; }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective date: July 22, 2026<br>
+    Last updated: July 22, 2026<br>
+    App: PhoneShare Relay (package: dk.michaelkc.phonesharerelay)<br>
+    Developer: Michael K. C. (<a href="mailto:michaelkc@users.noreply.github.com">michaelkc@users.noreply.github.com</a>)</p>
+
+    <h2>Overview</h2>
+    <p>PhoneShare Relay is a utility that receives text shared from other apps on your Android device and forwards it to an endpoint you configure. The app does not collect personal identifiers, does not run analytics, and does not display advertisements.</p>
+
+    <h2>Data the app handles</h2>
+    <p>When you share text from another app (e.g. a browser, messaging app, or notes app), the shared content — including the text body, subject line (if present), and HTML representation (if present) — is passed to PhoneShare Relay by the Android operating system. This is an action you initiate; the app does not access your data in the background.</p>
+
+    <h2>How your data is stored</h2>
+    <ul>
+        <li><strong>On-device only (default).</strong> If no forwarding endpoint is configured, shared text is stored in an encrypted SQLite database on your device and is never transmitted off-device.</li>
+        <li><strong>Queue retention.</strong> Items remain in the local queue until they are successfully delivered, moved to a dead-letter queue after repeated failures, or cleared by you.</li>
+    </ul>
+
+    <h2>How your data is transmitted</h2>
+    <ul>
+        <li><strong>User-configured endpoint only.</strong> If you enter an HTTPS endpoint URL in the app's settings, the app will attempt to deliver queued shared text to that URL over HTTPS (TLS encryption in transit).</li>
+        <li><strong>No transmission to the developer.</strong> The app does not send your data to any server controlled by the app developer. The destination is chosen entirely by you.</li>
+        <li><strong>No third-party sharing.</strong> The app does not share your data with any third party, analytics provider, advertising network, or other service.</li>
+    </ul>
+
+    <h2>Data the app does <em>not</em> collect</h2>
+    <ul>
+        <li>Personal identifiers (name, email, phone number)</li>
+        <li>Device identifiers (IMEI, Android ID, advertising ID)</li>
+        <li>Location data</li>
+        <li>Contacts, call logs, or SMS messages</li>
+        <li>Usage analytics or crash reports</li>
+    </ul>
+
+    <h2>Data deletion</h2>
+    <ul>
+        <li>You can clear all stored data at any time from the app's Settings page.</li>
+        <li>Uninstalling the app deletes all data stored locally on your device.</li>
+        <li>Data that has already been transmitted to your configured endpoint is governed by that endpoint's own data handling practices, which are outside the scope of this policy.</li>
+    </ul>
+
+    <h2>Permissions</h2>
+    <ul>
+        <li><strong>Internet (android.permission.INTERNET)</strong> — required to transmit shared text to your configured endpoint.</li>
+        <li><strong>Network state (android.permission.ACCESS_NETWORK_STATE)</strong> — required to check connectivity before attempting delivery.</li>
+        <li><strong>Boot completed (android.permission.RECEIVE_BOOT_COMPLETED)</strong> — required to reschedule background delivery jobs after a device restart.</li>
+    </ul>
+    <p>These are normal permissions granted automatically at install. The app does not request any runtime permissions.</p>
+
+    <h2>Children's privacy</h2>
+    <p>The app is not directed at children under 13 and does not knowingly collect information from children.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If this privacy policy is updated, the revised version will be published at this URL with an updated effective date. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+
+    <h2>Contact</h2>
+    <p>For questions about this privacy policy, contact:<br>
+    <a href="mailto:michaelkc@users.noreply.github.com">michaelkc@users.noreply.github.com</a></p>
+</body>
+</html>
