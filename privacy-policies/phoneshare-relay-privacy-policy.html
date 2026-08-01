@@ -24,18 +24,18 @@
     <p>PhoneShare Relay is a utility that receives text shared from other apps on your Android device and forwards it to an endpoint you configure. The app does not collect personal identifiers, does not run analytics, and does not display advertisements.</p>
 
     <h2>Data the app handles</h2>
-    <p>When you share text from another app (e.g. a browser, messaging app, or notes app), the shared content — including the text body, subject line (if present), and HTML representation (if present) — is passed to PhoneShare Relay by the Android operating system. This is an action you initiate; the app does not access your data in the background.</p>
+    <p>When you share text from another app (e.g. a browser, messaging app, or notes app), the shared content — including the text body, subject line (if present), and HTML representation (if present) — is passed to PhoneShare Relay by the Android operating system. This is an action you initiate. If the text cannot be delivered to your configured endpoint immediately, it is kept in a local queue and delivered in the background later; the app does not otherwise access your data in the background.</p>
 
     <h2>How your data is stored</h2>
     <ul>
-        <li><strong>On-device only (default).</strong> Shared text is stored in a local SQLite database on your device, whether or not a forwarding endpoint is configured. If a forwarding endpoint is configured but cannot be reached, the text remains in the local database and is retried later. Data in the database is never transmitted off-device, except to the exact endpoint configured by you. The database is not encrypted, but data is accessible only to apps with filesystem access on your device.</li>
-        <li><strong>Queue retention.</strong> Items remain in the local queue until they expire.</li>
+        <li><strong>On-device only (default).</strong> Shared text is stored in a local SQLite database on your device, whether or not a forwarding endpoint is configured. If a forwarding endpoint is configured but cannot be reached, the text remains in the local database and is retried later. Data in the database is never transmitted off-device, except to the exact endpoint configured by you. The database is not encrypted, but it is protected by Android's app sandbox, so it is not accessible to other apps on your device.</li>
+        <li><strong>Queue retention.</strong> Items remain in the local queue for up to 90 days.</li>
         <li><strong>Logs.</strong> The app stores a file log and a log in a sqlite table. These logs are there for debugging purposes, are local to your device and not transmitted anywhere.</li>
     </ul>
 
     <h2>How your data is transmitted</h2>
     <ul>
-        <li><strong>User-configured endpoint only.</strong> If you enter a TLS-secured endpoint in the app's settings, the app will attempt to deliver queued shared text to that URL over HTTPS or AMQPS.</li>
+        <li><strong>User-configured endpoint only.</strong> In the app's settings you can enter the endpoint that queued shared text is delivered to. The app attempts delivery over HTTPS or AMQPS for TLS-secured endpoints; if you configure a non-TLS endpoint, it delivers over plain HTTP or AMQP instead.</li>
         <li><strong>No transmission to the developer.</strong> The app does not send your data to any server controlled by the app developer. The destination is chosen entirely by you.</li>
         <li><strong>No third-party sharing.</strong> The app does not share your data with any third party, analytics provider, advertising network, or other service.</li>
     </ul>
