@@ -15,8 +15,8 @@
 </head>
 <body>
     <h1>Privacy Policy</h1>
-    <p class="meta">Effective date: July 22, 2026<br>
-    Last updated: July 22, 2026<br>
+    <p class="meta">Effective date: August 1, 2026<br>
+    Last updated: August 1, 2026<br>
     App: PhoneShare Relay (package: dk.michaelkc.phonesharerelay)<br>
     Developer: Michael K. C. (<a href="mailto:phonesharerelay@michaelkc.dk">phonesharerelay@michaelkc.dk</a>)</p>
 
@@ -28,13 +28,14 @@
 
     <h2>How your data is stored</h2>
     <ul>
-        <li><strong>On-device only (default).</strong> Shared text is stored in a local SQLite database on your device, whether or not a forwarding endpoint is configured. If a forwarding endpoint is configured but cannot be reached, the text remains in the local database and is retried later. Data in the database is never transmitted off-device without your configured endpoint. The database is not encrypted, but data is accessible only to apps with filesystem access on your device.</li>
-        <li><strong>Queue retention.</strong> Items remain in the local queue until they are successfully delivered, moved to a dead-letter queue after repeated failures, or cleared by you.</li>
+        <li><strong>On-device only (default).</strong> Shared text is stored in a local SQLite database on your device, whether or not a forwarding endpoint is configured. If a forwarding endpoint is configured but cannot be reached, the text remains in the local database and is retried later. Data in the database is never transmitted off-device, except to the exact endpoint configured by you. The database is not encrypted, but data is accessible only to apps with filesystem access on your device.</li>
+        <li><strong>Queue retention.</strong> Items remain in the local queue until they expire.</li>
+        <li><strong>Logs.</strong> The app stores a file log and a log in a sqlite table. These logs are there for debugging purposes, are local to your device and not transmitted anywhere.</li>
     </ul>
 
     <h2>How your data is transmitted</h2>
     <ul>
-        <li><strong>User-configured endpoint only.</strong> If you enter an HTTPS endpoint URL in the app's settings, the app will attempt to deliver queued shared text to that URL over HTTPS (TLS encryption in transit).</li>
+        <li><strong>User-configured endpoint only.</strong> If you enter a TLS-secured endpoint in the app's settings, the app will attempt to deliver queued shared text to that URL over HTTPS or AMQPS.</li>
         <li><strong>No transmission to the developer.</strong> The app does not send your data to any server controlled by the app developer. The destination is chosen entirely by you.</li>
         <li><strong>No third-party sharing.</strong> The app does not share your data with any third party, analytics provider, advertising network, or other service.</li>
     </ul>
@@ -45,7 +46,7 @@
         <li>Device identifiers (IMEI, Android ID, advertising ID)</li>
         <li>Location data</li>
         <li>Contacts, call logs, or SMS messages</li>
-        <li>Usage analytics or crash reports</li>
+        <li>App-specific usage analytics or crash reports (beyond what Android / Google Play collects)</li>
     </ul>
 
     <h2>Data deletion</h2>
@@ -54,14 +55,6 @@
         <li>Uninstalling the app deletes all data stored locally on your device.</li>
         <li>Data that has already been transmitted to your configured endpoint is governed by that endpoint's own data handling practices, which are outside the scope of this policy.</li>
     </ul>
-
-    <h2>Permissions</h2>
-    <ul>
-        <li><strong>Internet (android.permission.INTERNET)</strong> — required to transmit shared text to your configured endpoint.</li>
-        <li><strong>Network state (android.permission.ACCESS_NETWORK_STATE)</strong> — required to check connectivity before attempting delivery.</li>
-        <li><strong>Boot completed (android.permission.RECEIVE_BOOT_COMPLETED)</strong> — required to reschedule background delivery jobs after a device restart.</li>
-    </ul>
-    <p>These are normal permissions granted automatically at install. The app does not request any runtime permissions.</p>
 
     <h2>Children's privacy</h2>
     <p>The app is not directed at children under 13 and does not knowingly collect information from children.</p>
