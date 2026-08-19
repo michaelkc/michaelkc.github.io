@@ -2,12 +2,21 @@ const input = document.getElementById("input");
 const output = document.getElementById("output");
 const copyOutputBtn = document.getElementById("copy-output-btn");
 const processingStatus = document.getElementById("processing-status");
+const outputPreview = document.getElementById("output-preview");
 const outputLengthStatus = document.getElementById("output-length-status");
 const useUpngSelect = document.getElementById("use-upng");
 const upngAggressivenessSelect = document.getElementById("upng-aggressiveness");
 
 function updateOutputState(originalLengthBeforeUpng) {
     copyOutputBtn.disabled = output.value.length === 0;
+    if (output.value.length > 0) {
+        outputPreview.src = output.value;
+        outputPreview.hidden = false;
+    } else {
+        outputPreview.removeAttribute("src");
+        outputPreview.hidden = true;
+    }
+
     if (typeof originalLengthBeforeUpng === "number") {
         outputLengthStatus.textContent = `Output length: ${output.value.length} (reduced from ${originalLengthBeforeUpng})`;
         return;
