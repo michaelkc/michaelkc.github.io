@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src data:;">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%235b21b6'/%3E%3Ctext x='50' y='70' font-family='sans-serif' font-size='52' font-weight='bold' text-anchor='middle' fill='white'%3E📋%3C/text%3E%3C/svg%3E">
+    <title>Clipboard Image to Data URL</title>
+    <link rel="stylesheet" href="css/pico.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Clipboard Image to Data URL</h1>
+        <p>Paste an image into the input field to convert it to a Base64 data URL locally in your browser.</p>
+
+        <div class="layout-grid">
+            <section class="options-column input-section">
+                <h2>Input</h2>
+                <label for="input">Paste image here</label>
+                <textarea id="input" rows="8" placeholder="Click here, then press Ctrl+V with an image in your clipboard."></textarea>
+            </section>
+
+            <section class="options-column processing-section">
+                <h2>Processing</h2>
+                <label for="use-upng">Use UPNG</label>
+                <select id="use-upng">
+                    <option value="no">No</option>
+                    <option value="yes" selected>Yes</option>
+                </select>
+
+                <label for="upng-aggressiveness">UPNG aggressiveness</label>
+                <select id="upng-aggressiveness">
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high" selected>High</option>
+                </select>
+            </section>
+
+            <section class="results-column output-section">
+                <h2>Output</h2>
+                <label for="output">Base64 data URL</label>
+                <textarea id="output" rows="12" readonly placeholder="The data URL will appear here..."></textarea>
+                <p id="processing-status" aria-busy="false">Ready</p>
+                <p id="output-length-status">Output length: 0</p>
+                <button id="copy-output-btn" class="copy-btn" disabled>Copy</button>
+            </section>
+        </div>
+    </main>
+
+    <script src="dist/pako/pako.umd.min.js"></script>
+    <script src="dist/upng/UPNG.js"></script>
+    <script src="js/clip-to-dataurl.js"></script>
+</body>
+</html>
