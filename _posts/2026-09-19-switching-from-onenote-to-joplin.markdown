@@ -38,6 +38,7 @@ A shame, because I really liked the canvas. Maybe there is a plugin for...
 
 That brought me to [Joplin](https://joplinapp.org/). Lauded as an Evernote replacement (incidentally, my note-taking career started with pre-cloud Evernote), it takes the same markdown-as-format route as Obsidian, but adds
 
+- Linux, Windows and Android support with feature parity
 - a decent mobile app (you can take a picture and add it to a note),
 - great search out of the box (everything lives in sqlite),
 - sync that is either for-pay or a functioning, if somewhat slow, OneDrive support.
