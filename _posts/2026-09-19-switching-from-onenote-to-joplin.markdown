@@ -13,7 +13,7 @@ I have tried a few options for the "no Linux OneNote" problem:
 - **Waydroid with the OneNote Android app** - the app is optimized for mobile, not desktop, and copy-paste between it and the host is difficult. Not suitable as a daily driver.
 - **OneNote web** - extremely slow, and search works badly.
 - **[P3X onenote](https://github.com/patrikx3/onenote)** - a wrapper around OneNote web with some QoL additions. Bookmarks help a bit.
-- **My own fork of P3X with better search** - requires a separate Entra app and login, and search is still slow, because there is no change detection to work from and the API is rate-limited.
+- **My own fork of P3X with better search** - requires a separate Entra app and login, and while search is fast, _search indexing_ is slow, because there is no change detection to work from - and the API is rate-limited.
 - **NoteZero, a complete OneNote editor against the OneNote API** - a huge piece of work, unfeasible even with coding agents. I gave up on that.
 
 ### Agent access on Windows
