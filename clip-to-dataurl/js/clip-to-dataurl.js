@@ -4,13 +4,44 @@ const copyOutputBtn = document.getElementById("copy-output-btn");
 const processingStatus = document.getElementById("processing-status");
 const outputPreview = document.getElementById("output-preview");
 const outputLengthStatus = document.getElementById("output-length-status");
+const outputFormatSelect = document.getElementById("output-format");
 const useUpngSelect = document.getElementById("use-upng");
 const upngAggressivenessSelect = document.getElementById("upng-aggressiveness");
 
+let rawDataUrl = "";
+
+function mediaTypeOf(dataUrl) {
+    const match = /^data:([^;,]+)[;,]/.exec(dataUrl);
+    return match ? match[1] : "image/png";
+}
+
+function clankerMarkdown(dataUrl) {
+    const mediaType = mediaTypeOf(dataUrl);
+    const kind = mediaType === "image/png" ? "PNG" : mediaType;
+    const article = /^[aeiou]/.test(kind) ? "an" : "a";
+    return [
+        "The user pasted an image from their clipboard. It is " + article + " " + kind + " file,",
+        "Base64-encoded as a data URL. The data URL is the only line between the fences;",
+        "use it verbatim wherever this image is needed.",
+        "",
+        "```dataurl",
+        dataUrl,
+        "```"
+    ].join("\n");
+}
+
+function renderOutput() {
+    output.value = outputFormatSelect.value === "clanker" && rawDataUrl
+        ? clankerMarkdown(rawDataUrl)
+        : rawDataUrl;
+}
+
 function updateOutputState(originalLengthBeforeUpng) {
-    copyOutputBtn.disabled = output.value.length === 0;
-    if (output.value.length > 0) {
-        outputPreview.src = output.value;
+    renderOutput();
+
+    copyOutputBtn.disabled = rawDataUrl.length === 0;
+    if (rawDataUrl.length > 0) {
+        outputPreview.src = rawDataUrl;
         outputPreview.hidden = false;
     } else {
         outputPreview.removeAttribute("src");
@@ -18,10 +49,10 @@ function updateOutputState(originalLengthBeforeUpng) {
     }
 
     if (typeof originalLengthBeforeUpng === "number") {
-        outputLengthStatus.textContent = `Output length: ${output.value.length} (reduced from ${originalLengthBeforeUpng})`;
+        outputLengthStatus.textContent = `Data URL length: ${rawDataUrl.length} (reduced from ${originalLengthBeforeUpng})`;
         return;
     }
-    outputLengthStatus.textContent = `Output length: ${output.value.length}`;
+    outputLengthStatus.textContent = `Data URL length: ${rawDataUrl.length}`;
 }
 
 function updateUpngControlsState() {
@@ -60,7 +91,7 @@ function uint8ArrayToBase64(uint8Array) {
 function updateOutputFromOriginalFile(file, originalLengthBeforeUpng) {
     const dataUrlReader = new FileReader();
     dataUrlReader.onload = () => {
-        output.value = String(dataUrlReader.result || "");
+        rawDataUrl = String(dataUrlReader.result || "");
         updateOutputState(originalLengthBeforeUpng);
         setProcessing(false);
     };
@@ -93,7 +124,7 @@ function optimizeWithUpngAndEncode(file) {
                 }
                 const encodedPng = UPNG.encode([imageData.data.buffer], canvas.width, canvas.height, paletteSize);
                 const base64 = uint8ArrayToBase64(new Uint8Array(encodedPng));
-                output.value = `data:image/png;base64,${base64}`;
+                rawDataUrl = `data:image/png;base64,${base64}`;
                 updateOutputState(originalLength);
                 setProcessing(false);
             } catch (error) {
@@ -157,6 +188,7 @@ copyOutputBtn.addEventListener("click", async () => {
 });
 
 useUpngSelect.addEventListener("change", updateUpngControlsState);
+outputFormatSelect.addEventListener("change", renderOutput);
 
 updateUpngControlsState();
 updateOutputState();

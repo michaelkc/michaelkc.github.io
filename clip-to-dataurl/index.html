@@ -28,6 +28,14 @@
 
             <section class="card processing-section">
                 <h2>Processing</h2>
+                <label for="output-format">Output format
+                <select id="output-format">
+                    <option value="clanker" selected>Clanker Markdown</option>
+                    <option value="raw">Raw data URL</option>
+                </select>
+                <small>Clanker Markdown wraps the data URL in a fenced block with a preamble, so a coding agent can lift the URL straight out.</small>
+                </label>
+
                 <label for="use-upng">Use UPNG
                 <select id="use-upng">
                     <option value="no">No</option>
@@ -47,7 +55,7 @@
 
             <section class="card output-section">
                 <h2>Output</h2>
-                <label for="output">Base64 data URL
+                <label for="output">Output
                 <textarea id="output" class="mono" rows="10" readonly placeholder="The data URL will appear here…"></textarea>
                 </label>
                 <div class="preview-frame">
