@@ -1,0 +1,52 @@
+---
+layout: default
+---
+{%- assign posts = site.posts -%}
+{%- assign latest = posts | first -%}
+<section class="hero">
+  <span class="eyebrow">Personal site</span>
+  <h1>Hi, I'm Michael.</h1>
+  <p class="lead">Notes on software, infrastructure and the tools I build along the way — plus a monthly round-up of interesting things I've found.</p>
+  <div class="actions">
+    <a class="button" href="{{ latest.url | relative_url }}">Read the latest post</a>
+    <a class="button secondary" href="{{ '/tools/' | relative_url }}">Browse tools</a>
+  </div>
+</section>
+
+{{ content }}
+
+<div class="home-grid">
+  <section aria-labelledby="writing">
+    <h2 id="writing" class="section-title">Writing</h2>
+    {%- assign by_year = posts | group_by_exp: "p", "p.date | date: '%Y'" -%}
+    {%- for year in by_year -%}
+    <h3 class="year">{{ year.name }}</h3>
+    <ul class="post-list">
+      {%- for post in year.items -%}
+      {%- assign roundup = false -%}{%- if post.title contains 'Interesting stuff' -%}{%- assign roundup = true -%}{%- endif -%}
+      <li{% if roundup %} class="roundup"{% endif %}>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d" }}</time>
+        <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        {%- if roundup -%}<span class="tag">Round-up</span>{%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+    {%- endfor -%}
+  </section>
+
+  <aside class="sidebar">
+    <a class="card tools-teaser" href="{{ '/tools/' | relative_url }}">
+      <span class="eyebrow">Tools</span>
+      <h3>Small browser tools</h3>
+      <p>Password generator, clipboard image to data URL, HTML table to Markdown. Everything runs locally.</p>
+      <span class="more">Open tools →</span>
+    </a>
+    <div class="card">
+      <span class="eyebrow">Elsewhere</span>
+      <ul class="plain-links">
+        <li><a href="https://github.com/{{ site.github_username }}">GitHub</a></li>
+        <li><a href="{{ '/feed.xml' | relative_url }}">RSS feed</a></li>
+      </ul>
+    </div>
+  </aside>
+</div>

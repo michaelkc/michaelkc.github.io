@@ -1,121 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tools & Resources</title>
-    <!-- Pico CSS CDN -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-    <style>
-        .tool-link {
-            display: block;
-            margin-bottom: 2rem;
-            text-decoration: none;
-            color: inherit;
-        }
-
-        .tool-link article {
-            position: relative;
-            transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-            cursor: pointer;
-        }
-
-        .tool-link:hover article {
-            border-color: var(--pico-primary);
-            box-shadow: var(--pico-card-box-shadow);
-        }
-
-        article header {
-            font-weight: bold;
-            font-size: 1.25rem;
-            margin-bottom: 0.5rem;
-        }
-
-        main {
-            padding-top: 2rem;
-        }
-
-        footer {
-            margin-top: 3rem;
-            padding-bottom: 3rem;
-            text-align: center;
-        }
-
-        .cta {
-            margin-top: 1rem;
-            text-align: right;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; font-src 'self'; img-src data:;">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='#ff9e45'/%3E%3Ctext x='32' y='44' font-family='system-ui,sans-serif' font-size='34' font-weight='700' text-anchor='middle' fill='#1f1003'%3EM%3C/text%3E%3C/svg%3E">
+    <title>Tools · michaelkc.dk</title>
+    <link rel="stylesheet" href="/kiln/kiln.css">
+    <link rel="stylesheet" href="css/custom.css">
 </head>
-
 <body>
+    <header>
+        <a class="brand" href="/">michaelkc.dk</a>
+        <nav><ul><li><a href="/tools/" aria-current="page">Tools</a></li></ul></nav>
+    </header>
+
     <main class="container">
-        <header>
-            <hgroup>
-                <h1>Tools</h1>
-                <p>A collection of web-based tools and resources.</p>
-            </hgroup>
-        </header>
+        <h1>Tools</h1>
+        <p class="lead">Small single-purpose tools I've built. They run entirely in your browser: no accounts, no tracking, nothing sent anywhere.</p>
 
-        <section>
-            <a href="/passwords/" class="tool-link">
-                <article>
-                    <header>Password Generator</header>
-                    <p>Generate secure, random passwords locally in your browser.</p>
-                    <div class="cta">
-                        <span class="secondary" role="button">Open Password Generator</span>
-                    </div>
-                </article>
-            </a>
-
-            <a href="/clip-to-dataurl/" class="tool-link">
-                <article>
-                    <header>Clipboard Image to Data URL</header>
-                    <p>Paste an image from your clipboard, optionally optimize it with UPNG, and copy the Base64 data URL output.</p>
-                    <div class="cta">
-                        <span class="secondary" role="button">Open Clipboard Image to Data URL</span>
-                    </div>
-                </article>
-            </a>
-
-            <a href="/table-to-markdown/" class="tool-link">
-                <article>
-                    <header>HTML Table to Markdown</header>
-                    <p>Convert an HTML table to Markdown locally in your browser.</p>
-                    <div class="cta">
-                        <span class="secondary" role="button">Open HTML Table to Markdown</span>
-                    </div>
-                </article>
-            </a>
-
-            <a href="https://emn178.github.io/online-tools/" class="tool-link" target="_blank" rel="noopener">
-                <article>
-                    <header>Emn178 Online Tools</header>
-                    <p>Online tools offer many functions for hashing, encoding, decoding, encryption, decryption,
-                        formatting, generating and so on. Examples include MD5, SHA-256, SHA-512, SHA-3, Keccak, Base64,
-                        Base32, JSON, XML, and QR code related tools.</p>
-                    <div class="cta">
-                        <span class="secondary" role="button">Visit Online Tools</span>
-                    </div>
-                </article>
-            </a>
-
-            <a href="https://naiad.papyrine.org/" class="tool-link" target="_blank" rel="noopener">
-                <article>
-                    <header>Naiad Live Editor</header>
-                    <p>MermaidJS live editor in Webassembly.</p>
-                    <div class="cta">
-                        <span class="secondary" role="button">Open Naiad Mermaid Editor</span>
-                    </div>
-                </article>
-            </a>
+        <section aria-labelledby="mine">
+            <h2 id="mine" class="section-title">Built here</h2>
+            <ul class="tool-grid">
+            <li>
+                <a class="tool-card" href="/passwords/">
+                    <h3>Password generator</h3>
+                    <p>Generate secure passphrases or random passwords. EFF wordlist, entropy shown, nothing leaves the browser.</p>
+                    <span class="meta"><span class="tag">Security</span><span class="tag">Offline</span></span>
+                </a>
+            </li>
+            <li>
+                <a class="tool-card" href="/clip-to-dataurl/">
+                    <h3>Clipboard image to data URL</h3>
+                    <p>Paste an image, optionally shrink it with UPNG, and copy the Base64 data URL.</p>
+                    <span class="meta"><span class="tag">Images</span><span class="tag">Offline</span></span>
+                </a>
+            </li>
+            <li>
+                <a class="tool-card" href="/table-to-markdown/">
+                    <h3>HTML table to Markdown</h3>
+                    <p>Paste an HTML table and get a Markdown table back, ready to copy.</p>
+                    <span class="meta"><span class="tag">Text</span><span class="tag">Offline</span></span>
+                </a>
+            </li>
+            </ul>
         </section>
 
-        <footer>
-            <small><a href="/">Back to Home</a></small>
-        </footer>
+        <section aria-labelledby="elsewhere">
+            <h2 id="elsewhere" class="section-title">Elsewhere</h2>
+            <p class="status">Third-party tools. These open on another site.</p>
+            <ul class="tool-grid">
+            <li>
+                <a class="tool-card" href="https://emn178.github.io/online-tools/" target="_blank" rel="noopener">
+                    <h3>Emn178 online tools <span class="ext" aria-label="opens in a new tab">↗</span></h3>
+                    <p>Hashing, encoding, encryption, formatting and generators — MD5, SHA-2/3, Base64, JSON, XML, QR codes and more.</p>
+                    <span class="meta"><span class="tag">Utilities</span><span class="host">emn178.github.io</span></span>
+                </a>
+            </li>
+            <li>
+                <a class="tool-card" href="https://naiad.papyrine.org/" target="_blank" rel="noopener">
+                    <h3>Naiad live editor <span class="ext" aria-label="opens in a new tab">↗</span></h3>
+                    <p>A Mermaid diagram live editor running in WebAssembly.</p>
+                    <span class="meta"><span class="tag">Diagrams</span><span class="host">naiad.papyrine.org</span></span>
+                </a>
+            </li>
+            </ul>
+        </section>
     </main>
-</body>
 
+    <footer class="site-footer">
+        <a href="/">← Back to home</a>
+    </footer>
+</body>
 </html>

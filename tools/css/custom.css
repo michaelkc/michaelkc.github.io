@@ -1,0 +1,37 @@
+/* Tools index — page-specific styles on top of /kiln/kiln.css */
+.section-title { margin-top: var(--space-12); font-size: 1.125rem; }
+.section-title + .status { margin: 0 0 var(--space-4); }
+
+.tool-grid {
+  list-style: none; margin: var(--space-4) 0 0; padding: 0;
+  display: grid; gap: var(--space-4);
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+}
+.tool-grid > li { display: flex; }
+
+.tool-card {
+  flex: 1; display: flex; flex-direction: column; gap: var(--space-2);
+  padding: var(--space-6); border-radius: var(--radius-lg);
+  background: var(--surface); box-shadow: var(--shadow-card);
+  color: var(--ink); text-decoration: none;
+  transition: box-shadow .15s, transform .15s;
+}
+.tool-card:hover { box-shadow: 0 0 0 2px var(--accent); }
+.tool-card:focus-visible { outline: 2px solid var(--accent-text); outline-offset: 3px; }
+.tool-card h3 { margin: 0; font-size: 1.125rem; }
+.tool-card:hover h3 { color: var(--accent-text); }
+.tool-card p { margin: 0; flex: 1; color: var(--muted); font-size: 15px; line-height: 1.55; }
+.tool-card .ext { font-family: var(--font-sans); font-weight: 400; color: var(--muted); }
+
+.meta { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2); margin-top: var(--space-2); }
+.meta .tag { color: var(--muted); background: var(--surface-raised); }
+.meta .host { font: 400 12px/18px var(--font-mono); color: var(--muted); }
+
+.site-footer {
+  max-width: 1120px; margin: 0 auto; box-sizing: border-box;
+  padding: var(--space-6) var(--space-4) var(--space-12);
+  border-top: 1px solid var(--border); font-size: 14px;
+}
+@media (min-width: 720px) { .site-footer { padding-inline: var(--space-6); } }
+.site-footer a { color: var(--muted); }
+.site-footer a:hover { color: var(--ink); }

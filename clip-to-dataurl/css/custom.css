@@ -1,96 +1,26 @@
-.layout-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-        "input"
-        "processing"
-        "output";
-    gap: 2rem;
-    margin-top: 2rem;
-}
-
+/* Clipboard image to data URL — tool-specific styles on top of /kiln/kiln.css */
 @media (min-width: 992px) {
-    .layout-grid {
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas:
-            "input output"
-            "processing output";
-        align-items: start;
-    }
+  .layout-grid {
+    grid-template-areas: "input output" "processing output";
+    grid-template-rows: auto 1fr;
+  }
+  .input-section { grid-area: input; }
+  .processing-section { grid-area: processing; }
+  .output-section { grid-area: output; }
 }
 
-.options-column {
-    /* Options take up left column */
-}
+.paste-target { border-style: dashed; min-height: 140px; cursor: text; }
+.paste-target:focus { border-style: solid; }
 
-.results-column {
-    /* Results take up right column */
+.preview-frame:has(img:not([hidden])) {
+  display: flex; justify-content: center; padding: var(--space-4); margin-bottom: var(--space-4);
+  border: 1px solid var(--border); border-radius: var(--radius-md);
+  background-color: var(--surface-raised);
+  background-image: conic-gradient(var(--border) 25%, transparent 0 50%, var(--border) 0 75%, transparent 0);
+  background-size: 16px 16px;
 }
+#output-preview { max-width: 100%; height: auto; }
 
-.input-section {
-    grid-area: input;
-}
-
-.processing-section {
-    grid-area: processing;
-}
-
-.output-section {
-    grid-area: output;
-}
-
-.generate-section {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-
-#entropy-display {
-    font-size: 0.9rem;
-    color: var(--muted-color);
-}
-
-.password-output {
-    font-family: monospace;
-    background-color: var(--code-background-color);
-    padding: 1rem;
-    border-radius: 0.25rem;
-    word-break: break-all;
-    margin: 0.5rem 0;
-}
-
-.password-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem;
-    margin: 0.25rem 0;
-    background-color: var(--card-background-color);
-    border-radius: 0.25rem;
-}
-
-.password-text {
-    flex: 1;
-    margin-right: 1rem;
-}
-
-.copy-btn {
-    margin: 0;
-    padding: 0.5rem 1rem;
-}
-
-.results-container {
-    margin-top: 2rem;
-}
-
-#loading {
-    display: none;
-}
-
-.hidden {
-    display: none;
-}
-
-#copy-all-btn {
-    margin-top: 1rem;
-}
+.output-section .actions { justify-content: flex-start; }
+.output-section .actions .status { margin: 0; }
+#copy-output-btn { margin-left: auto; }

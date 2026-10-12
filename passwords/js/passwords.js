@@ -324,7 +324,7 @@ function generatePasswords() {
 function displayResults(passwords) {
     const resultsDiv = document.getElementById('results');
     
-    let html = '<h2>Generated Passwords</h2>';
+    let html = '<h2>Generated passwords</h2>';
     html += '<div class="password-output">';
     
     passwords.forEach((password, index) => {
@@ -337,7 +337,7 @@ function displayResults(passwords) {
     });
     
     html += '</div>';
-    html += '<button id="copy-all-btn">Copy All</button>';
+    html += '<button id="copy-all-btn" class="secondary">Copy all</button>';
     
     resultsDiv.innerHTML = html;
     
@@ -375,7 +375,9 @@ async function copyAllToClipboard() {
     
     try {
         await navigator.clipboard.writeText(passwordTexts.join('\n'));
-        alert('All passwords copied to clipboard!');
+        const copyAllBtn = document.getElementById('copy-all-btn');
+        copyAllBtn.textContent = 'Copied all!';
+        setTimeout(() => { copyAllBtn.textContent = 'Copy all'; }, 2000);
     } catch (error) {
         alert('Failed to copy to clipboard');
     }
