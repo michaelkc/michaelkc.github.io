@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Paste an image to generate a text description, locally in your browser.">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'none'; form-action 'none'; object-src 'none'; frame-src 'none'; script-src 'self' 'wasm-unsafe-eval' blob: https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.8.1/dist/transformers.min.js https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.8.1/dist/ort-wasm-simd-threaded.jsep.mjs https://cdn.jsdelivr.net/npm/@huggingface/transformers@4.3.2/dist/transformers.min.js https://cdn.jsdelivr.net/npm/onnxruntime-web@1.31.0-dev.20260914-8d85527a0/dist/ort-wasm-simd-threaded.asyncify.mjs; script-src-attr 'none'; worker-src blob:; style-src 'self'; font-src 'self'; img-src data: blob:; connect-src 'self' data: blob: https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct/resolve/ https://huggingface.co/onnx-community/Qwen3.5-0.8B-ONNX-OPT/resolve/ https://us.aws.cdn.hf.co https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.8.1/dist/ort-wasm-simd-threaded.jsep.wasm https://cdn.jsdelivr.net/npm/onnxruntime-web@1.31.0-dev.20260914-8d85527a0/dist/ort-wasm-simd-threaded.asyncify.wasm https://cdn.jsdelivr.net/npm/onnxruntime-web@1.31.0-dev.20260914-8d85527a0/dist/ort-wasm-simd-threaded.asyncify.mjs;">
+    <meta name="referrer" content="no-referrer">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='#ff9e45'/%3E%3Ctext x='32' y='44' font-family='system-ui,sans-serif' font-size='34' font-weight='700' text-anchor='middle' fill='#1f1003'%3ED%3C/text%3E%3C/svg%3E">
+    <title>Clipboard Image to Description</title>
+    <link rel="stylesheet" href="/kiln/kiln.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <header>
+        <a class="brand" href="/">michaelkc.dk</a>
+        <nav><ul><li><a href="/tools/">Tools</a></li></ul></nav>
+    </header>
+    <main class="container">
+        <span class="eyebrow">Tool</span>
+        <h1>Clipboard image to description</h1>
+        <p class="lead">Paste an image to generate a text description, locally in your browser.</p>
+
+        <div class="grid layout-grid">
+            <section class="card input-section">
+                <h2>Input</h2>
+                <label id="paste-label">Paste image here</label>
+                <div id="dropzone" class="paste-target" tabindex="0" role="region" aria-labelledby="paste-label">
+                    <span id="empty">Click here, then press Ctrl+V (Cmd+V) with an image on your clipboard, or drop an image file.</span>
+                    <img id="preview" alt="Preview of input image" hidden>
+                </div>
+                <p id="image-info" class="status">PNG, JPEG, WebP, GIF, AVIF or BMP / up to 50 MB</p>
+                <footer class="actions">
+                    <button id="paste" class="secondary">Paste image</button>
+                    <button id="browse" class="secondary">Choose file</button>
+                    <button id="clear" class="ghost" disabled>Clear</button>
+                    <input id="file" type="file" accept="image/png,image/jpeg,image/webp,image/gif,image/avif,image/bmp" hidden>
+                </footer>
+            </section>
+
+            <section class="card processing-section">
+                <h2>Processing</h2>
+                <label for="model">Vision model
+                    <select id="model">
+                        <option value="qwen" selected>Qwen3.5-0.8B / screenshots</option>
+                        <option value="smol">SmolVLM-256M / lightweight</option>
+                    </select>
+                    <small id="model-info">693 MB download including runtime. Requires WebGPU with shader-f16. No larger-weight fallback.</small>
+                </label>
+                <label for="prompt">Prompt
+                    <textarea id="prompt" rows="3" maxlength="2000">Describe this image in detail. Focus on the main subjects, their appearance, the setting, and any visible text.</textarea>
+                </label>
+                <label for="runtime">Run on
+                    <select id="runtime">
+                        <option value="auto" selected>Auto (prefer GPU)</option>
+                        <option value="webgpu">GPU / WebGPU</option>
+                        <option value="wasm" disabled>CPU / compatibility</option>
+                    </select>
+                </label>
+                <label for="length">Max. new tokens
+                    <select id="length">
+                        <option value="128">128 / short</option>
+                        <option value="256" selected>256 / medium</option>
+                        <option value="512">512 / long</option>
+                    </select>
+                </label>
+                <label><input id="auto" type="checkbox" checked>Describe automatically</label>
+                <p class="status">Images and prompts stay in your browser. Model files download from Hugging Face and are cached when possible. Descriptions may be inaccurate.</p>
+                <footer class="actions">
+                    <button id="describe" disabled>Describe image</button>
+                    <button id="stop" class="danger" hidden>Stop</button>
+                </footer>
+            </section>
+
+            <section class="card output-section">
+                <h2>Output</h2>
+                <label for="output">Description
+                    <textarea id="output" class="mono" rows="20" readonly spellcheck="false" placeholder="The description will appear here."></textarea>
+                </label>
+                <div id="status-box">
+                    <span id="status-label" hidden>Ready</span>
+                    <p id="status" class="status" role="status" aria-live="polite" aria-busy="false">Paste an image to begin. The model loads on first use.</p>
+                    <progress id="progress" max="100" aria-label="Current model file download" hidden></progress>
+                </div>
+                <footer class="actions">
+                    <p id="result-info" class="status">Qwen3.5-0.8B</p>
+                    <button id="copy" disabled>Copy</button>
+                </footer>
+            </section>
+        </div>
+    </main>
+    <script type="module" src="js/clip-to-desc.js"></script>
+</body>
+</html>
